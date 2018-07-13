@@ -1,0 +1,1 @@
+<? $filesInfo = array( 'FILES' => array("/bitrix/templates/aspro_next/components/bitrix/iblock.vote/element_rating/style.css" => "1528272976341",)); ?>

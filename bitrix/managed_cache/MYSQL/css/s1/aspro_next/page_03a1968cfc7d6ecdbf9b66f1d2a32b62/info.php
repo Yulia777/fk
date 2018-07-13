@@ -1,0 +1,1 @@
+<? $filesInfo = array( 'FILES' => array("/bitrix/templates/aspro_next/components/bitrix/socserv.auth.form/icons/style.css" => "15282729763080",)); ?>

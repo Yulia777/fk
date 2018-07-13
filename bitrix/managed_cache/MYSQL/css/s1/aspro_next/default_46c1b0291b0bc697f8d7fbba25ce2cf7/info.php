@@ -1,0 +1,1 @@
+<? $filesInfo = array( 'FILES' => array("/bitrix/templates/aspro_next/components/bitrix/map.yandex.system/.default/style.css" => "1528272976666",)); ?>

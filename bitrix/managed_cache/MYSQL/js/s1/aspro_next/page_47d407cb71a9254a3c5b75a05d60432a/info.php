@@ -1,0 +1,1 @@
+<? $filesInfo = array( 'FILES' => array("/bitrix/templates/aspro_next/components/bitrix/news.detail/news/script.js" => "1528272976698","/bitrix/templates/aspro_next/components/bitrix/catalog.top/products_slider/script.js" => "1528272976361",)); ?>

@@ -1,0 +1,1 @@
+<? $filesInfo = array( 'FILES' => array("/bitrix/components/aspro/catalog.viewed.next/templates/main_horizontal/script.js" => "15282727722228",)); ?>
