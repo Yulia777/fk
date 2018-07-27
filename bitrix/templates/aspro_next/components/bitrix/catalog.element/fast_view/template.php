@@ -447,11 +447,11 @@ setViewedProduct(<?=$arResult['ID']?>, <?=CUtil::PhpToJSObject($arViewedData, fa
 	<div class="right_info">
 		<div class="info_item scrollbar">
 			<div class="title"><a href="<?=$arResult["DETAIL_PAGE_URL"];?>" class="dark_link"><?=$elementName;?></a></div>
-			<div class="top_info">
-				<?if($arParams["SHOW_RATING"] == "Y"):?>
-					<?$frame = $this->createFrame('dv_'.$arResult["ID"])->begin('');?>
+			<!--<div class="top_info">
+				<?/*if($arParams["SHOW_RATING"] == "Y"):*/?>
+					<?/*$frame = $this->createFrame('dv_'.$arResult["ID"])->begin('');*/?>
 						<div class="rating">
-							<?$APPLICATION->IncludeComponent(
+							<?/*$APPLICATION->IncludeComponent(
 							   "bitrix:iblock.vote",
 							   "element_rating",
 							   Array(
@@ -465,83 +465,83 @@ setViewedProduct(<?=$arResult['ID']?>, <?=CUtil::PhpToJSObject($arViewedData, fa
 								  "DISPLAY_AS_RATING" => 'vote_avg'
 							   ),
 							   $component, array("HIDE_ICONS" =>"Y")
-							);?>
+							);*/?>
 						</div>
-					<?$frame->end();?>
-				<?endif;?>
+					<?/*$frame->end();*/?>
+				<?/*endif;*/?>
 				<div class="rows_block">
 					<div class="item_block">
-						<?=$arQuantityData["HTML"];?>
+						<?/*=$arQuantityData["HTML"];*/?>
 					</div>
-					<?//if($arResult["ARTICLE"]):?>
+					<?/*//if($arResult["ARTICLE"]):*/?>
 						<div class="item_block">
-							<div class="article iblock" itemprop="additionalProperty" itemscope itemtype="http://schema.org/PropertyValue" <?if($arResult['SHOW_OFFERS_PROPS']){?>id="<? echo $arItemIDs["ALL_ITEM_IDS"]['DISPLAY_PROP_ARTICLE_DIV'] ?>" style="display: none;"<?}?>>
-								<span class="block_title" itemprop="name"><?=($arResult["ARTICLE"] ? GetMessage("ARTICLE") : "");?></span>
-								<span class="value" itemprop="value"><?=($arResult["ARTICLE"] ? $arResult["PROPERTIES"]["CML2_ARTICLE"]["VALUE"] : "");?></span>
+							<div class="article iblock" itemprop="additionalProperty" itemscope itemtype="http://schema.org/PropertyValue" <?/*if($arResult['SHOW_OFFERS_PROPS']){*/?>id="<?/* echo $arItemIDs["ALL_ITEM_IDS"]['DISPLAY_PROP_ARTICLE_DIV'] */?>" style="display: none;"<?/*}*/?>>
+								<span class="block_title" itemprop="name"><?/*=($arResult["ARTICLE"] ? GetMessage("ARTICLE") : "");*/?></span>
+								<span class="value" itemprop="value"><?/*=($arResult["ARTICLE"] ? $arResult["PROPERTIES"]["CML2_ARTICLE"]["VALUE"] : "");*/?></span>
 							</div>
 						</div>
-					<?//endif;?>
+					<?/*//endif;*/?>
 				</div>
-				<?if($arParams["SHOW_CHEAPER_FORM"] == "Y"):?>
+				<?/*if($arParams["SHOW_CHEAPER_FORM"] == "Y"):*/?>
 					<div class="quantity_block_wrapper">
 						<div class="cheaper_form">
-							<span class="animate-load" data-event="jqm" data-param-form_id="CHEAPER" data-name="cheaper" data-autoload-product_name="<?=CNext::formatJsName($arResult["NAME"]);?>" data-autoload-product_id="<?=$arResult["ID"];?>"><?=($arParams["CHEAPER_FORM_NAME"] ? $arParams["CHEAPER_FORM_NAME"] : GetMessage("CHEAPER"));?></span>
+							<span class="animate-load" data-event="jqm" data-param-form_id="CHEAPER" data-name="cheaper" data-autoload-product_name="<?/*=CNext::formatJsName($arResult["NAME"]);*/?>" data-autoload-product_id="<?/*=$arResult["ID"];*/?>"><?/*=($arParams["CHEAPER_FORM_NAME"] ? $arParams["CHEAPER_FORM_NAME"] : GetMessage("CHEAPER"));*/?></span>
 							</div>
 						</div>
 					</div>
-				<?endif;?>
+				<?/*endif;*/?>
 				<div class="sku_block">
-					<?if($arResult["OFFERS"] && $showCustomOffer){?>
+					<?/*if($arResult["OFFERS"] && $showCustomOffer){*/?>
 						<div class="sku_props">
-							<?if (!empty($arResult['OFFERS_PROP'])){?>
-								<div class="bx_catalog_item_scu wrapper_sku" id="<? echo $arItemIDs["ALL_ITEM_IDS"]['PROP_DIV']; ?>">
-									<?foreach ($arSkuTemplate as $code => $strTemplate){
+							<?/*if (!empty($arResult['OFFERS_PROP'])){*/?>
+								<div class="bx_catalog_item_scu wrapper_sku" id="<?/* echo $arItemIDs["ALL_ITEM_IDS"]['PROP_DIV']; */?>">
+									<?/*foreach ($arSkuTemplate as $code => $strTemplate){
 										if (!isset($arResult['OFFERS_PROP'][$code]))
 											continue;
 										echo str_replace('#ITEM#_prop_', $arItemIDs["ALL_ITEM_IDS"]['PROP'], $strTemplate);
-									}?>
+									}*/?>
 								</div>
-							<?}?>
-							<?$arItemJSParams=CNext::GetSKUJSParams($arResult, $arParams, $arResult, "Y");?>
+							<?/*}*/?>
+							<?/*$arItemJSParams=CNext::GetSKUJSParams($arResult, $arParams, $arResult, "Y");*/?>
 							<script type="text/javascript">
-								var <? echo $arItemIDs["strObName"]; ?> = new JCCatalogElementFast(<? echo CUtil::PhpToJSObject($arItemJSParams, false, true); ?>);
+								var <?/* echo $arItemIDs["strObName"]; */?> = new JCCatalogElementFast(<?/* echo CUtil::PhpToJSObject($arItemJSParams, false, true); */?>);
 							</script>
 						</div>
-					<?}?>
+					<?/*}*/?>
 				</div>
-				<?if(strlen($arResult["PREVIEW_TEXT"])):?>
-					<div class="preview_text"><?=$arResult["PREVIEW_TEXT"]?></div>
-				<?endif;?>
-				<div class="iblock char_block" <?=(!$arResult["DISPLAY_PROPERTIES"] ? 'style="display:none;"' : '');?>>
-					<div class="title_tab"><?=GetMessage("PROPERTIES_TAB");?></div>
+				<?/*if(strlen($arResult["PREVIEW_TEXT"])):*/?>
+					<div class="preview_text"><?/*=$arResult["PREVIEW_TEXT"]*/?></div>
+				<?/*endif;*/?>
+				<div class="iblock char_block" <?/*=(!$arResult["DISPLAY_PROPERTIES"] ? 'style="display:none;"' : '');*/?>>
+					<div class="title_tab"><?/*=GetMessage("PROPERTIES_TAB");*/?></div>
 					<table class="props_list">
-						<?foreach($arResult["DISPLAY_PROPERTIES"] as $arProp):?>
-							<?if(!in_array($arProp["CODE"], array("SERVICES", "HIT", "RECOMMEND", "NEW", "STOCK", "VIDEO", "VIDEO_YOUTUBE", "POPUP_VIDEO", "CML2_ARTICLE"))):?>
-								<?if((!is_array($arProp["DISPLAY_VALUE"]) && strlen($arProp["DISPLAY_VALUE"])) || (is_array($arProp["DISPLAY_VALUE"]) && implode('', $arProp["DISPLAY_VALUE"]))):?>
+						<?/*foreach($arResult["DISPLAY_PROPERTIES"] as $arProp):*/?>
+							<?/*if(!in_array($arProp["CODE"], array("SERVICES", "HIT", "RECOMMEND", "NEW", "STOCK", "VIDEO", "VIDEO_YOUTUBE", "POPUP_VIDEO", "CML2_ARTICLE"))):*/?>
+								<?/*if((!is_array($arProp["DISPLAY_VALUE"]) && strlen($arProp["DISPLAY_VALUE"])) || (is_array($arProp["DISPLAY_VALUE"]) && implode('', $arProp["DISPLAY_VALUE"]))):*/?>
 									<tr itemprop="additionalProperty" itemscope itemtype="http://schema.org/PropertyValue">
 										<td class="char_name">
-											<?if($arProp["HINT"] && $arParams["SHOW_HINTS"]=="Y"):?><div class="hint"><span class="icon"><i>?</i></span><div class="tooltip"><?=$arProp["HINT"]?></div></div><?endif;?>
-											<div class="props_item <?if($arProp["HINT"] && $arParams["SHOW_HINTS"] == "Y"){?>whint<?}?>">
-												<span itemprop="name"><?=$arProp["NAME"]?></span>
+											<?/*if($arProp["HINT"] && $arParams["SHOW_HINTS"]=="Y"):*/?><div class="hint"><span class="icon"><i>?</i></span><div class="tooltip"><?/*=$arProp["HINT"]*/?></div></div><?/*endif;*/?>
+											<div class="props_item <?/*if($arProp["HINT"] && $arParams["SHOW_HINTS"] == "Y"){*/?>whint<?/*}*/?>">
+												<span itemprop="name"><?/*=$arProp["NAME"]*/?></span>
 											</div>
 										</td>
 										<td class="char_value">
 											<span itemprop="value">
-												<?if(count($arProp["DISPLAY_VALUE"]) > 1):?>
-													<?=implode(', ', $arProp["DISPLAY_VALUE"]);?>
-												<?else:?>
-													<?=$arProp["DISPLAY_VALUE"];?>
-												<?endif;?>
+												<?/*if(count($arProp["DISPLAY_VALUE"]) > 1):*/?>
+													<?/*=implode(', ', $arProp["DISPLAY_VALUE"]);*/?>
+												<?/*else:*/?>
+													<?/*=$arProp["DISPLAY_VALUE"];*/?>
+												<?/*endif;*/?>
 											</span>
 										</td>
 									</tr>
-								<?endif;?>
-							<?endif;?>
-						<?endforeach;?>
+								<?/*endif;*/?>
+							<?/*endif;*/?>
+						<?/*endforeach;*/?>
 					</table>
-					<table class="props_list" id="<? echo $arItemIDs["ALL_ITEM_IDS"]['DISPLAY_PROP_DIV']; ?>"></table>
+					<table class="props_list" id="<?/* echo $arItemIDs["ALL_ITEM_IDS"]['DISPLAY_PROP_DIV']; */?>"></table>
 				</div>
-			</div>
+			</div>-->
 		</div>
 	</div>
 	<?/*

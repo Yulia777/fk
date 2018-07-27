@@ -319,19 +319,19 @@ setViewedProduct(<?=$arResult['ID']?>, <?=CUtil::PhpToJSObject($arViewedData, fa
 		<div class="info_item">
 			<?$isArticle=(strlen($arResult["DISPLAY_PROPERTIES"]["CML2_ARTICLE"]["VALUE"]) || ($arResult['SHOW_OFFERS_PROPS'] && $showCustomOffer));?>
 			<?if($isArticle || $arResult["BRAND_ITEM"] || $arParams["SHOW_RATING"] == "Y" || strlen($arResult["PREVIEW_TEXT"])){?>
-				<div class="top_info">
+				<!--<div class="top_info">
 					<div class="rows_block">
-						<?$col=1;
+						<?/*$col=1;
 						if($isArticle && $arResult["BRAND_ITEM"] && $arParams["SHOW_RATING"] == "Y"){
 							$col=3;
 						}elseif(($isArticle && $arResult["BRAND_ITEM"]) || ($isArticle && $arParams["SHOW_RATING"] == "Y") || ($arResult["BRAND_ITEM"] && $arParams["SHOW_RATING"] == "Y")){
 							$col=2;
-						}?>
-						<?if($arParams["SHOW_RATING"] == "Y"):?>
-							<div class="item_block col-<?=$col;?>">
-								<?$frame = $this->createFrame('dv_'.$arResult["ID"])->begin('');?>
+						}*/?>
+						<?/*if($arParams["SHOW_RATING"] == "Y"):*/?>
+							<div class="item_block col-<?/*=$col;*/?>">
+								<?/*$frame = $this->createFrame('dv_'.$arResult["ID"])->begin('');*/?>
 									<div class="rating">
-										<?$APPLICATION->IncludeComponent(
+										<?/*$APPLICATION->IncludeComponent(
 										   "bitrix:iblock.vote",
 										   "element_rating",
 										   Array(
@@ -345,42 +345,42 @@ setViewedProduct(<?=$arResult['ID']?>, <?=CUtil::PhpToJSObject($arViewedData, fa
 											  "DISPLAY_AS_RATING" => 'vote_avg'
 										   ),
 										   $component, array("HIDE_ICONS" =>"Y")
-										);?>
+										);*/?>
 									</div>
-								<?$frame->end();?>
+								<?/*$frame->end();*/?>
 							</div>
-						<?endif;?>
-						<?if($isArticle):?>
-							<div class="item_block col-<?=$col;?>">
-								<div class="article iblock" itemprop="additionalProperty" itemscope itemtype="http://schema.org/PropertyValue" <?if($arResult['SHOW_OFFERS_PROPS']){?>id="<? echo $arItemIDs["ALL_ITEM_IDS"]['DISPLAY_PROP_ARTICLE_DIV'] ?>" style="display: none;"<?}?>>
-									<span class="block_title" itemprop="name"><?=GetMessage("ARTICLE");?>:</span>
-									<span class="value" itemprop="value"><?=$arResult["DISPLAY_PROPERTIES"]["CML2_ARTICLE"]["VALUE"]?></span>
+						<?/*endif;*/?>
+						<?/*if($isArticle):*/?>
+							<div class="item_block col-<?/*=$col;*/?>">
+								<div class="article iblock" itemprop="additionalProperty" itemscope itemtype="http://schema.org/PropertyValue" <?/*if($arResult['SHOW_OFFERS_PROPS']){*/?>id="<?/* echo $arItemIDs["ALL_ITEM_IDS"]['DISPLAY_PROP_ARTICLE_DIV'] */?>" style="display: none;"<?/*}*/?>>
+									<span class="block_title" itemprop="name"><?/*=GetMessage("ARTICLE");*/?>:</span>
+									<span class="value" itemprop="value"><?/*=$arResult["DISPLAY_PROPERTIES"]["CML2_ARTICLE"]["VALUE"]*/?></span>
 								</div>
 							</div>
-						<?endif;?>
+						<?/*endif;*/?>
 
-						<?if($arResult["BRAND_ITEM"]){?>
-							<div class="item_block col-<?=$col;?>">
+						<?/*if($arResult["BRAND_ITEM"]){*/?>
+							<div class="item_block col-<?/*=$col;*/?>">
 								<div class="brand">
-									<?if(!$arResult["BRAND_ITEM"]["IMAGE"]):?>
-										<b class="block_title"><?=GetMessage("BRAND");?>:</b>
-										<a href="<?=$arResult["BRAND_ITEM"]["DETAIL_PAGE_URL"]?>"><?=$arResult["BRAND_ITEM"]["NAME"]?></a>
-									<?else:?>
-										<a class="brand_picture" href="<?=$arResult["BRAND_ITEM"]["DETAIL_PAGE_URL"]?>">
-											<img  src="<?=$arResult["BRAND_ITEM"]["IMAGE"]["src"]?>" alt="<?=$arResult["BRAND_ITEM"]["NAME"]?>" title="<?=$arResult["BRAND_ITEM"]["NAME"]?>" />
+									<?/*if(!$arResult["BRAND_ITEM"]["IMAGE"]):*/?>
+										<b class="block_title"><?/*=GetMessage("BRAND");*/?>:</b>
+										<a href="<?/*=$arResult["BRAND_ITEM"]["DETAIL_PAGE_URL"]*/?>"><?/*=$arResult["BRAND_ITEM"]["NAME"]*/?></a>
+									<?/*else:*/?>
+										<a class="brand_picture" href="<?/*=$arResult["BRAND_ITEM"]["DETAIL_PAGE_URL"]*/?>">
+											<img  src="<?/*=$arResult["BRAND_ITEM"]["IMAGE"]["src"]*/?>" alt="<?/*=$arResult["BRAND_ITEM"]["NAME"]*/?>" title="<?/*=$arResult["BRAND_ITEM"]["NAME"]*/?>" />
 										</a>
-									<?endif;?>
+									<?/*endif;*/?>
 								</div>
 							</div>
-						<?}?>
+						<?/*}*/?>
 					</div>
-					<?if(strlen($arResult["PREVIEW_TEXT"])):?>
-						<div class="preview_text dotdot"><?=$arResult["PREVIEW_TEXT"]?></div>
-						<?if(strlen($arResult["DETAIL_TEXT"])):?>
-							<div class="more_block icons_fa color_link"><span><?=\Bitrix\Main\Config\Option::get('aspro.next', "EXPRESSION_READ_MORE_OFFERS_DEFAULT", GetMessage("MORE_TEXT_BOTTOM"));?></span></div>
-						<?endif;?>
-					<?endif;?>
-				</div>
+					<?/*if(strlen($arResult["PREVIEW_TEXT"])):*/?>
+						<div class="preview_text dotdot"><?/*=$arResult["PREVIEW_TEXT"]*/?></div>
+						<?/*if(strlen($arResult["DETAIL_TEXT"])):*/?>
+							<div class="more_block icons_fa color_link"><span><?/*=\Bitrix\Main\Config\Option::get('aspro.next', "EXPRESSION_READ_MORE_OFFERS_DEFAULT", GetMessage("MORE_TEXT_BOTTOM"));*/?></span></div>
+						<?/*endif;*/?>
+					<?/*endif;*/?>
+				</div>-->
 			<?}?>
 			<div class="middle_info main_item_wrapper">
 			<?$frame = $this->createFrame()->begin();?>
@@ -1299,7 +1299,7 @@ setViewedProduct(<?=$arResult['ID']?>, <?=CUtil::PhpToJSObject($arViewedData, fa
 									"PAGER_TEMPLATE" => ".default",
 									"DISPLAY_TOP_PAGER" => "N",
 									"DISPLAY_BOTTOM_PAGER" => "Y",
-									"PAGER_TITLE" => "Новости",
+									"PAGER_TITLE" => "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ",
 									"PAGER_SHOW_ALWAYS" => "N",
 									"PAGER_DESC_NUMBERING" => "N",
 									"PAGER_DESC_NUMBERING_CACHE_TIME" => "36000",
