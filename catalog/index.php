@@ -559,7 +559,7 @@ $APPLICATION->IncludeComponent(
 		"SEF_URL_TEMPLATES" => array(
 			"sections" => "",
 			"section" => "#SECTION_CODE_PATH#/",
-			"element" => "#SECTION_CODE_PATH#/#ELEMENT_ID#/",
+			"element" => "#SECTION_CODE_PATH#/#ELEMENT_CODE#",
 			"compare" => "compare.php?action=#ACTION_CODE#",
 			"smart_filter" => "#SECTION_CODE_PATH#/filter/#SMART_FILTER_PATH#/apply/",
 		),
@@ -570,10 +570,12 @@ $APPLICATION->IncludeComponent(
 		)
 	),
 	false
-);?><?$APPLICATION->IncludeComponent(
-	"bitrix:news",
-	"reviews",
-	Array(
+);?>
+
+<?/*$APPLICATION->IncludeComponent(
+	"bitrix:news", 
+	"reviews", 
+	array(
 		"ADD_ELEMENT_CHAIN" => "Y",
 		"ADD_SECTIONS_CHAIN" => "N",
 		"AJAX_MODE" => "N",
@@ -590,11 +592,17 @@ $APPLICATION->IncludeComponent(
 		"DETAIL_ACTIVE_DATE_FORMAT" => "d.m.Y",
 		"DETAIL_DISPLAY_BOTTOM_PAGER" => "N",
 		"DETAIL_DISPLAY_TOP_PAGER" => "N",
-		"DETAIL_FIELD_CODE" => array("",""),
+		"DETAIL_FIELD_CODE" => array(
+			0 => "",
+			1 => "",
+		),
 		"DETAIL_PAGER_SHOW_ALL" => "N",
 		"DETAIL_PAGER_TEMPLATE" => "",
 		"DETAIL_PAGER_TITLE" => "Страница",
-		"DETAIL_PROPERTY_CODE" => array("",""),
+		"DETAIL_PROPERTY_CODE" => array(
+			0 => "",
+			1 => "",
+		),
 		"DETAIL_SET_CANONICAL_URL" => "N",
 		"DISPLAY_BOTTOM_PAGER" => "N",
 		"DISPLAY_DATE" => "N",
@@ -607,8 +615,14 @@ $APPLICATION->IncludeComponent(
 		"IBLOCK_TYPE" => "aspro_next_content",
 		"INCLUDE_IBLOCK_INTO_CHAIN" => "N",
 		"LIST_ACTIVE_DATE_FORMAT" => "d.m.Y",
-		"LIST_FIELD_CODE" => array("",""),
-		"LIST_PROPERTY_CODE" => array("",""),
+		"LIST_FIELD_CODE" => array(
+			0 => "",
+			1 => "",
+		),
+		"LIST_PROPERTY_CODE" => array(
+			0 => "",
+			1 => "",
+		),
 		"MESSAGE_404" => "",
 		"META_DESCRIPTION" => "-",
 		"META_KEYWORDS" => "-",
@@ -626,7 +640,7 @@ $APPLICATION->IncludeComponent(
 		"SET_STATUS_404" => "N",
 		"SET_TITLE" => "Y",
 		"SHOW_404" => "N",
-		"SORT_BY1" => "ACTIVE_FROM",
+		"SORT_BY1" => "RAND",
 		"SORT_BY2" => "SORT",
 		"SORT_ORDER1" => "DESC",
 		"SORT_ORDER2" => "ASC",
@@ -639,6 +653,64 @@ $APPLICATION->IncludeComponent(
 		"USE_RSS" => "N",
 		"USE_SEARCH" => "N",
 		"USE_SHARE" => "N",
-		"VARIABLE_ALIASES" => Array("ELEMENT_ID"=>"ELEMENT_ID","SECTION_ID"=>"SECTION_ID")
-	)
-);?><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+		"COMPONENT_TEMPLATE" => "reviews",
+		"SHOW_TOP_MAP" => "N",
+		"TEMPLATE_THEME" => "blue",
+		"MEDIA_PROPERTY" => "",
+		"SLIDER_PROPERTY" => "",
+		"TAGS_CLOUD_ELEMENTS" => "150",
+		"PERIOD_NEW_TAGS" => "",
+		"DISPLAY_AS_RATING" => "rating",
+		"FONT_MAX" => "50",
+		"FONT_MIN" => "10",
+		"COLOR_NEW" => "3E74E6",
+		"COLOR_OLD" => "C0C0C0",
+		"TAGS_CLOUD_WIDTH" => "100%",
+		"SECTION_ELEMENTS_TYPE_VIEW" => "list_elements_1",
+		"ELEMENT_TYPE_VIEW" => "element_1",
+		"DETAIL_BRAND_USE" => "N",
+		"S_ASK_QUESTION" => "",
+		"S_ORDER_SERVISE" => "",
+		"FORM_ID_ORDER_SERVISE" => "",
+		"T_GALLERY" => "",
+		"T_DOCS" => "",
+		"T_GOODS" => "",
+		"T_SERVICES" => "",
+		"T_CLIENTS" => "",
+		"T_PROJECTS" => "",
+		"T_NEXT_LINK" => "",
+		"T_PREV_LINK" => "",
+		"SHOW_DETAIL_LINK" => "Y",
+		"IMAGE_POSITION" => "left",
+		"SHOW_SECTION_PREVIEW_DESCRIPTION" => "Y",
+		"SHOW_SECTION_DESCRIPTION" => "Y",
+		"LINE_ELEMENT_COUNT" => "2",
+		"LINE_ELEMENT_COUNT_LIST" => "3",
+		"SHOW_NEXT_ELEMENT" => "N",
+		"LIST_VIEW" => "slider",
+		"LINKED_ELEMENST_PAGE_COUNT" => "20",
+		"PRICE_CODE" => "",
+		"STORES" => array(
+			0 => "",
+			1 => "",
+		),
+		"FORM" => "Y",
+		"FORM_ID" => "",
+		"FORM_BUTTON_TITLE" => "",
+		"T_ALSO_ITEMS" => "",
+		"ALSO_ITEMS_POSITION" => "bottom",
+		"ALSO_ITEMS_COUNT" => "5",
+		"GALLERY_TYPE" => "small",
+		"DETAIL_USE_COMMENTS" => "Y",
+		"DETAIL_BLOG_USE" => "N",
+		"DETAIL_VK_USE" => "N",
+		"DETAIL_FB_USE" => "N",
+		"VARIABLE_ALIASES" => array(
+			"SECTION_ID" => "SECTION_ID",
+			"ELEMENT_ID" => "ELEMENT_ID",
+		)
+	),
+	false
+);*/?>
+
+<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
