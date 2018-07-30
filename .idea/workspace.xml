@@ -2,129 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f8fdf95-efc3-42f8-9c83-41d79491d873" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/forum.topic.reviews/.default/images/close.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/forum.topic.reviews/.default/images/font_quote.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/forum.topic.reviews/.default/images/noavatar.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/forum.topic.reviews/.default/images/postform/add.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/forum.topic.reviews/.default/images/postform/add_button.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/forum.topic.reviews/.default/images/postform/cut.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/forum.topic.reviews/.default/images/postform/delete.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/forum.topic.reviews/.default/images/postform/edit.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/forum.topic.reviews/.default/images/postform/font_bold.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/forum.topic.reviews/.default/images/postform/font_code.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/forum.topic.reviews/.default/images/postform/font_color.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/forum.topic.reviews/.default/images/postform/font_image.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/forum.topic.reviews/.default/images/postform/font_italic.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/forum.topic.reviews/.default/images/postform/font_link.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/forum.topic.reviews/.default/images/postform/font_list.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/forum.topic.reviews/.default/images/postform/font_quote.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/forum.topic.reviews/.default/images/postform/font_translit.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/forum.topic.reviews/.default/images/postform/font_underline.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/forum.topic.reviews/.default/images/postform/image.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/forum.topic.reviews/.default/images/postform/shadow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/forum.topic.reviews/.default/images/postform/toolbarbg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/forum.topic.reviews/.default/images/postform/video.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/iblock.vote/ajax/images/empty.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/iblock.vote/ajax/images/over.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/iblock.vote/ajax/images/voted.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/images/gif-dark/feed-icon-10x10.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/images/gif-dark/feed-icon-12x12.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/images/gif-dark/feed-icon-16x16.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/images/gif-dark/feed-icon-24x24.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/images/gif-dark/feed-icon-32x32.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/images/gif-light/feed-icon-10x10.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/images/gif-light/feed-icon-12x12.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/images/gif-light/feed-icon-16x16.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/images/gif-light/feed-icon-24x24.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/images/gif-light/feed-icon-32x32.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/images/jpg-black/feed-icon-10x10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/images/jpg-black/feed-icon-12x12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/images/jpg-black/feed-icon-16x16.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/images/jpg-black/feed-icon-24x24.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/images/jpg-black/feed-icon-32x32.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/images/jpg-white/feed-icon-10x10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/images/jpg-white/feed-icon-12x12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/images/jpg-white/feed-icon-16x16.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/images/jpg-white/feed-icon-24x24.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/images/jpg-white/feed-icon-32x32.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/images/png/feed-icon-10x10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/images/png/feed-icon-12x12.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/images/png/feed-icon-14x14.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/images/png/feed-icon-16x16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/images/png/feed-icon-24x24.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/images/png/feed-icon-32x32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/images/review_shadow1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/images/scrp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/.parameters.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/catalog.filter/.default/lang/en/template.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/catalog.filter/.default/lang/ru/template.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/catalog.filter/.default/template.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/forum.topic.reviews/.default/component_epilog.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/forum.topic.reviews/.default/form.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/forum.topic.reviews/.default/lang/en/template.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/forum.topic.reviews/.default/lang/ru/template.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/forum.topic.reviews/.default/result_modifier.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/forum.topic.reviews/.default/ru/script.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/forum.topic.reviews/.default/script.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/forum.topic.reviews/.default/script.map.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/forum.topic.reviews/.default/script.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/forum.topic.reviews/.default/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/forum.topic.reviews/.default/template.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/iblock.vote/.default/lang/en/template.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/iblock.vote/.default/lang/ru/template.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/iblock.vote/.default/template.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/iblock.vote/ajax/lang/en/template.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/iblock.vote/ajax/lang/ru/template.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/iblock.vote/ajax/result_modifier.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/iblock.vote/ajax/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/iblock.vote/ajax/template.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/news.detail/.default/.parameters.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/news.detail/.default/lang/en/.parameters.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/news.detail/.default/lang/en/template.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/news.detail/.default/lang/ru/.parameters.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/news.detail/.default/lang/ru/template.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/news.detail/.default/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/news.detail/.default/template.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/news.index/.default/template.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/news.list/.default/.parameters.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/news.list/.default/lang/en/.parameters.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/news.list/.default/lang/en/template.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/news.list/.default/lang/ru/.parameters.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/news.list/.default/lang/ru/template.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/news.list/.default/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/news.list/.default/template.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/news.list/list/template.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/news.list/photo/template.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/rss.out/.default/lang/en/template.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/rss.out/.default/lang/ru/template.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/rss.out/.default/template.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/search.form/flat/lang/en/template.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/search.form/flat/lang/ru/template.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/search.form/flat/template.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/search.page/.default/chain_template.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/search.page/.default/lang/en/template.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/search.page/.default/lang/ru/template.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/search.page/.default/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/search.page/.default/style.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/search.page/.default/template.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/detail.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/lang/en/.parameters.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/lang/en/detail.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/lang/en/news.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/lang/en/search.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/lang/en/section.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/lang/ru/.parameters.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/lang/ru/detail.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/lang/ru/news.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/lang/ru/search.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/lang/ru/section.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/news.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/rss.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/rss_section.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/search.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/section.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/catalog.element/main/template.php" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/catalog.element/main/template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/catalog.section/catalog_block/template.php" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/catalog.section/catalog_block/template.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/templates/aspro_next/template_styles.css" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/template_styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/index.php" afterPath="$PROJECT_DIR$/catalog/index.php" />
     </list>
@@ -141,41 +20,31 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/catalog/index.php">
+      <file leaf-file-name="template.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/news.list/.default/template.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="574" column="2" lean-forward="false" selection-start-line="574" selection-start-column="0" selection-end-line="713" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="template.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/catalog.element/main/template.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="1799" column="6" lean-forward="true" selection-start-line="1799" selection-start-column="6" selection-end-line="1799" selection-end-column="6" />
+            <state relative-caret-position="714">
+              <caret line="70" column="26" lean-forward="false" selection-start-line="70" selection-start-column="26" selection-end-line="70" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="template.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/news.list/.default/template.php">
+        <entry file="file://$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/catalog.section/catalog_block/template.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="70" column="26" lean-forward="true" selection-start-line="70" selection-start-column="26" selection-end-line="70" selection-end-column="26" />
+            <state relative-caret-position="290">
+              <caret line="200" column="58" lean-forward="true" selection-start-line="200" selection-start-column="58" selection-end-line="200" selection-end-column="58" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="template_styles.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="template_styles.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bitrix/templates/aspro_next/template_styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="639">
-              <caret line="6719" column="16" lean-forward="true" selection-start-line="6719" selection-start-column="16" selection-end-line="6719" selection-end-column="16" />
+            <state relative-caret-position="443">
+              <caret line="2265" column="45" lean-forward="false" selection-start-line="2265" selection-start-column="45" selection-end-line="2265" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -200,6 +69,10 @@
       <find>props_list</find>
       <find>.catalog_detail .props_list td.char_value</find>
       <find>&lt;div class=&quot;bx-newslist-more&quot;&gt;</find>
+      <find>class=&quot;catalog_item main_item_wrapper item_wrap &quot;</find>
+      <find>class=&quot;main_item_wrapper&quot;</find>
+      <find>sa_block</find>
+      <find>.footer_button</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\Пользователь\Desktop\fk62.ru</dir>
@@ -217,9 +90,10 @@
         <option value="$PROJECT_DIR$/bitrix/wizards/aspro/next/site/templates/aspro_next/components/bitrix/catalog.element/fast_view/template.php" />
         <option value="$PROJECT_DIR$/bitrix/wizards/aspro/next/site/templates/aspro_next/template_styles.css" />
         <option value="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/news.list/.default/template.php" />
-        <option value="$PROJECT_DIR$/bitrix/templates/aspro_next/template_styles.css" />
-        <option value="$PROJECT_DIR$/catalog/index.php" />
         <option value="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/catalog.element/main/template.php" />
+        <option value="$PROJECT_DIR$/catalog/index.php" />
+        <option value="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/catalog.section/catalog_block/template.php" />
+        <option value="$PROJECT_DIR$/bitrix/templates/aspro_next/template_styles.css" />
       </list>
     </option>
   </component>
@@ -251,8 +125,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -341,12 +213,116 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bitrix" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fk62.ru" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fk62.ru" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bitrix" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aspro_next" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bitrix" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog.section" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fk62.ru" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fk62.ru" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bitrix" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aspro_next" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bitrix" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog.section" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog_block" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fk62.ru" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fk62.ru" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bitrix" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aspro_next" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -448,7 +424,8 @@
       <workItem from="1532415906871" duration="6770000" />
       <workItem from="1532616978808" duration="2087000" />
       <workItem from="1532672897869" duration="11546000" />
-      <workItem from="1532933688429" duration="1535000" />
+      <workItem from="1532933688429" duration="2362000" />
+      <workItem from="1532959455467" duration="3555000" />
     </task>
     <task id="LOCAL-00001" summary="files Web Storm">
       <created>1532419264869</created>
@@ -471,23 +448,31 @@
       <option name="project" value="LOCAL" />
       <updated>1532706158615</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="#22707  Reviews added in a detail cart">
+      <created>1532935396120</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1532935396120</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27437000" />
+    <option name="totallyTimeSpent" value="31819000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16204691" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17004265" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1716418" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14393939" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13203463" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.8452381" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35497835" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -497,7 +482,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -520,19 +504,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/lang/en/detail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/lang/en/search.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -540,7 +515,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -548,7 +522,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -556,7 +529,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -564,7 +536,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -572,7 +543,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -580,7 +550,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -588,7 +557,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -715,7 +683,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -723,7 +690,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -731,7 +697,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -739,7 +704,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -747,7 +711,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -755,7 +718,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -763,7 +725,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -771,7 +732,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -779,7 +739,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -787,7 +746,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="86" lean-forward="true" selection-start-line="6" selection-start-column="86" selection-end-line="6" selection-end-column="86" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -795,38 +753,45 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-830">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/aspro_next/template_styles.css">
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/catalog.element/main/template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="639">
-          <caret line="6719" column="16" lean-forward="true" selection-start-line="6719" selection-start-column="16" selection-end-line="6719" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/news.list/.default/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="70" column="26" lean-forward="true" selection-start-line="70" selection-start-column="26" selection-end-line="70" selection-end-column="26" />
+        <state relative-caret-position="17">
+          <caret line="991" column="36" lean-forward="false" selection-start-line="991" selection-start-column="36" selection-end-line="1150" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/catalog/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="574" column="2" lean-forward="false" selection-start-line="574" selection-start-column="0" selection-end-line="713" selection-end-column="6" />
+        <state relative-caret-position="598">
+          <caret line="572" column="4" lean-forward="false" selection-start-line="572" selection-start-column="4" selection-end-line="572" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/catalog.element/main/template.php">
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/news.list/.default/template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="1799" column="6" lean-forward="true" selection-start-line="1799" selection-start-column="6" selection-end-line="1799" selection-end-column="6" />
+        <state relative-caret-position="714">
+          <caret line="70" column="26" lean-forward="false" selection-start-line="70" selection-start-column="26" selection-end-line="70" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/catalog.section/catalog_block/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="200" column="58" lean-forward="true" selection-start-line="200" selection-start-column="58" selection-end-line="200" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/aspro_next/template_styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="2265" column="45" lean-forward="false" selection-start-line="2265" selection-start-column="45" selection-end-line="2265" selection-end-column="45" />
           <folding />
         </state>
       </provider>

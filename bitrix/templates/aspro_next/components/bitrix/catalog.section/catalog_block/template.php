@@ -179,9 +179,9 @@
 								<div class="item-title">
 									<a href="<?=$arItem["DETAIL_PAGE_URL"]?>" class="dark_link"><span><?=$elementName;?></span></a>
 								</div>
-								<?if($arParams["SHOW_RATING"] == "Y"):?>
+								<?/*if($arParams["SHOW_RATING"] == "Y"):*/?><!--
 									<div class="rating">
-										<?$APPLICATION->IncludeComponent(
+										<?/*$APPLICATION->IncludeComponent(
 										   "bitrix:iblock.vote",
 										   "element_rating_front",
 										   Array(
@@ -195,17 +195,17 @@
 											  "DISPLAY_AS_RATING" => 'vote_avg'
 										   ),
 										   $component, array("HIDE_ICONS" =>"Y")
-										);?>
+										);*/?>
 									</div>
-								<?endif;?>
-								<div class="sa_block">
-									<?=$arQuantityData["HTML"];?>
+								--><?/*endif;*/?>
+								<!--<div class="sa_block">
+									<?/*=$arQuantityData["HTML"];*/?>
 									<div class="article_block">
-										<?if(isset($arItem['ARTICLE']) && $arItem['ARTICLE']['VALUE']){?>
-											<?=$arItem['ARTICLE']['NAME'];?>: <?=$arItem['ARTICLE']['VALUE'];?>
-										<?}?>
+										<?/*if(isset($arItem['ARTICLE']) && $arItem['ARTICLE']['VALUE']){*/?>
+											<?/*=$arItem['ARTICLE']['NAME'];*/?>: <?/*=$arItem['ARTICLE']['VALUE'];*/?>
+										<?/*}*/?>
 									</div>
-								</div>
+								</div>-->
 								<div class="cost prices clearfix">
 									<?if( $arItem["OFFERS"]){?>
 										<div class="with_matrix <?=($arParams["SHOW_OLD_PRICE"]=="Y" ? 'with_old' : '');?>" style="display:none;">
