@@ -2251,7 +2251,7 @@ body .tabs_slider .catalog_item .inner_wrap{margin: 0px 0px 0px -1px;padding:20p
     transition: box-shadow ease-out 0.2s, border ease-out 0.2s;}
 body .best_block .tabs_slider .catalog_item .inner_wrap{margin: 0px;}
 
-.footer_button{opacity: 0; visibility: hidden;height: 0;-webkit-transition: all .1s ease;-moz-transition: all .1s ease;transition: all .1s ease;text-align: center;font-size:13px;color:#333;}
+.footer_button{opacity: 1; visibility: visible;height: 0;-webkit-transition: all .1s ease;-moz-transition: all .1s ease;transition: all .1s ease;text-align: center;font-size:13px;color:#333;}
 .footer_button .name{color:#777;}
 .footer_button .char .char_item{margin:0px 0px 3px;line-height: 18px;}
 .footer_button .char .char_item:last-child{margin-bottom:0px;}
@@ -2263,7 +2263,7 @@ body .tabs_slider .catalog_item:hover .inner_wrap {border-color:#fff;box-shadow:
 .bx-firefox body .tabs_slider .catalog_item:hover .inner_wrap {box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15);}
 .best_block.tab_slider_wrapp .item .catalog_item .item_info {transition: height ease 0.8s 1.2s; text-align: center;}
 
-.ajax_load.block .footer_button{display:none;}
+.ajax_load.block .footer_button{display:block;}
 .ajax_load.block .item_block:hover .footer_button, .ajax_load.block .item_block .catalog_item.hover .footer_button{display:block;}
 
 /*mobile*/
@@ -6683,3 +6683,48 @@ table.contacts-stores tr.item td:last-of-type{width:30%;}
 .bx-touch .bx_ordercart .bx_sort_container span{display:inline-block;}
 .bx-touch .bx_ordercart .bx_sort_container > span{display:none;}
 .bx-touch #basket_form .bx_ordercart .bx_sort_container a{width: auto;margin-bottom: 0px;border: none;padding: 7px 0px 6px 0px;margin-right: 15px;}
+
+
+.catalog_detail .tabs > .tab-content > .tab-pane {
+	padding-bottom: 0;
+}
+.tabs {
+	margin-bottom:0;
+}
+.review {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	overflow: visible;
+}
+.review_content {
+	background: #FFFB9D;
+	box-shadow: 0 1px 3px rgba(0, 30, 67, 0.2);
+	border-radius: 5px;
+	margin-bottom: 20px;
+	padding: 1.2em 1.5em;
+	position: relative;
+	width:450px;
+	margin-right:10px;
+}
+.review_content .scrp {
+	position: absolute;
+	display: block;
+	background: url(/bitrix/templates/aspro_next/images/scrp.png) no-repeat;
+	width: 32px;
+	height: 32px;
+	top: -10px;
+	left: 45%;
+}
+.review_content:after {
+	content: '';
+	background: url(/bitrix/templates/aspro_next/images/review_shadow1.png) no-repeat;
+	background-size: 100% 100%;
+	margin-top: 0;
+	position: absolute;
+	left: 0;
+	top: 100%;
+	height: 20px;
+	width: 100%;
+	z-index: 0;
+}
