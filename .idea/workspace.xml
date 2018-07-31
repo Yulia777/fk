@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f8fdf95-efc3-42f8-9c83-41d79491d873" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/images/delivery.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/images/installation.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/images/money.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/images/protect.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/catalog.section/catalog_block/template.php" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/catalog.section/catalog_block/template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/catalog.element/main/template.php" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/catalog.element/main/template.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/templates/aspro_next/template_styles.css" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/template_styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/index.php" afterPath="$PROJECT_DIR$/catalog/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,30 +24,53 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="template.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/news.list/.default/template.php">
+        <entry file="file://$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/catalog.section/catalog_block/template.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="70" column="26" lean-forward="false" selection-start-line="70" selection-start-column="26" selection-end-line="70" selection-end-column="26" />
+            <state relative-caret-position="476">
+              <caret line="239" column="41" lean-forward="true" selection-start-line="239" selection-start-column="41" selection-end-line="239" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="template.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/catalog.section/catalog_block/template.php">
+        <entry file="file://$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/catalog.element/fast_view/template.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="200" column="58" lean-forward="true" selection-start-line="200" selection-start-column="58" selection-end-line="200" selection-end-column="58" />
+            <state relative-caret-position="189">
+              <caret line="412" column="16" lean-forward="false" selection-start-line="412" selection-start-column="16" selection-end-line="441" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="template_styles.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="template.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bitrix/modules/aspro.next/install/wizards/aspro/next/site/templates/aspro_next/components/bitrix/catalog.element/main/template.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="523" column="119" lean-forward="false" selection-start-line="523" selection-start-column="119" selection-end-line="523" selection-end-column="119" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="template.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/catalog.element/main/template.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="212">
+              <caret line="645" column="0" lean-forward="false" selection-start-line="645" selection-start-column="0" selection-end-line="645" selection-end-column="0" />
+              <folding>
+                <element signature="n#style#0;n#span#1;n#div#2;n#div#0;n#div#2;n#div#0;n#div#2;n#div#1;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#div#3;n#div#0;n#div#2;n#div#0;n#div#2;n#div#1;n#div#1;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="template_styles.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bitrix/templates/aspro_next/template_styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="2265" column="45" lean-forward="false" selection-start-line="2265" selection-start-column="45" selection-end-line="2265" selection-end-column="45" />
+            <state relative-caret-position="788">
+              <caret line="6749" column="37" lean-forward="false" selection-start-line="6749" selection-start-column="37" selection-end-line="6749" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -73,9 +99,16 @@
       <find>class=&quot;main_item_wrapper&quot;</find>
       <find>sa_block</find>
       <find>.footer_button</find>
+      <find>.block .catalog_block .catalog_item_wrapp .catalog_item</find>
+      <find>&lt;div class=&quot;price_txt&quot;&gt;</find>
+      <find>.like_icons span</find>
+      <find>description_wrapp</find>
+      <find>&lt;div class=&quot;description_wrapp&quot;&gt;</find>
+      <find>в и</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\Пользователь\Desktop\fk62.ru</dir>
+      <dir>C:\Users\Пользователь\Desktop\fk62.ru\bitrix\templates\aspro_next\components\bitrix</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -90,10 +123,10 @@
         <option value="$PROJECT_DIR$/bitrix/wizards/aspro/next/site/templates/aspro_next/components/bitrix/catalog.element/fast_view/template.php" />
         <option value="$PROJECT_DIR$/bitrix/wizards/aspro/next/site/templates/aspro_next/template_styles.css" />
         <option value="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/news.list/.default/template.php" />
-        <option value="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/catalog.element/main/template.php" />
         <option value="$PROJECT_DIR$/catalog/index.php" />
         <option value="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/catalog.section/catalog_block/template.php" />
         <option value="$PROJECT_DIR$/bitrix/templates/aspro_next/template_styles.css" />
+        <option value="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/catalog.element/main/template.php" />
       </list>
     </option>
   </component>
@@ -125,6 +158,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -321,13 +356,11 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../fm-aspro" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
@@ -338,14 +371,14 @@
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Пользователь\Desktop\fk62.ru\bitrix\templates\aspro_next\components\bitrix\news" />
+      <recent name="C:\Users\Пользователь\Desktop\fk62.ru\bitrix\templates\aspro_next\components\bitrix\news.list" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Пользователь\Desktop\fk62.ru\bitrix\templates\aspro_next\images" />
       <recent name="C:\Users\Пользователь\Desktop\fk62.ru\bitrix\templates\aspro_next\components\bitrix\news\reviews" />
       <recent name="C:\Users\Пользователь\Desktop\fk62.ru\bitrix\templates\aspro_next\components\bitrix\news" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Пользователь\Desktop\fk62.ru\bitrix\templates\aspro_next\components\bitrix\news" />
-      <recent name="C:\Users\Пользователь\Desktop\fk62.ru\bitrix\templates\aspro_next\components\bitrix\news.list" />
     </key>
   </component>
   <component name="RunManager">
@@ -425,7 +458,9 @@
       <workItem from="1532616978808" duration="2087000" />
       <workItem from="1532672897869" duration="11546000" />
       <workItem from="1532933688429" duration="2362000" />
-      <workItem from="1532959455467" duration="3555000" />
+      <workItem from="1532959455467" duration="3681000" />
+      <workItem from="1533020993323" duration="6639000" />
+      <workItem from="1533051663182" duration="2686000" />
     </task>
     <task id="LOCAL-00001" summary="files Web Storm">
       <created>1532419264869</created>
@@ -455,22 +490,29 @@
       <option name="project" value="LOCAL" />
       <updated>1532935396120</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Preview cart">
+      <created>1532964402041</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1532964402041</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31819000" />
+    <option name="totallyTimeSpent" value="41270000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16204691" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1716418" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1748401" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14393939" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3560606" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13203463" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35497835" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -497,7 +539,9 @@
     <MESSAGE value="Fields detail page added" />
     <MESSAGE value="Reviews in procesed" />
     <MESSAGE value="#22707  Reviews added in a detail cart" />
-    <option name="LAST_COMMIT_MESSAGE" value="#22707  Reviews added in a detail cart" />
+    <MESSAGE value="Preview cart" />
+    <MESSAGE value="Card order edited: delivery, wish-list is added in the detail card" />
+    <option name="LAST_COMMIT_MESSAGE" value="Card order edited: delivery, wish-list is added in the detail card" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -585,7 +629,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#span#1;n#div#2;n#div#0;n#div#2;n#div#0;n#div#2;n#div#1;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#3;n#div#0;n#div#2;n#div#0;n#div#2;n#div#1;n#div#1;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -600,7 +647,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -618,24 +664,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/modules/aspro.next/install/wizards/aspro/next/site/templates/aspro_next/components/bitrix/catalog.element/main/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5457">
-          <caret line="321" column="20" lean-forward="false" selection-start-line="321" selection-start-column="16" selection-end-line="382" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/modules/aspro.next/install/wizards/aspro/next/site/templates/aspro_next/components/bitrix/catalog.element/main2/template.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6477">
           <caret line="381" column="25" lean-forward="false" selection-start-line="320" selection-start-column="16" selection-end-line="381" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/catalog.element/fast_view/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7633">
-          <caret line="449" column="16" lean-forward="false" selection-start-line="449" selection-start-column="12" selection-end-line="543" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -756,43 +788,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/catalog.element/main/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="991" column="36" lean-forward="false" selection-start-line="991" selection-start-column="36" selection-end-line="1150" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/catalog/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="598">
           <caret line="572" column="4" lean-forward="false" selection-start-line="572" selection-start-column="4" selection-end-line="572" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/news.list/.default/template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
+        <state relative-caret-position="972">
           <caret line="70" column="26" lean-forward="false" selection-start-line="70" selection-start-column="26" selection-end-line="70" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/modules/aspro.next/install/wizards/aspro/next/site/templates/aspro_next/components/bitrix/catalog.element/main/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="523" column="119" lean-forward="false" selection-start-line="523" selection-start-column="119" selection-end-line="523" selection-end-column="119" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/catalog.section/catalog_block/template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="200" column="58" lean-forward="true" selection-start-line="200" selection-start-column="58" selection-end-line="200" selection-end-column="58" />
+        <state relative-caret-position="476">
+          <caret line="239" column="41" lean-forward="true" selection-start-line="239" selection-start-column="41" selection-end-line="239" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/catalog.element/fast_view/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="412" column="16" lean-forward="false" selection-start-line="412" selection-start-column="16" selection-end-line="441" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/aspro_next/template_styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="2265" column="45" lean-forward="false" selection-start-line="2265" selection-start-column="45" selection-end-line="2265" selection-end-column="45" />
+        <state relative-caret-position="788">
+          <caret line="6749" column="37" lean-forward="false" selection-start-line="6749" selection-start-column="37" selection-end-line="6749" selection-end-column="37" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/catalog.element/main/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="645" column="0" lean-forward="false" selection-start-line="645" selection-start-column="0" selection-end-line="645" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#span#1;n#div#2;n#div#0;n#div#2;n#div#0;n#div#2;n#div#1;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#3;n#div#0;n#div#2;n#div#0;n#div#2;n#div#1;n#div#1;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

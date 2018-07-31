@@ -598,7 +598,82 @@ setViewedProduct(<?=$arResult['ID']?>, <?=CUtil::PhpToJSObject($arViewedData, fa
 			<div class="element_detail_text wrap_md">
 				<div class="price_txt">
 					<?$APPLICATION->IncludeFile(SITE_DIR."include/element_detail_text.php", Array(), Array("MODE" => "html",  "NAME" => GetMessage('CT_BCE_CATALOG_DOP_DESCR')));?>
-				</div>
+
+
+                    <div class="work-conditions">
+                        <div class="work-conditions__item">
+                            <p>
+                                <img src="/bitrix/templates/aspro_next/images/delivery.png" alt="Доставка" title="Доставка"/>
+                                Доставка:
+                            </p>
+                            <p class="work-conditions--city">по г.Рязани: <span>бесплатно</span></p>
+                            <p class="work-conditions--city">по России: <span>бесплатно до ТК в г.Рязани</span></p>
+                        </div>
+                        <div class="work-conditions__item">
+                            <p>
+                                <img src="/bitrix/templates/aspro_next/images/money.png" alt="Способы оплаты" title="Способы оплаты"/>
+                                Способы оплаты: <span>наличные, безналичный расчёт</span>
+                            </p>
+                        </div>
+                        <div class="work-conditions__item">
+                            <p>
+                                <img src="/bitrix/templates/aspro_next/images/protect.png" alt="Гарантия" title="Гарантия"/>
+                                Гарантия на оборудование: <span>3 года</span>
+                            </p>
+                        </div>
+                        <div class="work-conditions__item">
+                            <p>
+                                <img src="/bitrix/templates/aspro_next/images/installation.png" alt="Монтаж оборудования" title="Монтаж оборудования"/>
+                                Монтаж оборудования: <span>от 6 500р.</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="others-sales">
+                        Дополнительные скидки обсуждаются индивидуально.<br/>
+                        <span class="callback-block animate-load twosmallfont colored" data-event="jqm"
+                              data-param-form_id="CALLBACK" data-name="callback">ОТПРАВИТЬ ЗАПРОС</span>
+                    </div>
+
+
+
+                    <div class="description_wrapp">
+                        <div class="like_icons like_icons--card-down">
+                            <?if($arParams["DISPLAY_WISH_BUTTONS"] != "N"):?>
+                                <?if(!$arResult["OFFERS"]):?>
+                                    <div class="wish_item text" <?=($arAddToBasketData['CAN_BUY'] ? '' : 'style="display:none"');?> data-item="<?=$arResult["ID"]?>" data-iblock="<?=$arResult["IBLOCK_ID"]?>">
+                                        <span class="value"><i></i><span><?=GetMessage('CATALOG_WISH')?></span></span>
+                                        <span class="value added"><i></i><span><?=GetMessage('CATALOG_WISH_OUT')?>В избранное</span></span>
+
+                                    </div>
+                                <?elseif($arResult["OFFERS"] && $arParams["TYPE_SKU"] === 'TYPE_1' && !empty($arResult['OFFERS_PROP'])):?>
+                                    <div class="wish_item text" <?=($arAddToBasketData['CAN_BUY'] ? '' : 'style="display:none"');?> data-item="" data-iblock="<?=$arResult["IBLOCK_ID"]?>" <?=(!empty($arResult['OFFERS_PROP']) ? 'data-offers="Y"' : '');?> data-props="<?=$arOfferProps?>">
+                                        <span class="value <?=$arParams["TYPE_SKU"];?>"><i></i><span><?=GetMessage('CATALOG_WISH')?></span></span>
+                                        <span class="value added <?=$arParams["TYPE_SKU"];?>"><i></i><span><?=GetMessage('CATALOG_WISH_OUT')?>В избранное</span></span>
+
+                                    </div>
+                                <?endif;?>
+                            <?endif;?>
+                            <?if($arParams["DISPLAY_COMPARE"] == "Y"):?>
+                                <?if(!$arResult["OFFERS"] || ($arResult["OFFERS"] && $arParams["TYPE_SKU"] === 'TYPE_1' && !$arResult["OFFERS_PROP"])):?>
+                                    <div class="compare_item_button">
+                                        <span class="compare_item to" data-iblock="<?=$arParams["IBLOCK_ID"]?>" data-item="<?=$arResult["ID"]?>" ><i></i><div><?=GetMessage('CATALOG_COMPARE')?></div></span>
+                                        <span class="compare_item in added" style="display: none;" data-iblock="<?=$arParams["IBLOCK_ID"]?>" data-item="<?=$arResult["ID"]?>"><i></i><div><?=GetMessage('CATALOG_COMPARE_OUT')?></div></span>
+                                        <span>Сравнить</span>
+                                    </div>
+                                <?elseif($arResult["OFFERS"]):?>
+                                    <div class="compare_item_button">
+                                        <span class="compare_item to <?=$arParams["TYPE_SKU"];?>" data-iblock="<?=$arParams["IBLOCK_ID"]?>" data-item="" ><i></i><div><?=GetMessage('CATALOG_COMPARE')?></div></span>
+                                        <span class="compare_item in added <?=$arParams["TYPE_SKU"];?>" style="display: none;" data-iblock="<?=$arParams["IBLOCK_ID"]?>" data-item=""><i></i><div><?=GetMessage('CATALOG_COMPARE_OUT')?></div></span>
+                                        <span>Сравнить</span>
+                                    </div>
+                                <?endif;?>
+                            <?endif;?>
+                        </div>
+                    </div>
+
+
+
+                </div>
 			</div>
 		</div>
 	</div>
