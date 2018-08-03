@@ -641,7 +641,7 @@ setViewedProduct(<?=$arResult['ID']?>, <?=CUtil::PhpToJSObject($arViewedData, fa
                             <?if($arParams["DISPLAY_WISH_BUTTONS"] != "N"):?>
                                 <?if(!$arResult["OFFERS"]):?>
                                     <div class="wish_item text" <?=($arAddToBasketData['CAN_BUY'] ? '' : 'style="display:none"');?> data-item="<?=$arResult["ID"]?>" data-iblock="<?=$arResult["IBLOCK_ID"]?>">
-                                        <span class="value"><i></i><span><?=GetMessage('CATALOG_WISH')?></span></span>
+                                        <span class="value"><i></i><span><?=GetMessage('CATALOG_WISH')?>В избранное</span></span>
                                         <span class="value added"><i></i><span><?=GetMessage('CATALOG_WISH_OUT')?>В избранное</span></span>
 
                                     </div>
