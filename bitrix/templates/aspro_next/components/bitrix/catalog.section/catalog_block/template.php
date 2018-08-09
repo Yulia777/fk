@@ -173,8 +173,8 @@
 									else
 										$fast_view_text = GetMessage('FAST_VIEW');?>
 								</a>
-								<div class="fast_view_block" data-event="jqm" data-param-form_id="fast_view" data-param-iblock_id="<?=$arParams["IBLOCK_ID"];?>" data-param-id="<?=$arItem["ID"];?>" data-param-item_href="<?=urlencode($arItem["DETAIL_PAGE_URL"]);?>" data-name="fast_view"><?=$fast_view_text;?></div>
-							</div>
+<!--								<div class="fast_view_block" data-event="jqm" data-param-form_id="fast_view" data-param-iblock_id="<?/*=$arParams["IBLOCK_ID"];*/?>" data-param-id="<?/*=$arItem["ID"];*/?>" data-param-item_href="<?/*=urlencode($arItem["DETAIL_PAGE_URL"]);*/?>" data-name="fast_view"><?/*=$fast_view_text;*/?></div>
+-->							</div>
 							<div class="item_info <?=$arParams["TYPE_SKU"]?>">
 								<div class="item-title">
 									<a href="<?=$arItem["DETAIL_PAGE_URL"]?>" class="dark_link"><span><?=$elementName;?></span></a>

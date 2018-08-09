@@ -629,9 +629,7 @@ setViewedProduct(<?=$arResult['ID']?>, <?=CUtil::PhpToJSObject($arViewedData, fa
                         </div>
                     </div>
                     <div class="others-sales">
-                        Дополнительные скидки обсуждаются индивидуально.<br/>
-                        <span class="callback-block animate-load twosmallfont colored" data-event="jqm"
-                              data-param-form_id="CALLBACK" data-name="callback">ОТПРАВИТЬ ЗАПРОС</span>
+                        Дополнительные скидки обсуждаются индивидуально.
                     </div>
 
 
