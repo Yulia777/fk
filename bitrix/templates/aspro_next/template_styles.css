@@ -6732,6 +6732,9 @@ table.contacts-stores tr.item td:last-of-type{width:30%;}
 	width: 100%;
 	z-index: 0;
 }
+.review--title {
+	margin: 0 0 20px 0;
+}
 .work-conditions .work-conditions__item img {
 	width:20px;
 	height:20px;
@@ -6742,6 +6745,7 @@ table.contacts-stores tr.item td:last-of-type{width:30%;}
 }
 .work-conditions .work-conditions__item p span {
 	font-weight:bold;
+	color:#343434;
 }
 .work-conditions--city {
 	padding-left:50px;
@@ -6757,4 +6761,7 @@ table.contacts-stores tr.item td:last-of-type{width:30%;}
 .item_slider .slides {
 	margin-top: -80px;
 	margin-left: -20px;
+}
+.none {
+	display:none;
 }

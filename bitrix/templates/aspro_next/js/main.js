@@ -2829,9 +2829,9 @@ CheckHeaderFixed = function(){
 						if (scrollTop + headerFixedHeight > tabs_offset.top)
 						{
 							tabs_fixed.css({'top': header_fixed.actual('outerHeight')});
-							tabs_fixed.addClass('fixed');
+							tabs_fixed.addClass('none');
 						}
-						else if (tabs_fixed.hasClass('fixed'))
+						else if (tabs_fixed.hasClass('none'))
 						{
 							tabs_fixed.removeAttr('style');
 							tabs_fixed.removeClass('fixed');
