@@ -4,9 +4,11 @@
 	</div>
 	<a class="jqmClose close"><i></i></a>
 	<div class="form-wr">
-		<form method="post" id="one_click_buy_form" action="<?=$arResult['SCRIPT_PATH']?>/script.php">
+        <form method="post" id="one_click_buy_form" action="<?=$arResult['SCRIPT_PATH']?>/script.php">
 			<?foreach($arParams['PROPERTIES'] as $field):
-				$class.="inputtext";?>
+                $class.="inputtext";?>
+                <!--Name field removing-->
+                <?if($field === 'FIO'){ continue; }?>
 				<div class="form-control bg">
 					<label class="description">
 						<?if($field == "COMMENT"):?>
