@@ -4291,8 +4291,8 @@ body .wrapper_inner.wide_page .info_item .middle_info .buy_block .wrapp_one_clic
 .file_type i.icon { width: 46px; height: 35px; display: inline-block; background: url('images/docs_types.png') 0px -275px no-repeat; float: left; }
 .file_type .description { padding: 0 0 0 46px; position: relative; top: -3px; }
 
-.catalog_detail .wraps{padding: 25px 0px 0px;}
-.catalog_detail .wraps h4{margin:43px 0px 32px;}
+.catalog_detail .wraps{padding: 10px 0 30px;}
+.catalog_detail .wraps h4{margin: 20px 0 10px;}
 .catalog_detail .wraps #ask_block h4{display:none;}
 
 .banners-small .item .inner-item{padding:0px 0px 35px;}
@@ -4378,7 +4378,7 @@ a .zoom{display:block;width:50px;height:50px;border-radius:100%;overflow:hidden;
 
 .catalog_detail .element_detail_text { font-size: 12px; line-height: 15px; padding: 0px 0px 39px; }
 .catalog_detail .element_detail_text .sh {width: 120px;float: left;}
-.catalog_detail .element_detail_text .price_txt {color: #7d7d7d; font-size: 12px;line-height:18px;}
+.catalog_detail .element_detail_text .price_txt {color: #333333; font-size: 12px;line-height:18px;}
 .catalog_detail .element_detail_text .price_txt .sharing{float:left;}
 .catalog_detail .element_detail_text .price_txt > .text{padding-left:200px;}
 .price_txt .sharing >div .share_wrapp:hover .shares{/*opacity:0 !important;*/}
@@ -6733,7 +6733,7 @@ table.contacts-stores tr.item td:last-of-type{width:30%;}
 	z-index: 0;
 }
 .review--title {
-	margin: 0 0 20px 0;
+	margin: 0 0 30px 0;
 }
 .work-conditions .work-conditions__item img {
 	width:20px;
@@ -6764,4 +6764,7 @@ table.contacts-stores tr.item td:last-of-type{width:30%;}
 }
 .none {
 	display:none;
+}
+.catalog_detail .like_icons > div {
+	color:#333333;
 }
