@@ -602,9 +602,9 @@ $arViewedData = array(
         <?endif;?>
         <div class="element_detail_text wrap_md">
             <div class="price_txt">
-                <?$APPLICATION->IncludeFile(SITE_DIR."include/element_detail_text.php", Array(), Array("MODE" => "html",  "NAME" => GetMessage('CT_BCE_CATALOG_DOP_DESCR')));?>
-
-
+                <p>
+                    Дополнительные скидки обсуждаются индивидуально.
+                </p>
                 <div class="work-conditions">
                     <div class="work-conditions__item">
                         <p>
@@ -652,11 +652,6 @@ $arViewedData = array(
                         </p>
                     </div>
                 </div>
-                <div class="others-sales">
-                    Дополнительные скидки обсуждаются индивидуально.
-                </div>
-
-
 
                 <div class="description_wrapp">
                     <div class="like_icons like_icons--card-down">
