@@ -15,7 +15,7 @@
 				"USE_EXT" => "Y",
 				"DELAY" => "N",
 				"ALLOW_MULTI_SELECT" => "N" ),
-				false, array( "ACTIVE_COMPONENT" => "Y" )
+				false, array( "ACTIVE_COMPONENT" => "N" )
 			);?>
 		<?endif;?>
 	<?else:?>
