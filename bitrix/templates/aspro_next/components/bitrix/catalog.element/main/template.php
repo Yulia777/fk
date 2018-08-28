@@ -1284,6 +1284,109 @@ $arViewedData = array(
                                 <?if(strlen($arResult["DETAIL_TEXT"])):?>
                                     <div class="detail_text">
                                         <?=$arResult["DETAIL_TEXT"]?>
+                                    <!--Attached files-->
+                                        <?if($arResult["SERVICES"]):?>
+                                            <?global $arrSaleFilter; $arrSaleFilter = array("ID" => $arResult["PROPERTIES"]["SERVICES"]["VALUE"]);?>
+                                            <?$APPLICATION->IncludeComponent(
+                                                "bitrix:news.list",
+                                                "items-services",
+                                                array(
+                                                    "IBLOCK_TYPE" => "aspro_next_content",
+                                                    "IBLOCK_ID" => $arResult["PROPERTIES"]["SERVICES"]["LINK_IBLOCK_ID"],
+                                                    "NEWS_COUNT" => "20",
+                                                    "SORT_BY1" => "SORT",
+                                                    "SORT_ORDER1" => "ASC",
+                                                    "SORT_BY2" => "ID",
+                                                    "SORT_ORDER2" => "DESC",
+                                                    "FILTER_NAME" => "arrSaleFilter",
+                                                    "FIELD_CODE" => array(
+                                                        0 => "NAME",
+                                                        1 => "PREVIEW_TEXT",
+                                                        3 => "PREVIEW_PICTURE",
+                                                        4 => "",
+                                                    ),
+                                                    "PROPERTY_CODE" => array(
+                                                        0 => "PERIOD",
+                                                        1 => "REDIRECT",
+                                                        2 => "",
+                                                    ),
+                                                    "CHECK_DATES" => "Y",
+                                                    "DETAIL_URL" => "",
+                                                    "AJAX_MODE" => "N",
+                                                    "AJAX_OPTION_JUMP" => "N",
+                                                    "AJAX_OPTION_STYLE" => "Y",
+                                                    "AJAX_OPTION_HISTORY" => "N",
+                                                    "CACHE_TYPE" => "N",
+                                                    "CACHE_TIME" => "36000000",
+                                                    "CACHE_FILTER" => "Y",
+                                                    "CACHE_GROUPS" => "N",
+                                                    "PREVIEW_TRUNCATE_LEN" => "",
+                                                    "ACTIVE_DATE_FORMAT" => "d.m.Y",
+                                                    "SET_TITLE" => "N",
+                                                    "SET_STATUS_404" => "N",
+                                                    "INCLUDE_IBLOCK_INTO_CHAIN" => "N",
+                                                    "ADD_SECTIONS_CHAIN" => "N",
+                                                    "HIDE_LINK_WHEN_NO_DETAIL" => "N",
+                                                    "PARENT_SECTION" => "",
+                                                    "PARENT_SECTION_CODE" => "",
+                                                    "INCLUDE_SUBSECTIONS" => "Y",
+                                                    "PAGER_TEMPLATE" => ".default",
+                                                    "DISPLAY_TOP_PAGER" => "N",
+                                                    "DISPLAY_BOTTOM_PAGER" => "Y",
+                                                    "PAGER_TITLE" => "�������",
+                                                    "PAGER_SHOW_ALWAYS" => "N",
+                                                    "PAGER_DESC_NUMBERING" => "N",
+                                                    "PAGER_DESC_NUMBERING_CACHE_TIME" => "36000",
+                                                    "PAGER_SHOW_ALL" => "N",
+                                                    "VIEW_TYPE" => "list",
+                                                    "BIG_BLOCK" => "Y",
+                                                    "IMAGE_POSITION" => "left",
+                                                    "COUNT_IN_LINE" => "2",
+                                                    "TITLE" => ($arParams["BLOCK_SERVICES_NAME"] ? $arParams["BLOCK_SERVICES_NAME"] : GetMessage("SERVICES_TITLE")),
+                                                ),
+                                                $component, array("HIDE_ICONS" => "Y")
+                                            );?>
+                                        <?endif;?>
+                                        <?
+                                        $arFiles = array();
+                                        if($arResult["PROPERTIES"][$instr_prop]["VALUE"]){
+                                            $arFiles = $arResult["PROPERTIES"][$instr_prop]["VALUE"];
+                                        }
+                                        else{
+                                            $arFiles = $arResult["SECTION_FULL"]["UF_FILES"];
+                                        }
+                                        if(is_array($arFiles)){
+                                            foreach($arFiles as $key => $value){
+                                                if(!intval($value)){
+                                                    unset($arFiles[$key]);
+                                                }
+                                            }
+                                        }
+                                        ?>
+                                        <?if($arFiles):?>
+                                            <div class="wraps">
+                                                <h4><?=($arParams["BLOCK_DOCS_NAME"] ? $arParams["BLOCK_DOCS_NAME"] : GetMessage("DOCUMENTS_TITLE"))?></h4>
+                                                <div class="files_block">
+                                                    <div class="row flexbox">
+                                                        <?foreach($arFiles as $arItem):?>
+                                                            <div class="col-md-3 col-sm-6">
+                                                                <?$arFile=CNext::GetFileInfo($arItem);?>
+                                                                <div class="file_type clearfix <?=$arFile["TYPE"];?>">
+                                                                    <i class="icon"></i>
+                                                                    <div class="description">
+                                                                        <a target="_blank" href="<?=$arFile["SRC"];?>" class="dark_link"><?=$arFile["DESCRIPTION"];?></a>
+                                                                        <span class="size">
+															<?=$arFile["FILE_SIZE_FORMAT"];?>
+														</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        <?endforeach;?>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        <?endif;?>
+                                     <!--/-->
                                         <!--Reviews-->
                                         <?$APPLICATION->IncludeComponent(
                                             "bitrix:news",
@@ -1489,9 +1592,16 @@ $arViewedData = array(
                                         <?endif;?>
                                     </div>
                                 <?endif;?>
-                                <?if($arResult["SERVICES"]):?>
-                                    <?global $arrSaleFilter; $arrSaleFilter = array("ID" => $arResult["PROPERTIES"]["SERVICES"]["VALUE"]);?>
-                                    <?$APPLICATION->IncludeComponent(
+
+
+
+
+
+
+
+                                <?/*if($arResult["SERVICES"]):*/?><!--
+                                    <?/*global $arrSaleFilter; $arrSaleFilter = array("ID" => $arResult["PROPERTIES"]["SERVICES"]["VALUE"]);*/?>
+                                    <?/*$APPLICATION->IncludeComponent(
                                         "bitrix:news.list",
                                         "items-services",
                                         array(
@@ -1549,9 +1659,9 @@ $arViewedData = array(
                                             "TITLE" => ($arParams["BLOCK_SERVICES_NAME"] ? $arParams["BLOCK_SERVICES_NAME"] : GetMessage("SERVICES_TITLE")),
                                         ),
                                         $component, array("HIDE_ICONS" => "Y")
-                                    );?>
-                                <?endif;?>
-                                <?
+                                    );*/?>
+                                <?/*endif;*/?>
+                                <?/*
                                 $arFiles = array();
                                 if($arResult["PROPERTIES"][$instr_prop]["VALUE"]){
                                     $arFiles = $arResult["PROPERTIES"][$instr_prop]["VALUE"];
@@ -1566,31 +1676,42 @@ $arViewedData = array(
                                         }
                                     }
                                 }
-                                ?>
-                                <?if($arFiles):?>
+                                */?>
+                                <?/*if($arFiles):*/?>
                                     <div class="wraps">
                                         <hr>
-                                        <h4><?=($arParams["BLOCK_DOCS_NAME"] ? $arParams["BLOCK_DOCS_NAME"] : GetMessage("DOCUMENTS_TITLE"))?></h4>
+                                        <h4><?/*=($arParams["BLOCK_DOCS_NAME"] ? $arParams["BLOCK_DOCS_NAME"] : GetMessage("DOCUMENTS_TITLE"))*/?></h4>
                                         <div class="files_block">
                                             <div class="row flexbox">
-                                                <?foreach($arFiles as $arItem):?>
+                                                <?/*foreach($arFiles as $arItem):*/?>
                                                     <div class="col-md-3 col-sm-6">
-                                                        <?$arFile=CNext::GetFileInfo($arItem);?>
-                                                        <div class="file_type clearfix <?=$arFile["TYPE"];?>">
+                                                        <?/*$arFile=CNext::GetFileInfo($arItem);*/?>
+                                                        <div class="file_type clearfix <?/*=$arFile["TYPE"];*/?>">
                                                             <i class="icon"></i>
                                                             <div class="description">
-                                                                <a target="_blank" href="<?=$arFile["SRC"];?>" class="dark_link"><?=$arFile["DESCRIPTION"];?></a>
+                                                                <a target="_blank" href="<?/*=$arFile["SRC"];*/?>" class="dark_link"><?/*=$arFile["DESCRIPTION"];*/?></a>
                                                                 <span class="size">
-															<?=$arFile["FILE_SIZE_FORMAT"];?>
+															<?/*=$arFile["FILE_SIZE_FORMAT"];*/?>
 														</span>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                <?endforeach;?>
+                                                <?/*endforeach;*/?>
                                             </div>
                                         </div>
                                     </div>
-                                <?endif;?>
+                                --><?/*endif;*/?>
+
+
+
+
+
+
+
+
+
+
+
                                 <?if($arResult['ADDITIONAL_GALLERY']):?>
                                     <div class="wraps galerys-block with-padding<?=($arResult['OFFERS'] && 'TYPE_1' === $arParams['TYPE_SKU'] ? ' hidden' : '')?>">
                                         <hr>

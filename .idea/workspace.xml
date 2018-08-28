@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2f8fdf95-efc3-42f8-9c83-41d79491d873" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+    <list default="true" id="2f8fdf95-efc3-42f8-9c83-41d79491d873" name="Default" comment="workspace">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.htaccess" afterPath="$PROJECT_DIR$/.htaccess" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/catalog.element/main/template.php" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/catalog.element/main/template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/templates/aspro_next/template_styles.css" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/template_styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/urlrewrite.php" afterPath="$PROJECT_DIR$/urlrewrite.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,18 +24,73 @@
       <file leaf-file-name="template_styles.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bitrix/templates/aspro_next/template_styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115005">
-              <caret line="6765" column="17" lean-forward="false" selection-start-line="6765" selection-start-column="17" selection-end-line="6765" selection-end-column="17" />
+            <state relative-caret-position="654">
+              <caret line="6769" column="0" lean-forward="false" selection-start-line="6769" selection-start-column="0" selection-end-line="6769" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="template.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/news.list/.default/template.php">
+      <file leaf-file-name=".htaccess" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.htaccess">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="24" />
+            <state relative-caret-position="-198">
+              <caret line="15" column="46" lean-forward="true" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+              <folding>
+                <marker date="1535447487591" expanded="true" signature="45:226" ph="&lt;IfModule mod_php5.c&gt;" />
+                <marker date="1535447487591" expanded="true" signature="228:787" ph="&lt;IfModule mod_rewrite.c&gt;" />
+                <marker date="1535447487591" expanded="true" signature="789:859" ph="&lt;IfModule mod_dir.c&gt;" />
+                <marker date="1535447487591" expanded="true" signature="861:1159" ph="&lt;IfModule mod_expires.c&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urlrewrite.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bitrix/urlrewrite.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urlrewrite.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bitrix/modules/main/include/urlrewrite.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="85" column="27" lean-forward="true" selection-start-line="85" selection-start-column="27" selection-end-line="85" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urlrewrite.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/urlrewrite.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="37" column="17" lean-forward="true" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bitrix/templates/aspro_next/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="72" lean-forward="false" selection-start-line="7" selection-start-column="72" selection-end-line="7" selection-end-column="72" />
               <folding />
             </state>
           </provider>
@@ -41,9 +99,12 @@
       <file leaf-file-name="template.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/catalog.element/main/template.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="1580" column="11" lean-forward="false" selection-start-line="1580" selection-start-column="11" selection-end-line="1580" selection-end-column="11" />
-              <folding />
+            <state relative-caret-position="0">
+              <caret line="0" column="142" lean-forward="false" selection-start-line="0" selection-start-column="142" selection-end-line="0" selection-end-column="142" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <marker date="1535469508761" expanded="true" signature="112246:119242" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -81,11 +142,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&lt;div class=&quot;char_block&quot;&gt;</find>
-      <find>props_list</find>
-      <find>.catalog_detail .props_list td.char_value</find>
-      <find>&lt;div class=&quot;bx-newslist-more&quot;&gt;</find>
-      <find>class=&quot;catalog_item main_item_wrapper item_wrap &quot;</find>
       <find>class=&quot;main_item_wrapper&quot;</find>
       <find>sa_block</find>
       <find>.footer_button</find>
@@ -111,6 +167,11 @@
       <find>descr&quot;</find>
       <find>id=&quot;descr&quot;</find>
       <find>class=&quot;prices_block&quot;</find>
+      <find>&lt;!--Reviews--&gt;</find>
+      <find>.review--title</find>
+      <find>.catalog_detail .wraps h4</find>
+      <find>.catalog_detail .wraps</find>
+      <find>RewriteRule</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\Пользователь\Desktop\fk62.ru\bitrix\templates\aspro_next\components\bitrix</dir>
@@ -139,6 +200,9 @@
         <option value="$PROJECT_DIR$/bitrix/wizards/aspro/next/site/templates/aspro_next/components/bitrix/catalog.element/main/template.php" />
         <option value="$PROJECT_DIR$/bitrix/templates/aspro_next/js/main.js" />
         <option value="$PROJECT_DIR$/bitrix/templates/aspro_next/template_styles.css" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/bitrix/templates/aspro_next/header.php" />
+        <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/catalog.element/main/template.php" />
       </list>
     </option>
@@ -171,7 +235,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -238,35 +301,10 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fk62.ru" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fk62.ru" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bitrix" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aspro_next" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -381,7 +419,8 @@
       <workItem from="1533887154784" duration="12094000" />
       <workItem from="1535354443610" duration="365000" />
       <workItem from="1535379796759" duration="2547000" />
-      <workItem from="1535438627946" duration="938000" />
+      <workItem from="1535438627946" duration="2849000" />
+      <workItem from="1535441828296" duration="5879000" />
     </task>
     <task id="LOCAL-00001" summary="files Web Storm">
       <created>1532419264869</created>
@@ -460,22 +499,30 @@
       <option name="project" value="LOCAL" />
       <updated>1535439060039</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="workspace">
+      <created>1535439635802</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1535439635802</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81071000" />
+    <option name="totallyTimeSpent" value="88861000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16044776" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29424307" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29744136" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19372295" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13203463" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.60064936" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -484,7 +531,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13203463" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36147186" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -518,31 +564,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/aspro_next/components/aspro/tabs.next/main/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/aspro_next/components/aspro/tabs.next/main/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-349">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/wizards/aspro/next/site/templates/aspro_next/template_styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="4398" column="35" lean-forward="false" selection-start-line="4398" selection-start-column="35" selection-end-line="4398" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/.default/lang/en/template.php" />
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/template.php" />
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news.list/reviews/lang/en/news.php" />
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news.list/reviews/lang/en/detail.php" />
     <entry file="file://$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news.list/reviews/lang/en/search.php" />
     <entry file="file://$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news.list/reviews/lang/en/section.php" />
     <entry file="file://$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news.list/reviews/lang/en/.parameters.php" />
@@ -793,14 +814,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/aspro_next/template_styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115005">
-          <caret line="6765" column="17" lean-forward="false" selection-start-line="6765" selection-start-column="17" selection-end-line="6765" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/aspro_next/components/aspro/oneclickbuy.next/shop/template.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="986">
@@ -809,11 +822,83 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/aspro_next/template_styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="654">
+          <caret line="6769" column="0" lean-forward="false" selection-start-line="6769" selection-start-column="0" selection-end-line="6769" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/php_interface/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/aspro_next/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="72" lean-forward="false" selection-start-line="7" selection-start-column="72" selection-end-line="7" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/urlrewrite.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/modules/main/include/urlrewrite.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="85" column="27" lean-forward="true" selection-start-line="85" selection-start-column="27" selection-end-line="85" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urlrewrite.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="37" column="17" lean-forward="true" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-198">
+          <caret line="15" column="46" lean-forward="true" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+          <folding>
+            <marker date="1535447487591" expanded="true" signature="45:226" ph="&lt;IfModule mod_php5.c&gt;" />
+            <marker date="1535447487591" expanded="true" signature="228:787" ph="&lt;IfModule mod_rewrite.c&gt;" />
+            <marker date="1535447487591" expanded="true" signature="789:859" ph="&lt;IfModule mod_dir.c&gt;" />
+            <marker date="1535447487591" expanded="true" signature="861:1159" ph="&lt;IfModule mod_expires.c&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/catalog.element/main/template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="1580" column="11" lean-forward="false" selection-start-line="1580" selection-start-column="11" selection-end-line="1580" selection-end-column="11" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="142" lean-forward="false" selection-start-line="0" selection-start-column="142" selection-end-line="0" selection-end-column="142" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <marker date="1535469508761" expanded="true" signature="112246:119242" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
