@@ -2378,7 +2378,7 @@ hr.bottoms{margin-bottom: 30px;}
 .description_wrapp .like_icons > div{display:inline-block;vertical-align:top;font-size: 13px;padding:0px 30px 0px 0px}
 .description_wrapp .like_icons span{opacity: 1;visibility: visible;display:inline-block;vertical-align:middle;white-space: nowrap;border-radius:0px;}
 .description_wrapp .like_icons span i{display:inline-block;vertical-align:middle;}
-.description_wrapp .like_icons span div, .description_wrapp .like_icons span span{margin:0px;display:inline-block;vertical-align:middle;padding: 0px 0px 0px 10px;}
+.description_wrapp .like_icons span div, .description_wrapp .like_icons span span{margin:0px;display:inline-block;vertical-align:middle;padding: 0;}
 .description_wrapp .like_icons span:not(.added):hover{background-color:#fff;}
 .description_wrapp .like_icons span:not(.added):hover i{background-color:#e3e3e3;}
 .description_wrapp .like_icons span.added, .description_wrapp .like_icons span.added:hover{background:#fff;color: #333;}
@@ -6708,8 +6708,8 @@ table.contacts-stores tr.item td:last-of-type{width:30%;}
 	margin-bottom: 20px;
 	padding: 1.2em 1.5em;
 	position: relative;
-	width:450px;
-	margin-right:10px;
+	width:420px;
+	margin-right:20px;
 }
 .review_content .scrp {
 	position: absolute;

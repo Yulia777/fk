@@ -12,7 +12,7 @@
 /** @var CBitrixComponent $component */
 $this->setFrameMode(true);
 ?>
-<h3 class="review--title">Отзывы о компании</h3>
+<h4 class="review--title">Отзывы о компании</h4>
 <div class="news-list review">
 <?if($arParams["DISPLAY_TOP_PAGER"]):?>
 	<?=$arResult["NAV_STRING"]?><br />
