@@ -1,12 +1,12 @@
 <?
 $aMenuLinks = Array(
-	Array(
+	/*Array(
 		"Компания", 
 		"/company/index.php", 
 		Array(), 
 		Array(), 
 		"" 
-	),
+	),*/
 	Array(
 		"О компании", 
 		"/company/", 

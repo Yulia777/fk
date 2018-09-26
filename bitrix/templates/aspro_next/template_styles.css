@@ -2681,7 +2681,7 @@ footer .info .email a:hover{text-decoration:none;}
 footer .info i{font-size:14px;margin:0 7px 0 0;color:#969ba5;vertical-align:middle;display:none;}
 .bottom-menu{color:#b0b0b0;font-weight:normal;line-height: 18px;}
 .bottom-menu .items .wrap{font-size:1em;}
-.bottom-menu .items > .item-link{color:#fff;font-weight:bold;margin-bottom:20px;}
+.bottom-menu .items > .item-link{color: #555;font-weight:100;margin-bottom:20px;}
 .bottom-menu .items > .item-link a, body .white_middle_text{color:#fff;}
 .white_middle_text{font-weight:bold;}
 .right_block .bottom-menu .items > .item-link{margin:0px;}
@@ -2757,7 +2757,7 @@ footer .ext_view.footer-grey .white_middle_text{margin-top:-1px;}
 /* footer ext */
 footer .ext_view.footer-light.no_fill .bottom_wrapper, footer .ext_view.footer-light .wrapper_inner, footer .ext_view.footer-light .maxwidth-theme{background:#f6f6f7;}
 footer .ext_view .bottom-menu .items > .item-link a{font-size:1.07em;text-transform:none;}
-footer .ext_view .bottom-menu .items > .item-link{margin-bottom: 7px;}
+footer .ext_view .bottom-menu .items > .item-link{margin-bottom: 0;}
 footer .ext_view .subscribe-form{background:transparent;margin:0px 0px 32px;}
 footer .ext_view .subscribe-form:before{display:none;}
 footer .ext_view .subscribe-form .wrap_bg{border:none;padding:0px;}
