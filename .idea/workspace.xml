@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f8fdf95-efc3-42f8-9c83-41d79491d873" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.bottom_company.menu.php" afterPath="$PROJECT_DIR$/.bottom_company.menu.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/menu/bottom/template.php" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/menu/bottom/template.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/templates/aspro_next/template_styles.css" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/template_styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/index.php" afterPath="$PROJECT_DIR$/catalog/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robots.txt" afterPath="$PROJECT_DIR$/robots.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -360,7 +355,7 @@
       <workItem from="1536134178815" duration="627000" />
       <workItem from="1536142087385" duration="1963000" />
       <workItem from="1536577379163" duration="2725000" />
-      <workItem from="1537967158922" duration="3109000" />
+      <workItem from="1537967158922" duration="3221000" />
     </task>
     <task id="LOCAL-00001" summary="files Web Storm">
       <created>1532419264869</created>
@@ -481,14 +476,21 @@
       <option name="project" value="LOCAL" />
       <updated>1536075337564</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Catalog field has been added, site has been closed, bottom menu edited">
+      <created>1537970860321</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1537970860321</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114706000" />
+    <option name="totallyTimeSpent" value="114818000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16044776" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -536,7 +538,8 @@
     <MESSAGE value="Fixed card card" />
     <MESSAGE value="Headings adding" />
     <MESSAGE value="Url redirected from not '/' to '/'" />
-    <option name="LAST_COMMIT_MESSAGE" value="Url redirected from not '/' to '/'" />
+    <MESSAGE value="Catalog field has been added, site has been closed, bottom menu edited" />
+    <option name="LAST_COMMIT_MESSAGE" value="Catalog field has been added, site has been closed, bottom menu edited" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
