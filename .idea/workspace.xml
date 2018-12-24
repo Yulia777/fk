@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2f8fdf95-efc3-42f8-9c83-41d79491d873" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/company/index.php" afterPath="$PROJECT_DIR$/company/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/licenses_detail.php" afterPath="$PROJECT_DIR$/include/licenses_detail.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,8 +31,8 @@
       <file leaf-file-name="licenses_detail.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/include/licenses_detail.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+            <state relative-caret-position="34">
+              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -120,6 +120,7 @@
         <option value="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/menu/bottom/template.php" />
         <option value="$PROJECT_DIR$/bitrix/templates/aspro_next/template_styles.css" />
         <option value="$PROJECT_DIR$/company/index.php" />
+        <option value="$PROJECT_DIR$/include/licenses_detail.php" />
       </list>
     </option>
   </component>
@@ -392,7 +393,7 @@
       <workItem from="1543586886500" duration="1324000" />
       <workItem from="1544789437772" duration="1692000" />
       <workItem from="1545648325695" duration="2543000" />
-      <workItem from="1545659840337" duration="2966000" />
+      <workItem from="1545659840337" duration="3540000" />
     </task>
     <task id="LOCAL-00001" summary="files Web Storm">
       <created>1532419264869</created>
@@ -520,11 +521,18 @@
       <option name="project" value="LOCAL" />
       <updated>1537970860321</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Sidebar hidden in company">
+      <created>1545663811512</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1545663811512</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124976000" />
+    <option name="totallyTimeSpent" value="125550000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
@@ -576,7 +584,8 @@
     <MESSAGE value="Headings adding" />
     <MESSAGE value="Url redirected from not '/' to '/'" />
     <MESSAGE value="Catalog field has been added, site has been closed, bottom menu edited" />
-    <option name="LAST_COMMIT_MESSAGE" value="Catalog field has been added, site has been closed, bottom menu edited" />
+    <MESSAGE value="Sidebar hidden in company" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sidebar hidden in company" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -951,8 +960,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/include/licenses_detail.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
