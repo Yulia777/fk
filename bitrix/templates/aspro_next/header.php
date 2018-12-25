@@ -19,6 +19,10 @@ $bIncludedModule = (\Bitrix\Main\Loader::includeModule("aspro.next"));?>
 	<?$APPLICATION->AddHeadString('<script>BX.message('.CUtil::PhpToJSObject( $MESS, false ).')</script>', true);?>
 	<?if($bIncludedModule)
 		CNext::Start(SITE_ID);?>
+    <link href="<?=SITE_TEMPLATE_PATH?>/slick-slider/slick.css" rel="stylesheet">
+    <link href="<?=SITE_TEMPLATE_PATH?>/slick-slider/slick-theme.css" rel="stylesheet">
+    <script src="<?=SITE_TEMPLATE_PATH?>/slick-slider/slick.js"></script>
+    <script src="<?=SITE_TEMPLATE_PATH?>/imagelightbox/imagelightbox.min.js"></script>
 </head>
 <body class="<?=($bIncludedModule ? "fill_bg_".strtolower(CNext::GetFrontParametrValue("SHOW_BG_BLOCK")) : "");?>" id="main">
 	<div id="panel"><?$APPLICATION->ShowPanel();?></div>

@@ -6768,3 +6768,17 @@ table.contacts-stores tr.item td:last-of-type{width:30%;}
 .catalog_detail .like_icons > div {
 	color:#333333;
 }
+.slider-cert img {
+	width: 250px;
+}
+.slider-cert .slick-prev:before,
+.slider-cert .slick-next:before{
+	font-size:34px;
+	color: #6d6d6d87;
+}
+.slider-cert .slide img {
+	margin: 0 auto
+}
+.slider-cert .slick-slide {
+	padding-left: 10px;
+}

@@ -2,7 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f8fdf95-efc3-42f8-9c83-41d79491d873" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/images/cert/cert1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/slick-slider/fonts/slick.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/slick-slider/fonts/slick.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/slick-slider/fonts/slick.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/slick-slider/fonts/slick.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/slick-slider/slick-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/slick-slider/slick.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/slick-slider/slick.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/slick-slider/slick.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/company/slider-certificates.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/templates/aspro_next/header.php" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/templates/aspro_next/template_styles.css" afterPath="$PROJECT_DIR$/bitrix/templates/aspro_next/template_styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/company/index.php" afterPath="$PROJECT_DIR$/company/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,59 +33,19 @@
       <file leaf-file-name="template_styles.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bitrix/templates/aspro_next/template_styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="2720" column="39" lean-forward="false" selection-start-line="2720" selection-start-column="39" selection-end-line="2720" selection-end-column="39" />
+            <state relative-caret-position="707">
+              <caret line="6781" column="13" lean-forward="false" selection-start-line="6781" selection-start-column="13" selection-end-line="6781" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="licenses_detail.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/include/licenses_detail.php">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bitrix/templates/aspro_next/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="4" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+            <state relative-caret-position="544">
+              <caret line="34" column="36" lean-forward="true" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#3220#3224#0" expanded="true" />
-                <element signature="e#3234#3240#0" expanded="true" />
-                <element signature="e#3257#3263#0" expanded="true" />
-                <element signature="e#3263#3267#0" expanded="true" />
-                <element signature="e#3340#3344#0" expanded="true" />
-                <element signature="e#3353#3359#0" expanded="true" />
-                <element signature="e#3372#3378#0" expanded="true" />
-                <element signature="e#3378#3382#0" expanded="true" />
-                <element signature="e#3532#3538#0" expanded="true" />
-                <element signature="e#3553#3559#0" expanded="true" />
-                <element signature="e#3666#3672#0" expanded="true" />
-                <element signature="e#3683#3689#0" expanded="true" />
-                <element signature="e#3715#3721#0" expanded="true" />
-                <element signature="e#3737#3743#0" expanded="true" />
-                <element signature="e#3873#3879#0" expanded="true" />
-                <element signature="e#3902#3908#0" expanded="true" />
-                <element signature="e#3913#3919#0" expanded="true" />
-                <element signature="e#3945#3951#0" expanded="true" />
-                <element signature="e#3963#3969#0" expanded="true" />
-                <element signature="e#3989#3993#0" expanded="true" />
-                <element signature="e#4005#4009#0" expanded="true" />
-                <element signature="e#4187#4193#0" expanded="true" />
-                <element signature="e#4206#4212#0" expanded="true" />
-                <element signature="e#4339#4345#0" expanded="true" />
-                <element signature="e#4356#4362#0" expanded="true" />
-                <element signature="e#4414#4420#0" expanded="true" />
-                <element signature="e#4431#4437#0" expanded="true" />
-                <element signature="e#4463#4469#0" expanded="true" />
-                <element signature="e#4490#4496#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -80,8 +53,18 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/company/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+            <state relative-caret-position="68">
+              <caret line="4" column="2" lean-forward="false" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="slider-certificates.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/include/company/slider-certificates.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="629">
+              <caret line="37" column="14" lean-forward="false" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -91,8 +74,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&lt;div class=&quot;description_wrapp&quot;&gt;</find>
-      <find>в и</find>
       <find>SEF_FOLDER</find>
       <find>&lt;ul class=&quot;dropdown-menu&quot;&gt;</find>
       <find>has_i</find>
@@ -121,6 +102,8 @@
       <find>class=&quot;bottom-menu&quot;</find>
       <find>class=&quot;work-conditions__item&quot;</find>
       <find>flexslider</find>
+      <find>.slick-prev:before, .slick-next:before</find>
+      <find>.slick-prev:before,</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\Пользователь\Desktop\fk62.ru\bitrix\templates\aspro_next\components\bitrix</dir>
@@ -147,7 +130,6 @@
         <option value="$PROJECT_DIR$/bitrix/wizards/aspro/next/site/templates/aspro_next/components/bitrix/catalog.element/main/template.php" />
         <option value="$PROJECT_DIR$/bitrix/templates/aspro_next/js/main.js" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/bitrix/templates/aspro_next/header.php" />
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/news.list/.default/template.php" />
         <option value="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/catalog.element/main/template.php" />
@@ -157,10 +139,17 @@
         <option value="$PROJECT_DIR$/bitrix/modules/aspro.next/install/wizards/aspro/next/site/templates/aspro_next/components/bitrix/menu/bottom/template.php" />
         <option value="$PROJECT_DIR$/bitrix/wizards/aspro/next/site/templates/aspro_next/components/bitrix/menu/bottom/template.php" />
         <option value="$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/menu/bottom/template.php" />
-        <option value="$PROJECT_DIR$/bitrix/templates/aspro_next/template_styles.css" />
-        <option value="$PROJECT_DIR$/company/index.php" />
         <option value="$PROJECT_DIR$/include/licenses_detail.php" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/include/company/slider- certificates.php" />
+        <option value="$PROJECT_DIR$/bitrix/templates/aspro_next/slick-slider/slick-theme.css" />
+        <option value="$PROJECT_DIR$/bitrix/templates/aspro_next/template_styles.css" />
+        <option value="$PROJECT_DIR$/bitrix/templates/aspro_next/imagelightbox/imagelightbox.js" />
+        <option value="$PROJECT_DIR$/bitrix/templates/aspro_next/footer.php" />
+        <option value="$PROJECT_DIR$/company/index.php" />
+        <option value="$PROJECT_DIR$/bitrix/templates/aspro_next/imagelightbox/imagelightbox.min.js" />
+        <option value="$PROJECT_DIR$/bitrix/templates/aspro_next/header.php" />
+        <option value="$PROJECT_DIR$/include/company/slider-certificates.php" />
       </list>
     </option>
   </component>
@@ -214,20 +203,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="include" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fk62.ru" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fk62.ru" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="bitrix" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -269,32 +244,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="aspro_next" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fk62.ru" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fk62.ru" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bitrix" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aspro_next" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -306,7 +255,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sg-site-remastered" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
@@ -318,14 +267,16 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Пользователь\Desktop\fk62.ru\bitrix\templates\aspro_next\components\bitrix\news" />
-      <recent name="C:\Users\Пользователь\Desktop\fk62.ru\bitrix\templates\aspro_next\components\bitrix\news.list" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Пользователь\Desktop\fk62.ru\bitrix\templates\aspro_next\slick-slider" />
+      <recent name="C:\Users\Пользователь\Desktop\fk62.ru\bitrix\templates\aspro_next\css" />
       <recent name="C:\Users\Пользователь\Desktop\fk62.ru\bitrix\templates\aspro_next\images" />
       <recent name="C:\Users\Пользователь\Desktop\fk62.ru\bitrix\templates\aspro_next\components\bitrix\news\reviews" />
       <recent name="C:\Users\Пользователь\Desktop\fk62.ru\bitrix\templates\aspro_next\components\bitrix\news" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Пользователь\Desktop\fk62.ru\bitrix\templates\aspro_next\components\bitrix\news" />
+      <recent name="C:\Users\Пользователь\Desktop\fk62.ru\bitrix\templates\aspro_next\components\bitrix\news.list" />
     </key>
   </component>
   <component name="RunManager">
@@ -433,7 +384,8 @@
       <workItem from="1543586886500" duration="1324000" />
       <workItem from="1544789437772" duration="1692000" />
       <workItem from="1545648325695" duration="2543000" />
-      <workItem from="1545659840337" duration="3601000" />
+      <workItem from="1545659840337" duration="3893000" />
+      <workItem from="1545723369914" duration="10632000" />
     </task>
     <task id="LOCAL-00001" summary="files Web Storm">
       <created>1532419264869</created>
@@ -586,20 +538,20 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125611000" />
+    <option name="totallyTimeSpent" value="136535000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16044776" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26332623" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26599148" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36147186" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13203463" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2987013" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2987013" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -646,69 +598,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/lang/en/.parameters.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/lang/ru/news.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/lang/ru/detail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/lang/ru/search.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/lang/ru/section.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/lang/ru/.parameters.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="86" lean-forward="true" selection-start-line="6" selection-start-column="86" selection-end-line="6" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/news/reviews/bitrix/news.detail/.default/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-830">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/.section.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/modules/aspro.next/install/wizards/aspro/next/site/templates/aspro_next/components/bitrix/catalog.element/main/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9367">
-          <caret line="551" column="34" lean-forward="false" selection-start-line="551" selection-start-column="34" selection-end-line="551" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.top_catalog_wide.menu.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -874,7 +763,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1445">
           <caret line="85" column="27" lean-forward="false" selection-start-line="85" selection-start-column="27" selection-end-line="85" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -885,21 +773,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/aspro_next/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="72" lean-forward="false" selection-start-line="7" selection-start-column="72" selection-end-line="7" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/aspro_next/components/bitrix/catalog.element/main/template.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2703">
           <caret line="159" column="14" lean-forward="false" selection-start-line="159" selection-start-column="12" selection-end-line="192" selection-end-column="29" />
-          <folding>
-            <marker date="1535530752830" expanded="true" signature="112409:119405" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -921,7 +798,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -929,7 +805,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="8" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -951,7 +826,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="34" lean-forward="false" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -959,7 +833,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="28" lean-forward="false" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -967,7 +840,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="343">
           <caret line="171" column="20" lean-forward="false" selection-start-line="171" selection-start-column="20" selection-end-line="171" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -975,7 +847,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -983,71 +854,179 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-152">
           <caret line="1465" column="20" lean-forward="false" selection-start-line="1465" selection-start-column="20" selection-end-line="1465" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="16" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
           <folding>
-            <marker date="1531325510975" expanded="true" signature="31869:31917" ph="..." />
+            <element signature="e#4861#4865#0" expanded="false" />
+            <element signature="e#4874#4880#0" expanded="false" />
+            <element signature="e#4893#4899#0" expanded="false" />
+            <element signature="e#4899#4903#0" expanded="false" />
+            <element signature="e#5053#5059#0" expanded="false" />
+            <element signature="e#5074#5080#0" expanded="false" />
+            <element signature="e#5187#5193#0" expanded="false" />
+            <element signature="e#5204#5210#0" expanded="false" />
+            <element signature="e#5236#5242#0" expanded="false" />
+            <element signature="e#5258#5264#0" expanded="false" />
+            <element signature="e#5394#5400#0" expanded="false" />
+            <element signature="e#5423#5429#0" expanded="false" />
+            <element signature="e#5434#5440#0" expanded="false" />
+            <element signature="e#5466#5472#0" expanded="false" />
+            <element signature="e#5484#5490#0" expanded="false" />
+            <element signature="e#5510#5514#0" expanded="false" />
+            <element signature="e#5526#5530#0" expanded="false" />
+            <element signature="e#5708#5714#0" expanded="false" />
+            <element signature="e#5727#5733#0" expanded="false" />
+            <element signature="e#5860#5866#0" expanded="false" />
+            <element signature="e#5877#5883#0" expanded="false" />
+            <element signature="e#5935#5941#0" expanded="false" />
+            <element signature="e#5952#5958#0" expanded="false" />
+            <element signature="e#5984#5990#0" expanded="false" />
+            <element signature="e#6011#6017#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/aspro_next/css/slick.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/aspro_next/css/slick-theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/modules/main/classes/general/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26928">
+          <caret line="1594" column="9" lean-forward="true" selection-start-line="1594" selection-start-column="9" selection-end-line="1594" selection-end-column="9" />
+          <folding>
+            <marker date="1531324258410" expanded="true" signature="62215:62516" ph="SELECT MG.G_... b_group" />
+            <marker date="1531324258410" expanded="true" signature="66022:66287" ph="SELECT max(M... b_module_group" />
+            <marker date="1531324258410" expanded="true" signature="67419:67701" ph="SELECT MG.G_... b_module_group" />
+            <marker date="1531324258410" expanded="true" signature="69395:69519" ph="SELECT G_ACC... b_module_group" />
+            <marker date="1531324258410" expanded="true" signature="71126:71264" ph="SELECT GROUP... b_module_group" />
+            <marker date="1531324258410" expanded="true" signature="71556:71675" ph="DELETE FROM " />
+            <marker date="1531324258410" expanded="true" signature="71791:71879" ph="DELETE FROM " />
+            <marker date="1531324258410" expanded="true" signature="72017:72089" ph="DELETE FROM " />
+            <marker date="1531324258410" expanded="true" signature="104536:104607" ph="SELECT 'x' F... b_lang" />
+            <marker date="1531324258410" expanded="true" signature="105058:105117" ph="DELETE FROM " />
+            <marker date="1531324258410" expanded="true" signature="105638:105744" ph="INSERT INTO b_lang_domain... " />
+            <marker date="1531324258410" expanded="true" signature="105794:105888" ph="UPDATE b_lan... " />
+            <marker date="1531324258410" expanded="true" signature="106270:106309" ph="UPDATE b_lan... " />
+            <marker date="1531324258410" expanded="true" signature="106424:106492" ph="INSERT INTO b_lang... " />
+            <marker date="1531324258410" expanded="true" signature="107003:107287" ph="INSERT INTO b_site_template... " />
+            <marker date="1531324258410" expanded="true" signature="107827:107866" ph="UPDATE b_lan... " />
+            <marker date="1531324258410" expanded="true" signature="108006:108074" ph="UPDATE b_lan... " />
+            <marker date="1531324258410" expanded="true" signature="108532:108596" ph="DELETE FROM " />
+            <marker date="1531324258410" expanded="true" signature="108733:109004" ph="INSERT INTO b_site_template... " />
+            <marker date="1531324258410" expanded="true" signature="110168:110240" ph="DELETE FROM " />
+            <marker date="1531324258410" expanded="true" signature="110280:110341" ph="DELETE FROM " />
+            <marker date="1531324258410" expanded="true" signature="110463:110534" ph="UPDATE b_eve... " />
+            <marker date="1531324258410" expanded="true" signature="110574:110641" ph="DELETE FROM " />
+            <marker date="1531324258410" expanded="true" signature="110835:110889" ph="DELETE FROM " />
+            <marker date="1531324258410" expanded="true" signature="118339:118345" ph=" " />
+            <marker date="1531324258410" expanded="true" signature="124627:124682" ph="SELECT * FRO... b_lang_domain" />
+            <marker date="1531324258410" expanded="true" signature="125240:125277" ph="SELECT * FRO... b_lang_domain" />
+            <marker date="1531324258410" expanded="true" signature="129480:129555" ph="SELECT 'x' F... b_language" />
+            <marker date="1531324258410" expanded="true" signature="130155:130198" ph="UPDATE b_lan... " />
+            <marker date="1531324258410" expanded="true" signature="130257:130329" ph="INSERT INTO b_language... " />
+            <marker date="1531324258410" expanded="true" signature="130842:130885" ph="UPDATE b_lan... " />
+            <marker date="1531324258410" expanded="true" signature="131001:131073" ph="UPDATE b_lan... " />
+            <marker date="1531324258410" expanded="true" signature="131905:131963" ph="DELETE FROM " />
+            <marker date="1531324258410" expanded="true" signature="140944:140987" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/licenses_detail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="65" lean-forward="false" selection-start-line="28" selection-start-column="65" selection-end-line="28" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/aspro_next/slick-slider/slick-theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="66" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/aspro_next/slick-slider/slick.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="617">
+          <caret line="38" column="1" lean-forward="true" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/aspro_next/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1190">
+          <caret line="70" column="36" lean-forward="false" selection-start-line="70" selection-start-column="36" selection-end-line="70" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/company/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+        <state relative-caret-position="68">
+          <caret line="4" column="2" lean-forward="false" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/aspro_next/imagelightbox/imagelightbox.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="862">
+          <caret line="314" column="31" lean-forward="false" selection-start-line="314" selection-start-column="31" selection-end-line="314" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/aspro_next/template_styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="2720" column="39" lean-forward="false" selection-start-line="2720" selection-start-column="39" selection-end-line="2720" selection-end-column="39" />
+        <state relative-caret-position="707">
+          <caret line="6781" column="13" lean-forward="false" selection-start-line="6781" selection-start-column="13" selection-end-line="6781" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/licenses_detail.php">
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/aspro_next/imagelightbox/imagelightbox.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="4" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+        <state relative-caret-position="51">
+          <caret line="3" column="3" lean-forward="false" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/aspro_next/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#3220#3224#0" expanded="true" />
-            <element signature="e#3234#3240#0" expanded="true" />
-            <element signature="e#3257#3263#0" expanded="true" />
-            <element signature="e#3263#3267#0" expanded="true" />
-            <element signature="e#3340#3344#0" expanded="true" />
-            <element signature="e#3353#3359#0" expanded="true" />
-            <element signature="e#3372#3378#0" expanded="true" />
-            <element signature="e#3378#3382#0" expanded="true" />
-            <element signature="e#3532#3538#0" expanded="true" />
-            <element signature="e#3553#3559#0" expanded="true" />
-            <element signature="e#3666#3672#0" expanded="true" />
-            <element signature="e#3683#3689#0" expanded="true" />
-            <element signature="e#3715#3721#0" expanded="true" />
-            <element signature="e#3737#3743#0" expanded="true" />
-            <element signature="e#3873#3879#0" expanded="true" />
-            <element signature="e#3902#3908#0" expanded="true" />
-            <element signature="e#3913#3919#0" expanded="true" />
-            <element signature="e#3945#3951#0" expanded="true" />
-            <element signature="e#3963#3969#0" expanded="true" />
-            <element signature="e#3989#3993#0" expanded="true" />
-            <element signature="e#4005#4009#0" expanded="true" />
-            <element signature="e#4187#4193#0" expanded="true" />
-            <element signature="e#4206#4212#0" expanded="true" />
-            <element signature="e#4339#4345#0" expanded="true" />
-            <element signature="e#4356#4362#0" expanded="true" />
-            <element signature="e#4414#4420#0" expanded="true" />
-            <element signature="e#4431#4437#0" expanded="true" />
-            <element signature="e#4463#4469#0" expanded="true" />
-            <element signature="e#4490#4496#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="544">
+          <caret line="34" column="36" lean-forward="true" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/company/slider-certificates.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="14" lean-forward="false" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
