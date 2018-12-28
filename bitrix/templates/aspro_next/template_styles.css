@@ -6782,3 +6782,22 @@ table.contacts-stores tr.item td:last-of-type{width:30%;}
 .slider-cert .slick-slide {
 	padding-left: 10px;
 }
+.slider-clients .slick-prev:before,
+.slider-clients .slick-next:before{
+	font-size:34px;
+	color: #6d6d6d87;
+}
+.slider-clients .slide img {
+	margin: 0 auto
+}
+.slider-clients .slick-slide {
+	padding-left: 10px;
+}
+.director-about {
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+}
+.director-about__item:last-child {
+	width:50%;
+}
