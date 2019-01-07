@@ -136,19 +136,21 @@ $APPLICATION->SetTitle("О компании");
     </div>
     <div class="director-about__item">
         <p>
-            Уважаемые Клиенты!
+            Уважаемые Клиенты!<br/>
             Мы благодарны вам за ваши отзывы о нашей компании — они позволяют нам двигаться вперед. Если по каким-то
             причинам у вас возникло недовольство относительно работы наших сотрудников, смело пишите, и мы примем меры.
             Коллектив компании «Формула Климата» будет также признателен вам, если вы напишите нам о качественно сделанной работе.
+        </p>
+        <p>
             Генеральный директор «Формула Климата»
         </p>
     </div>
 </div>
 <?$APPLICATION->IncludeComponent(
 	"bitrix:form", 
-	"form-director",
+	"form-director", 
 	array(
-		"AJAX_MODE" => "N",
+		"AJAX_MODE" => "Y",
 		"AJAX_OPTION_ADDITIONAL" => "",
 		"AJAX_OPTION_HISTORY" => "N",
 		"AJAX_OPTION_JUMP" => "N",
@@ -171,13 +173,13 @@ $APPLICATION->SetTitle("О компании");
 		"RESULT_ID" => $_REQUEST[RESULT_ID],
 		"SEF_MODE" => "N",
 		"SHOW_ADDITIONAL" => "Y",
-		"SHOW_ANSWER_VALUE" => "N",
+		"SHOW_ANSWER_VALUE" => "Y",
 		"SHOW_EDIT_PAGE" => "N",
 		"SHOW_LIST_PAGE" => "N",
 		"SHOW_STATUS" => "Y",
 		"SHOW_VIEW_PAGE" => "N",
 		"START_PAGE" => "new",
-		"SUCCESS_URL" => "Спасибо, Ваше сообщение директору отправлено!",
+		"SUCCESS_URL" => "",
 		"USE_EXTENDED_ERRORS" => "N",
 		"WEB_FORM_ID" => "11",
 		"COMPONENT_TEMPLATE" => "form-director",
