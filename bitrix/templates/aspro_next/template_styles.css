@@ -6799,5 +6799,12 @@ table.contacts-stores tr.item td:last-of-type{width:30%;}
 	justify-content:center;
 }
 .director-about__item:last-child {
-	width:50%;
+	width: 40%;
+	text-align: justify;
+}
+.director-about__item:first-child {
+	width:11%;
+}
+.director-about__item img {
+	width:120px;
 }
