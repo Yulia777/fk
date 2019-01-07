@@ -34,4 +34,20 @@ $APPLICATION->SetTitle("Страница не найдена");
 		</table>
 	</div>
 </div>
+
+
+<!--Local redirect without '/' to '/'-->
+<?
+$site_url = $_SERVER['REQUEST_URI'];
+$last_symbol = substr($site_url, -1);
+
+if ($last_symbol == '/') {
+	echo "true";
+} else {
+	LocalRedirect('http://fk62.ru'.$site_url.'/');
+}
+?>
+
+
+
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
