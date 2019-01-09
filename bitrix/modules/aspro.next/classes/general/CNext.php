@@ -3005,7 +3005,7 @@ class CNext{
 					$arQuestion["HTML_CODE"] = str_replace('name=', 'required name=', $arQuestion["HTML_CODE"]);
 
 				if($arQuestion["STRUCTURE"][0]["FIELD_TYPE"] == "email")
-					$arQuestion["HTML_CODE"] = str_replace('type="text"', 'type="email" placeholder="mail@domen.com"', $arQuestion["HTML_CODE"]);
+					$arQuestion["HTML_CODE"] = str_replace('type="text"', 'type="email" placeholder=""', $arQuestion["HTML_CODE"]);
 
 				if((strpos($arQuestion["HTML_CODE"], "phone") !== false) || (strpos(strToLower($FIELD_SID), "phone") !== false))
 					$arQuestion["HTML_CODE"] = str_replace('type="text"', 'type="tel"', $arQuestion["HTML_CODE"]);

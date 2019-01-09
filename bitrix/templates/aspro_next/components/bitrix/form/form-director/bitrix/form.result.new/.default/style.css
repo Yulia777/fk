@@ -43,6 +43,18 @@ table.form-table td
 	background-image: url(images/icon_warn.gif);
 }
 .form-director {
-	width:500px;
-	margin:auto;
+    width: 660px;
+    margin: auto;
+    background: #d7d7d75e;
+    padding: 20px;
+}
+.form-director form {
+    width:500px;
+    margin:auto;
+}
+.form-director .form-control {
+    background-color: transparent!important;
+}
+.form-director input[type="text"], input[type="password"], input[type="email"], input[type="tel"], select, textarea {
+    background: #ffffff!important;
 }
