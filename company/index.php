@@ -5,10 +5,10 @@ $APPLICATION->SetTitle("О компании");
 ?><h2>Сертификаты</h2>
  <?$APPLICATION->IncludeFile(SITE_DIR."/include/company/slider-certificates.php", Array(), Array("MODE"=>"html")); ?>
 <h2>Отзывы</h2>
- <?$APPLICATION->IncludeComponent(
-	"bitrix:news",
-	"reviews-company",
-	Array(
+<?$APPLICATION->IncludeComponent(
+	"bitrix:news", 
+	"reviews-company", 
+	array(
 		"ADD_ELEMENT_CHAIN" => "Y",
 		"ADD_SECTIONS_CHAIN" => "N",
 		"AJAX_MODE" => "N",
@@ -33,11 +33,17 @@ $APPLICATION->SetTitle("О компании");
 		"DETAIL_DISPLAY_BOTTOM_PAGER" => "N",
 		"DETAIL_DISPLAY_TOP_PAGER" => "N",
 		"DETAIL_FB_USE" => "N",
-		"DETAIL_FIELD_CODE" => array(0=>"",1=>"",),
+		"DETAIL_FIELD_CODE" => array(
+			0 => "",
+			1 => "",
+		),
 		"DETAIL_PAGER_SHOW_ALL" => "N",
 		"DETAIL_PAGER_TEMPLATE" => "",
 		"DETAIL_PAGER_TITLE" => "Страница",
-		"DETAIL_PROPERTY_CODE" => array(0=>"",1=>"",),
+		"DETAIL_PROPERTY_CODE" => array(
+			0 => "",
+			1 => "",
+		),
 		"DETAIL_SET_CANONICAL_URL" => "N",
 		"DETAIL_USE_COMMENTS" => "Y",
 		"DETAIL_VK_USE" => "N",
@@ -65,8 +71,14 @@ $APPLICATION->SetTitle("О компании");
 		"LINE_ELEMENT_COUNT_LIST" => "3",
 		"LINKED_ELEMENST_PAGE_COUNT" => "20",
 		"LIST_ACTIVE_DATE_FORMAT" => "d.m.Y",
-		"LIST_FIELD_CODE" => array(0=>"",1=>"",),
-		"LIST_PROPERTY_CODE" => array(0=>"",1=>"",),
+		"LIST_FIELD_CODE" => array(
+			0 => "",
+			1 => "",
+		),
+		"LIST_PROPERTY_CODE" => array(
+			0 => "",
+			1 => "",
+		),
 		"LIST_VIEW" => "slider",
 		"MEDIA_PROPERTY" => "",
 		"MESSAGE_404" => "",
@@ -87,7 +99,7 @@ $APPLICATION->SetTitle("О компании");
 		"SEF_MODE" => "N",
 		"SET_LAST_MODIFIED" => "N",
 		"SET_STATUS_404" => "N",
-		"SET_TITLE" => "Y",
+		"SET_TITLE" => "N",
 		"SHOW_404" => "N",
 		"SHOW_DETAIL_LINK" => "Y",
 		"SHOW_NEXT_ELEMENT" => "N",
@@ -99,7 +111,10 @@ $APPLICATION->SetTitle("О компании");
 		"SORT_BY2" => "SORT",
 		"SORT_ORDER1" => "DESC",
 		"SORT_ORDER2" => "ASC",
-		"STORES" => array(0=>"",1=>"",),
+		"STORES" => array(
+			0 => "",
+			1 => "",
+		),
 		"STRICT_SECTION_CHECK" => "N",
 		"S_ASK_QUESTION" => "",
 		"S_ORDER_SERVISE" => "",
@@ -123,8 +138,12 @@ $APPLICATION->SetTitle("О компании");
 		"USE_RSS" => "N",
 		"USE_SEARCH" => "N",
 		"USE_SHARE" => "N",
-		"VARIABLE_ALIASES" => array("SECTION_ID"=>"SECTION_ID","ELEMENT_ID"=>"ELEMENT_ID",)
-	)
+		"VARIABLE_ALIASES" => array(
+			"SECTION_ID" => "SECTION_ID",
+			"ELEMENT_ID" => "ELEMENT_ID",
+		)
+	),
+	false
 );?>
 <h2>Нам доверяют</h2>
  <?$APPLICATION->IncludeFile(SITE_DIR."/include/company/slider-clients.php", Array(), Array("MODE"=>"html")); ?>
@@ -179,7 +198,7 @@ $APPLICATION->SetTitle("О компании");
 		"SHOW_STATUS" => "Y",
 		"SHOW_VIEW_PAGE" => "N",
 		"START_PAGE" => "new",
-		"SUCCESS_URL" => "",
+		"SUCCESS_URL" => "/thanks/",
 		"USE_EXTENDED_ERRORS" => "N",
 		"WEB_FORM_ID" => "11",
 		"COMPONENT_TEMPLATE" => "form-director",

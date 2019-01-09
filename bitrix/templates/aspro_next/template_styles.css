@@ -6808,3 +6808,12 @@ table.contacts-stores tr.item td:last-of-type{width:30%;}
 .director-about__item img {
 	width:120px;
 }
+.thanks .thanks__item {
+	text-align:center;
+}
+.thanks .thanks__item h1 {
+	font-size: 1.866em;
+}
+.thanks .thanks__item .top_block {
+	display:none;
+}
