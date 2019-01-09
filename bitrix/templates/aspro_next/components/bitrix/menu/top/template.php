@@ -371,19 +371,16 @@ $iVisibleItemsMenu = ($arTheme['MAX_VISIBLE_ITEMS_MENU']['VALUE'] ? $arTheme['MA
                         <span class="tail"></span>
                         <ul class="dropdown-menu">
                             <li class="  ">
-                                <a href="/company/news/" title="Новости"><span class="name">Новости</span></a>
+                                <a href="/company/#sertificati/" title="Сертификаты"><span class="name">Сертификаты</span></a>
                             </li>
                             <li class="  ">
-                                <a href="/company/staff/" title="Сотрудники"><span class="name">Сотрудники</span></a>
+                                <a href="/company/#otzivi/" title="Отзывы"><span class="name">Отзывы</span></a>
                             </li>
                             <li class="  ">
-                                <a href="/company/vacancy/" title="Вакансии"><span class="name">Вакансии</span></a>
+                                <a href="/company/#nam-doveriaut/" title="Нам доверяют"><span class="name">Нам доверяют</span></a>
                             </li>
                             <li class="  ">
-                                <a href="/company/licenses/" title="Лицензии"><span class="name">Лицензии</span></a>
-                            </li>
-                            <li class="  ">
-                                <a href="/include/licenses_detail.php" title="Политика"><span class="name">Политика</span></a>
+                                <a href="/company/#napisat-directory/" title="Написать директору"><span class="name">Написать директору</span></a>
                             </li>
                         </ul>
                     </div>
