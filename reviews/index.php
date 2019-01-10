@@ -1,12 +1,12 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetPageProperty("HIDE_LEFT_BLOCK", "Y");
-$APPLICATION->SetTitle("О компании");
+//$APPLICATION->SetTitle("Страница 'Спасибо' ");
 ?>
-
-    <h2 id="sertificati">Сертификаты</h2>
- <?$APPLICATION->IncludeFile(SITE_DIR."/include/company/slider-certificates.php", Array(), Array("MODE"=>"html")); ?>
-<h2 id="otzivi">Отзывы</h2>
+<div class="all-reviews">
+<h1>
+    Все отзывы о нашей компании
+</h1>
 <?$APPLICATION->IncludeComponent(
 	"bitrix:news", 
 	"reviews-company", 
@@ -32,7 +32,7 @@ $APPLICATION->SetTitle("О компании");
 		"DETAIL_ACTIVE_DATE_FORMAT" => "d.m.Y",
 		"DETAIL_BLOG_USE" => "N",
 		"DETAIL_BRAND_USE" => "N",
-		"DETAIL_DISPLAY_BOTTOM_PAGER" => "N",
+		"DETAIL_DISPLAY_BOTTOM_PAGER" => "Y",
 		"DETAIL_DISPLAY_TOP_PAGER" => "N",
 		"DETAIL_FB_USE" => "N",
 		"DETAIL_FIELD_CODE" => array(
@@ -50,7 +50,7 @@ $APPLICATION->SetTitle("О компании");
 		"DETAIL_USE_COMMENTS" => "Y",
 		"DETAIL_VK_USE" => "N",
 		"DISPLAY_AS_RATING" => "rating",
-		"DISPLAY_BOTTOM_PAGER" => "N",
+		"DISPLAY_BOTTOM_PAGER" => "Y",
 		"DISPLAY_DATE" => "N",
 		"DISPLAY_NAME" => "Y",
 		"DISPLAY_PICTURE" => "N",
@@ -92,7 +92,7 @@ $APPLICATION->SetTitle("О компании");
 		"PAGER_DESC_NUMBERING_CACHE_TIME" => "36000",
 		"PAGER_SHOW_ALL" => "N",
 		"PAGER_SHOW_ALWAYS" => "N",
-		"PAGER_TEMPLATE" => ".default",
+		"PAGER_TEMPLATE" => "grid",
 		"PAGER_TITLE" => "Новости",
 		"PERIOD_NEW_TAGS" => "",
 		"PREVIEW_TRUNCATE_LEN" => "",
@@ -147,70 +147,66 @@ $APPLICATION->SetTitle("О компании");
 	),
 	false
 );?>
-    <div class="company-wrap">
-        <a href="/reviews/" class="blue-btn">Посмотреть все отзывы</a>
+
+    <div class="director-about">
+        <div class="director-about__item">
+            <img src="/bitrix/templates/aspro_next/images/director.jpg" alt="Директор Формула климата"
+                 title="Директор Формула климата"/>
+        </div>
+        <div class="director-about__item">
+            <p>
+                Уважаемые Клиенты!<br/>
+                Мы благодарны вам за ваши отзывы о нашей компании — они позволяют нам двигаться вперед. Если по каким-то
+                причинам у вас возникло недовольство относительно работы наших сотрудников, смело пишите, и мы примем меры.
+                Коллектив компании «Формула Климата» будет также признателен вам, если вы напишите нам о качественно сделанной работе.
+            </p>
+            <p>
+                Генеральный директор «Формула Климата»
+            </p>
+        </div>
     </div>
-<h2>Нам доверяют</h2>
- <?$APPLICATION->IncludeFile(SITE_DIR."/include/company/slider-clients.php", Array(), Array("MODE"=>"html")); ?>
-<h2>Ваше сообщение получит лично генеральный директор</h2>
-<div class="director-about">
-    <div class="director-about__item">
-        <img src="/bitrix/templates/aspro_next/images/director.jpg" alt="Директор Формула климата"
-             title="Директор Формула климата"/>
-    </div>
-    <div class="director-about__item">
-        <p>
-            Уважаемые Клиенты!<br/>
-            Мы благодарны вам за ваши отзывы о нашей компании — они позволяют нам двигаться вперед. Если по каким-то
-            причинам у вас возникло недовольство относительно работы наших сотрудников, смело пишите, и мы примем меры.
-            Коллектив компании «Формула Климата» будет также признателен вам, если вы напишите нам о качественно сделанной работе.
-        </p>
-        <p>
-            Генеральный директор «Формула Климата»
-        </p>
-    </div>
-</div>
 <?$APPLICATION->IncludeComponent(
-	"bitrix:form", 
-	"form-director", 
-	array(
-		"AJAX_MODE" => "Y",
-		"AJAX_OPTION_ADDITIONAL" => "",
-		"AJAX_OPTION_HISTORY" => "N",
-		"AJAX_OPTION_JUMP" => "N",
-		"AJAX_OPTION_STYLE" => "Y",
-		"CACHE_TIME" => "3600",
-		"CACHE_TYPE" => "A",
-		"CHAIN_ITEM_LINK" => "",
-		"CHAIN_ITEM_TEXT" => "",
-		"EDIT_ADDITIONAL" => "N",
-		"EDIT_STATUS" => "Y",
-		"IGNORE_CUSTOM_TEMPLATE" => "N",
-		"NOT_SHOW_FILTER" => array(
-			0 => "",
-			1 => "",
-		),
-		"NOT_SHOW_TABLE" => array(
-			0 => "",
-			1 => "",
-		),
-		"RESULT_ID" => $_REQUEST[RESULT_ID],
-		"SEF_MODE" => "N",
-		"SHOW_ADDITIONAL" => "Y",
-		"SHOW_ANSWER_VALUE" => "Y",
-		"SHOW_EDIT_PAGE" => "N",
-		"SHOW_LIST_PAGE" => "N",
-		"SHOW_STATUS" => "Y",
-		"SHOW_VIEW_PAGE" => "N",
-		"START_PAGE" => "new",
-		"SUCCESS_URL" => "/thanks/",
-		"USE_EXTENDED_ERRORS" => "N",
-		"WEB_FORM_ID" => "11",
-		"COMPONENT_TEMPLATE" => "form-director",
-		"VARIABLE_ALIASES" => array(
-			"action" => "action",
-		)
-	),
-	false
+    "bitrix:form",
+    "form-director",
+    array(
+        "AJAX_MODE" => "Y",
+        "AJAX_OPTION_ADDITIONAL" => "",
+        "AJAX_OPTION_HISTORY" => "N",
+        "AJAX_OPTION_JUMP" => "N",
+        "AJAX_OPTION_STYLE" => "Y",
+        "CACHE_TIME" => "3600",
+        "CACHE_TYPE" => "A",
+        "CHAIN_ITEM_LINK" => "",
+        "CHAIN_ITEM_TEXT" => "",
+        "EDIT_ADDITIONAL" => "N",
+        "EDIT_STATUS" => "Y",
+        "IGNORE_CUSTOM_TEMPLATE" => "N",
+        "NOT_SHOW_FILTER" => array(
+            0 => "",
+            1 => "",
+        ),
+        "NOT_SHOW_TABLE" => array(
+            0 => "",
+            1 => "",
+        ),
+        "RESULT_ID" => $_REQUEST[RESULT_ID],
+        "SEF_MODE" => "N",
+        "SHOW_ADDITIONAL" => "Y",
+        "SHOW_ANSWER_VALUE" => "Y",
+        "SHOW_EDIT_PAGE" => "N",
+        "SHOW_LIST_PAGE" => "N",
+        "SHOW_STATUS" => "Y",
+        "SHOW_VIEW_PAGE" => "N",
+        "START_PAGE" => "new",
+        "SUCCESS_URL" => "/thanks/",
+        "USE_EXTENDED_ERRORS" => "N",
+        "WEB_FORM_ID" => "11",
+        "COMPONENT_TEMPLATE" => "form-director",
+        "VARIABLE_ALIASES" => array(
+            "action" => "action",
+        )
+    ),
+    false
 );?>
+</div>
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
