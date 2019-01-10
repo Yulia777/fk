@@ -3,10 +3,23 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetPageProperty("HIDE_LEFT_BLOCK", "Y");
 $APPLICATION->SetTitle("О компании");
 ?>
-
-    <h2 id="sertificati">Сертификаты</h2>
+<p class="company-description">
+    Купить кондиционер в Рязани вы можете в компании «Формула Климата», которая работает на рынке кондиционеров уже с
+    2003 года. 13 лет опыта позволяют нам делать нашу работу качественно и без лишний промедлений. Однако, с началом
+    прихода сезона кондиционеров (обычно конец март, начало апреля), в компании может быть определенная запись на установку.
+</p>
+<p class="company-description">
+    На просторах нашего сайта вы можете выбрать различные модели и бренды кондиционеров. Мы постоянно тестируем новое
+    оборудование и, если оно удовлетворяет нашим запросам и качеству, то добавляем его в продажу. Цены на товары поддерживаем
+    актуальными, но в зависимости от курса доллара они могут колебаться как в большую, так и меньшую сторону. Поэтому,
+    если вы собрались купить кондиционеры в Рязани, то можете заказать их через наш сайт или по телефону у менеджера.
+</p>
+    <div id="sertificati/">
+    <h2>Сертификаты</h2>
  <?$APPLICATION->IncludeFile(SITE_DIR."/include/company/slider-certificates.php", Array(), Array("MODE"=>"html")); ?>
-<h2 id="otzivi">Отзывы</h2>
+    </div>
+<div id="otzivi/">
+<h2>Отзывы</h2>
 <?$APPLICATION->IncludeComponent(
 	"bitrix:news", 
 	"reviews-company", 
@@ -150,8 +163,11 @@ $APPLICATION->SetTitle("О компании");
     <div class="company-wrap">
         <a href="/reviews/" class="blue-btn">Посмотреть все отзывы</a>
     </div>
+</div>
+<a name="nam-doveriaut/"></a>
 <h2>Нам доверяют</h2>
  <?$APPLICATION->IncludeFile(SITE_DIR."/include/company/slider-clients.php", Array(), Array("MODE"=>"html")); ?>
+<a name="napisat-directory/"></a>
 <h2>Ваше сообщение получит лично генеральный директор</h2>
 <div class="director-about">
     <div class="director-about__item">
@@ -213,4 +229,12 @@ $APPLICATION->SetTitle("О компании");
 	),
 	false
 );?>
+<script type="text/javascript">
+    $('a').on('click', function(){
+        if(this.hash) $(document).data('h',1);
+    });
+    $(document).scroll(function(){
+        if($(this).data('h')) $(this).data('h',0).scrollTop($(this).scrollTop()-70);
+    });
+</script>
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

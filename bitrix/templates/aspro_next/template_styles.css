@@ -6846,3 +6846,28 @@ table.contacts-stores tr.item td:last-of-type{width:30%;}
 	text-align:center;
 	margin: 30px 0;
 }
+.company-description {
+	max-width: 1240px;
+	text-align: justify;
+}
+
+@media (min-width: 992px) {
+	.slider-cert__wrap {
+		width:1040px!important;
+	}
+	.slider-cert img {
+		width:220px;
+	}
+	.slider-client__wrap {
+		width:1040px!important;
+	}
+	.slider-client__wrap img {
+		width: 130px;
+	}
+	.director-about__item:first-child {
+		width: 12%;
+	}
+	.director-about__item:last-child {
+		width: 50%;
+	}
+}
