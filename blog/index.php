@@ -4,7 +4,7 @@ $APPLICATION->SetTitle("Блог");
 ?>
 <?$APPLICATION->IncludeComponent(
 	"bitrix:news", 
-	"blog", 
+	"blog",
 	array(
 		"IBLOCK_TYPE" => "aspro_next_content",
 		"IBLOCK_ID" => "18",
