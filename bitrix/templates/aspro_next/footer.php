@@ -69,5 +69,6 @@
 		<?CNext::ShowPageType('search_title_component');?>
 		<?CNext::setFooterTitle();
 		CNext::showFooterBasket();?>
+                        <script src="/bitrix/templates/aspro_next/assets/js/main.script.js"></script>
 	</body>
 </html>

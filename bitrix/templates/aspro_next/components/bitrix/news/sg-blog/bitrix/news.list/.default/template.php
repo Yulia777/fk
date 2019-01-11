@@ -16,12 +16,7 @@ $this->setFrameMode(true);
     <?=$arResult["NAV_STRING"]?>
 <?endif;?>
 
-<h1 class="title title--lined-blog">Блог</h1>
 <div class="blog">
-    <!--    <div class="blog__item">
-            <img class="sidebar-fixed js-fly-images" src="/images/sidear/bf.png"
-                 onclick="yaCounter44418460.reachGoal('black-friday'); return true;"/>
-        </div>-->
     <div class="blog__item">
         <section class="articles-list">
             <?foreach($arResult["ITEMS"] as $arItem):?>
@@ -72,11 +67,10 @@ $this->setFrameMode(true);
         <?endif;?>
     </div>
     <aside class="blog__sidebar blog__item">
-        <a href="https://sales-generator.ru/kompleksnoe-prodvijenie/"
+        <a href="/catalog/"
            target="_blank"
-           class="js-sliding-sidebar"
-           onclick="yaCounter44418460.reachGoal('BANER_SAIDBAR'); return true;">
-            <img src="/images/sidear/sidebar-img.jpg" alt="Рост продаж" title="Рост продаж">
+           class="js-sliding-sidebar">
+            <img src="/bitrix/templates/aspro_next/images/sidebar-img.jpg" alt="">
             <!--<button type="button" class="button blog__sidebar--btn">Узнать как</button>-->
         </a>
         <!--Категории статей-->
@@ -87,10 +81,8 @@ $this->setFrameMode(true);
              onclick="yaCounter44418460.reachGoal('black-friday'); return true;"/>
     </div>-->
 </div>
-
-<!-- Audit banner start -->
-<?$APPLICATION->IncludeFile(SITE_DIR."include/components/popups/transparent_audit.php", Array(), Array("MODE"=>"php"));?>
-<!-- Audit banner END -->
-<!-- Registration banner start -->
-<?$APPLICATION->IncludeFile(SITE_DIR."include/components/popups/blog-registration.php", Array(), Array("MODE"=>"php"));?>
-<!-- Registration banner END -->
+<style>
+    .right-menu-md {
+        display:none!important;
+    }
+</style>

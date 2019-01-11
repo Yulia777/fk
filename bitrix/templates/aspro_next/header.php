@@ -19,6 +19,7 @@ $bIncludedModule = (\Bitrix\Main\Loader::includeModule("aspro.next"));?>
 	<?$APPLICATION->AddHeadString('<script>BX.message('.CUtil::PhpToJSObject( $MESS, false ).')</script>', true);?>
 	<?if($bIncludedModule)
 		CNext::Start(SITE_ID);?>
+    <link href="<?=SITE_TEMPLATE_PATH?>/sg_styles.css" rel="stylesheet">
     <link href="<?=SITE_TEMPLATE_PATH?>/slick-slider/slick.css" rel="stylesheet">
     <link href="<?=SITE_TEMPLATE_PATH?>/slick-slider/slick-theme.css" rel="stylesheet">
     <script src="<?=SITE_TEMPLATE_PATH?>/slick-slider/slick.js"></script>
@@ -103,9 +104,9 @@ $bIncludedModule = (\Bitrix\Main\Loader::includeModule("aspro.next"));?>
 								<?if($isHideLeftBlock && !$isWidePage):?>
 									<div class="maxwidth-theme">
 								<?endif;?>
-								<?if($isBlog):?>
+								<?/*if($isBlog):*/?><!--
 									<div class="row">
-										<div class="col-md-9 col-sm-12 col-xs-12 content-md <?=CNext::ShowPageProps("ERROR_404");?>">
-								<?endif;?>
+										<div class="col-md-9 col-sm-12 col-xs-12 content-md <?/*=CNext::ShowPageProps("ERROR_404");*/?>">
+								--><?/*endif;*/?>
 						<?endif;?>
 						<?CNext::checkRestartBuffer();?>
