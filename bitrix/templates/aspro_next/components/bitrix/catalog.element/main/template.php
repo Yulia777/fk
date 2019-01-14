@@ -385,11 +385,14 @@ $arViewedData = array(
             <div class="middle_info main_item_wrapper">
                 <?$frame = $this->createFrame()->begin();?>
                 <div class="prices_block">
+                    <!--
                     <?if($arResult['PROPERTIES']['CODE_PRODUCT_DETAIL']['VALUE']):?>
                     <p>Код товара: <b><?=$arResult['PROPERTIES']['CODE_PRODUCT_DETAIL']['VALUE'];?></b></p>
                     <?else:?>
                     <p>Код товара: <b>N/A</b></p>
                     <?endif;?>
+                    -->
+                    <p>Код товара: <b><?=str_pad($arResult['ID'], 6, '0', STR_PAD_LEFT);?></b></p>
                     <div class="cost prices clearfix">
                         <?if( count( $arResult["OFFERS"] ) > 0 ){?>
                             <div class="with_matrix" style="display:none;">
