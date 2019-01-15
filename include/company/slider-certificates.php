@@ -1,4 +1,4 @@
-<section class="container">
+<section class="container slider-cert__wrap">
     <div class="slider-cert" data-slick='{"slidesToShow": 4, "slidesToScroll": 4, "autoplay": "true", "autoplaySpeed": "3000"}'>
         <div class="slide">
             <img src="<?=SITE_TEMPLATE_PATH?>/images/cert/cert1.png" alt="Сертификат качества Формула климата"

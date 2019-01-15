@@ -365,22 +365,22 @@ $iVisibleItemsMenu = ($arTheme['MAX_VISIBLE_ITEMS_MENU']['VALUE'] ? $arTheme['MA
                     <div class="wrap">
                         <a class="dropdown-toggle" href="/company/">
                             <div>
-                                Компания									<div class="line-wrapper"><span class="line"></span></div>
+                                О компании									<div class="line-wrapper"><span class="line"></span></div>
                             </div>
                         </a>
                         <span class="tail"></span>
-                        <ul class="dropdown-menu">
+                        <ul class="dropdown-menu" id="menu-company">
                             <li class="  ">
-                                <a href="/company/#sertificati/" title="Сертификаты"><span class="name">Сертификаты</span></a>
+                                <a href="/company/index.php/#sertificati/" title="Сертификаты"><span class="name">Сертификаты</span></a>
                             </li>
                             <li class="  ">
-                                <a href="/company/#otzivi/" title="Отзывы"><span class="name">Отзывы</span></a>
+                                <a href="/company/index.php/#otzivi/" title="Отзывы"><span class="name">Отзывы</span></a>
                             </li>
                             <li class="  ">
-                                <a href="/company/#nam-doveriaut/" title="Нам доверяют"><span class="name">Нам доверяют</span></a>
+                                <a href="/company/index.php/#nam-doveriaut/" title="Нам доверяют"><span class="name">Нам доверяют</span></a>
                             </li>
                             <li class="  ">
-                                <a href="/company/#napisat-directory/" title="Написать директору"><span class="name">Написать директору</span></a>
+                                <a href="/company/index.php/#napisat-directory/" title="Написать директору"><span class="name">Написать директору</span></a>
                             </li>
                         </ul>
                     </div>

@@ -1,4 +1,4 @@
-<section class="container">
+<section class="container slider-client__wrap">
     <div class="slider-clients" data-slick='{"slidesToShow": 6, "slidesToScroll": 1, "autoplay": "true", "autoplaySpeed": "3000"}'>
         <div class="slide">
             <img src="<?=SITE_TEMPLATE_PATH?>/images/dentastil.jpg" alt="Наши клиенты"

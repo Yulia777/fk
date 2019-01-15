@@ -1,16 +1,23 @@
 <?
-// заменить на реальные
-$host = "localhost";
-$user = "admin";
-$password = "admin_password";
+require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$newlogin = 'pashebor';
+$newemail = 'test@gmail.com';
+$newpassword = '123456';
+$group = array(1);
 
-$db_Conn = @mysql_pconnect($host, $user, $password);
-if (!$db_Conn)
-{
-    echo "Не соединяется...<br>";
-}
-else
-{
-    echo "Соединилось!<br>";
-}
+$user = new CUser;
+$arFields = array(
+    "EMAIL"             => $newemail,
+    "LOGIN"             => $newlogin,
+    "LID"               => "ru",
+    "ACTIVE"            => "Y",
+    "GROUP_ID"          => $group,
+    "PASSWORD"          => $newpassword,
+    "CONFIRM_PASSWORD"  => $newpassword
+);
+
+$ID = $user->Add($arFields);
+if(intval($ID) > 0) echo 'Администратор создан';
+else echo $user->LAST_ERROR;
+require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");
 ?>

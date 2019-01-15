@@ -1,0 +1,181 @@
+@import "article";
+@import "article-content";
+@import "article-banner";
+
+.articles-list{
+  display: block;
+  width: 740px;
+  padding: 0 30px;
+  box-sizing: border-box;
+  &__item{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 20px 14px 30px;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+    box-sizing: border-box;
+    &:hover{
+      background-color: #F5F4F4;
+    }
+  }
+  .button{
+    //@include main-font;
+    text-decoration: none;
+    font-size: 13px;
+    &--experts{
+      padding: 6px 18px;
+      position: relative;
+      top: 15px;
+      text-transform: uppercase;
+      font-weight: 600;
+      border-radius: 2px;
+    }
+  }
+}
+
+.item{
+  &-title{
+    //@include bold-font;
+    font-weight:bold;
+    font-size: 18px;
+    //color: $content-text-color;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    &:hover{
+      color: #00BFF3;
+    }
+  }
+  &-preview{
+    &-image{
+      display: block;
+      width: 30%;
+      img{
+        display: block;
+        width: 100%;
+      }
+    }
+    &-description{
+      position: relative;
+      top: -10px;
+      width: 68%;
+
+      .content-text{
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        padding: 10px 0;
+        margin: 0;
+      }
+    }
+  }
+}
+
+.blog__sidebar--categories {
+  h4 {
+    //@include bold-font;
+    font-weight:bold;
+    font-size: 18px;
+    text-align: center;
+    margin: 20px 0 15px 0;
+  }
+  li {
+    padding: 7px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    border-bottom: 1px solid lightgrey;
+    list-style-position: inside;
+    list-style-type: none;
+    margin: 0!important;
+    &:first-child {
+      border-top: 1px solid lightgrey;
+    }
+
+    &:hover {
+      background-color: #d3d3d330;
+    }
+    &:before {
+      content:'';
+    }
+  }
+  a {
+    text-decoration: none;
+    color: #8C8A8C;
+    font-family: Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+
+    &:hover {
+      color: rgba(0, 0, 0, 0.76);
+    }
+  }
+
+  &-active a {
+    color: #3FD776;
+    text-decoration: underline;
+  }
+
+}
+
+#blog__sidebar--categories {
+
+  &-webbusiness {
+    list-style-image: url("/images/blogcategories/bizness.png");
+  }
+
+  &-salesincrease {
+    list-style-image: url("/images/blogcategories/prodazi.png");
+  }
+
+  &-marketing {
+    list-style-image: url("/images/blogcategories/marketing.png");
+  }
+
+  &-siteoptimization {
+    list-style-image: url("/images/blogcategories/optimizaciya.png");
+  }
+
+  &-fornewbies {
+    list-style-image: url("/images/blogcategories/novichkam.png");
+  }
+
+  &-conversionincrease {
+    list-style-image: url("/images/blogcategories/konversiya.png");
+  }
+
+  &-socialnetworks {
+    list-style-image: url("/images/blogcategories/socseti.png");
+  }
+
+  &-emailmarketing {
+    list-style-image: url("/images/blogcategories/email.png");
+  }
+
+  &-cases {
+    list-style-image: url("/images/blogcategories/keysi.png");
+  }
+
+  &-formanagers {
+    list-style-image: url("/images/blogcategories/rukovoditel.png");
+  }
+
+  &-sitepromotion {
+    list-style-image: url("/images/blogcategories/prodvizgenie.png");
+  }
+}
+
+
+.blog-page-next span::before, .blog-page-previous span::before {
+  font-family: FontAwesome,sans-serif;
+  content: '\F105';
+  color: #1773cf;
+  font-size: 22px;
+}
+.blog-page-previous span::before {
+  content: '\F104';
+  font-family: FontAwesome,sans-serif;
+  color: #1773cf;
+  font-size: 22px;
+}
