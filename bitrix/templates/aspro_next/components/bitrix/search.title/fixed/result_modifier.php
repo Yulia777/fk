@@ -22,6 +22,8 @@ if (CModule::IncludeModule("catalog"))
 	}
 }
 
+unset($arResult["CATEGORIES"]['others']);
+
 foreach($arResult["CATEGORIES"] as $category_id => $arCategory)
 {
 	foreach($arCategory["ITEMS"] as $i => $arItem)
