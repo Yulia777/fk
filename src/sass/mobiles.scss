@@ -1,0 +1,10 @@
+@media screen and (min-width: 320px) and (max-width: 720px) {
+  .contacts {
+    &-block {
+      flex-direction: column;
+    }
+    &-map {
+      width: 100%;
+    }
+  }
+}
