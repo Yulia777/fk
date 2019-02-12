@@ -298,6 +298,9 @@ $iVisibleItemsMenu = ($arTheme['MAX_VISIBLE_ITEMS_MENU']['VALUE'] ? $arTheme['MA
                             <li class="  ">
                                 <a href="/services/elektromontazhnye-raboty/" title="Электромонтажные работы"><span class="name">Электромонтажные работы</span></a>
                             </li>
+                            <li class="  ">
+                                <a href="/services/anons/" title="Услуги"><span class="name">Услуги</span></a>
+                            </li>
                         </ul>
                     </div>
                 </td>
