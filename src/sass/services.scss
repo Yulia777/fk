@@ -3,8 +3,11 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 45px auto;
+    margin: 0 auto 45px;
     flex-flow: wrap;
+    .list_block {
+      width: 100%;
+    }
   }
   &__item {
     margin: 10px auto;
@@ -25,5 +28,8 @@
     color: white;
     background: rgba(0,0,0,.5);
     width: 60%;
+    &:hover, &:active {
+      color: #ffffff;
+    }
   }
 }
