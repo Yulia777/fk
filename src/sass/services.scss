@@ -32,4 +32,88 @@
       color: #ffffff;
     }
   }
+  &-details {
+    &-cond-install {
+      &__worker {
+        background: url(/bitrix/templates/aspro_next/images/services/ustanovka.jpg) no-repeat;
+        height: 370px;
+        margin-top: -50px;
+        h3 {
+          font-size: 1.3em;
+          margin: 0 0 10px;
+        }
+        &--top {
+          padding-top: 85px;
+          padding-left: 150px;
+          width: 50%;
+        }
+        &--bottom {
+          padding-left: 150px;
+          width: 50%;
+        }
+      }
+      h2 {
+        margin-top: 10px;
+      }
+
+      &__list {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 20px;
+        justify-content: space-evenly;
+
+        &--text {
+          width: 65%;
+
+          h4 {
+            margin-left: 20px;
+          }
+
+          ul {
+            li {
+              list-style-image: url(/bitrix/templates/aspro_next/images/accept.jpg);
+              list-style-position: inside;
+              margin-bottom: 10px;
+              &:before {
+                display: none;
+              }
+            }
+          }
+
+        }
+
+        &--image {
+          img {
+            width: 100%;
+          }
+        }
+      }
+      table {
+        margin: 20px auto;
+        th {
+          font-weight: 600;
+          text-align: center;
+          padding: 10px;
+        }
+        td {
+          padding: 10px;
+        }
+      }
+      ol {
+        counter-reset: item;
+        li {
+          display: block;
+          padding-left: 40px;
+          margin-bottom: 10px;
+          &:before {
+            content: counter(item) ". ";
+            counter-increment: item;
+            font-weight: bold;
+            margin-left: 20px;
+          }
+        }
+      }
+    }
+  }
 }
