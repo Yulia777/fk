@@ -392,7 +392,11 @@ $arViewedData = array(
                     <p>Код товара: <b>N/A</b></p>
                     <?endif;?>
                     -->
-                    <p>Код товара: <b><?=str_pad($arResult['ID'], 6, '0', STR_PAD_LEFT);?></b></p>
+                    <?if($arResult['PROPERTIES']['EL_CODE']['VALUE']):?>
+                        <p>Код товара: <b><?=$arResult['PROPERTIES']['EL_CODE']['VALUE'];?></b></p>
+                    <?else:?>
+                        <p>Код товара: <b><?=str_pad($arResult['ID'], 6, '0', STR_PAD_LEFT);?></b></p>
+                    <?endif;?>
                     <div class="cost prices clearfix">
                         <?if( count( $arResult["OFFERS"] ) > 0 ){?>
                             <div class="with_matrix" style="display:none;">
