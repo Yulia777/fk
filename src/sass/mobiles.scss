@@ -34,6 +34,16 @@
           }
         }
       }
+      &-cond-service {
+        &__heading {
+          background: none;
+          height: auto;
+          h1 {
+            width: 100%;
+            font-size: 2em;
+          }
+        }
+      }
     }
   }
 }

@@ -11,5 +11,14 @@
         }
       }
     }
+    &-cond-service {
+      &__heading {
+        -webkit-background-size: contain;
+        background-size: contain;
+        h1 {
+          width: 70%;
+        }
+      }
+    }
   }
 }

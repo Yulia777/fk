@@ -89,17 +89,6 @@
           }
         }
       }
-      table {
-        margin: 20px auto;
-        th {
-          font-weight: 600;
-          text-align: center;
-          padding: 10px;
-        }
-        td {
-          padding: 10px;
-        }
-      }
       ol {
         counter-reset: item;
         li {
@@ -114,6 +103,28 @@
           }
         }
       }
+    }
+    &-cond-service {
+      &__heading {
+        background: url(/bitrix/templates/aspro_next/images/services/service.jpg) no-repeat;
+        height: 290px;
+        h1 {
+          width: 40%;
+          padding-top: 2em;
+          line-height: normal;
+        }
+      }
+    }
+  }
+  table {
+    margin: 20px auto;
+    th {
+      font-weight: 600;
+      text-align: center;
+      padding: 10px;
+    }
+    td {
+      padding: 10px;
     }
   }
 }
