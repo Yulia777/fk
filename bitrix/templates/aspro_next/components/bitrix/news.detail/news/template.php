@@ -1,5 +1,4 @@
 <?if(!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die();?>
-
 <?$this->setFrameMode(true);?>	
 <?use \Bitrix\Main\Localization\Loc;?>
 
@@ -136,7 +135,11 @@
 	</div>
 <?endif;?>
 
-<?if(strlen($arResult['FIELDS']['DETAIL_TEXT'])):?>
+<?php if ($arResult['ID'] === '' /*your item ID*/) {?>
+    <!--custom description-->
+<?} else
+
+    if(strlen($arResult['FIELDS']['DETAIL_TEXT'])):?>
 	<div class="content">
 		<?// element detail text?>
 		<?if(strlen($arResult['FIELDS']['DETAIL_TEXT'])):?>
@@ -200,7 +203,7 @@
 			"PAGER_TEMPLATE" => ".default",
 			"DISPLAY_TOP_PAGER" => "N",
 			"DISPLAY_BOTTOM_PAGER" => "Y",
-			"PAGER_TITLE" => "Новости",
+			"PAGER_TITLE" => "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ",
 			"PAGER_SHOW_ALWAYS" => "N",
 			"PAGER_DESC_NUMBERING" => "N",
 			"PAGER_DESC_NUMBERING_CACHE_TIME" => "36000",

@@ -1,63 +1,140 @@
-<?
-require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetPageProperty("HIDE_LEFT_BLOCK", "Y");
-$APPLICATION->SetTitle("Сводная услуг");
-?>
-    <h2>Монтаж оборудования</h2>
-        <div class="services__container">
-            <div class="services__item shine">
-                <p class="services__description">Монтаж кондициониров</p>
-                <a href="#">
-                    <img src="/images/services/anons/montazh-konditsionerov.jpg" alt="">
-                </a>
-            </div>
-
-            <div class="services__item shine">
-                <p class="services__description">Монтаж вентиляции</p>
-                <a href="#">
-                    <img src="/images/services/anons/montazh-vent.jpg" alt="">
-                </a>
-            </div>
-
-            <div class="services__item shine">
-                <p class="services__description">Монтаж теплового оборудования</p>
-                <a href="#">
-                    <img src="/images/services/anons/montazh-teplo-oborudovania.jpg" alt="">
-                </a>
-            </div>
-        </div>
-
-    <h2>Сервисное обслуживание</h2>
-        <div class="services__container">
-            <div class="services__item shine">
-                <p class="services__description">Обслуживание кондиционеров</p>
-                <a href="#">
-                    <img src="/images/services/anons/obslujivanie-konditsionerov.jpg" alt="">
-                </a>
-            </div>
-
-            <div class="services__item shine">
-                <p class="services__description">Обслуживание систем вентиляции</p>
-                <a href="#">
-                    <img src="/images/services/anons/obsl-vent.jpg" alt="">
-                </a>
-            </div>
-
-            <div class="services__item shine">
-                <p class="services__description">Обслуживание теплового оборудования</p>
-                <a href="#">
-                    <img src="/images/services/anons/obsl-tepl.jpg" alt="">
-                </a>
-            </div>
-        </div>
-
-
+<?php
+require( $_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php" );
+$APPLICATION->SetPageProperty( "HIDE_LEFT_BLOCK", "Y" );
+$APPLICATION->SetTitle( "Сводная услуг" );
+$APPLICATION->IncludeComponent(
+	"bitrix:news", 
+	"services", 
+	array(
+		"ADD_ELEMENT_CHAIN" => "Y",
+		"ADD_SECTIONS_CHAIN" => "Y",
+		"AJAX_MODE" => "N",
+		"AJAX_OPTION_ADDITIONAL" => "",
+		"AJAX_OPTION_HISTORY" => "N",
+		"AJAX_OPTION_JUMP" => "N",
+		"AJAX_OPTION_STYLE" => "Y",
+		"BROWSER_TITLE" => "-",
+		"CACHE_FILTER" => "N",
+		"CACHE_GROUPS" => "N",
+		"CACHE_TIME" => "36000000",
+		"CACHE_TYPE" => "A",
+		"CHECK_DATES" => "Y",
+		"DETAIL_ACTIVE_DATE_FORMAT" => "Y-m-d",
+		"DETAIL_DISPLAY_BOTTOM_PAGER" => "Y",
+		"DETAIL_DISPLAY_TOP_PAGER" => "N",
+		"DETAIL_FIELD_CODE" => array(
+			0 => "",
+			1 => "",
+		),
+		"DETAIL_PAGER_SHOW_ALL" => "Y",
+		"DETAIL_PAGER_TEMPLATE" => "",
+		"DETAIL_PAGER_TITLE" => "Страница",
+		"DETAIL_PROPERTY_CODE" => array(
+			0 => "",
+			1 => "",
+		),
+		"DETAIL_SET_CANONICAL_URL" => "N",
+		"DISPLAY_BOTTOM_PAGER" => "Y",
+		"DISPLAY_DATE" => "Y",
+		"DISPLAY_NAME" => "Y",
+		"DISPLAY_PICTURE" => "Y",
+		"DISPLAY_PREVIEW_TEXT" => "Y",
+		"DISPLAY_TOP_PAGER" => "N",
+		"ELEMENT_TYPE_VIEW" => "element_1",
+		"FILE_404" => "",
+		"FORM_ID_ORDER_SERVISE" => "",
+		"GALLERY_TYPE" => "small",
+		"HIDE_LINK_WHEN_NO_DETAIL" => "N",
+		"IBLOCK_ID" => "14",
+		"IBLOCK_TYPE" => "aspro_next_content",
+		"IMAGE_CATALOG_POSITION" => "left",
+		"IMAGE_POSITION" => "left",
+		"INCLUDE_IBLOCK_INTO_CHAIN" => "N",
+		"LINE_ELEMENT_COUNT" => "2",
+		"LINE_ELEMENT_COUNT_LIST" => "3",
+		"LINKED_ELEMENST_PAGE_COUNT" => "20",
+		"LIST_ACTIVE_DATE_FORMAT" => "Y-m-d",
+		"LIST_FIELD_CODE" => array(
+			0 => "",
+			1 => "",
+		),
+		"LIST_PROPERTY_CODE" => array(
+			0 => "",
+			1 => "",
+		),
+		"LIST_VIEW" => "slider",
+		"MESSAGE_404" => "",
+		"META_DESCRIPTION" => "-",
+		"META_KEYWORDS" => "-",
+		"NEWS_COUNT" => "20",
+		"PAGER_BASE_LINK_ENABLE" => "N",
+		"PAGER_DESC_NUMBERING" => "N",
+		"PAGER_DESC_NUMBERING_CACHE_TIME" => "36000",
+		"PAGER_SHOW_ALL" => "N",
+		"PAGER_SHOW_ALWAYS" => "N",
+		"PAGER_TEMPLATE" => ".default",
+		"PAGER_TITLE" => "Услуги",
+		"PREVIEW_TRUNCATE_LEN" => "",
+		"PRICE_CODE" => array(
+		),
+		"SECTIONS_TYPE_VIEW" => "sections_custom",
+		"SECTION_ELEMENTS_TYPE_VIEW" => "list_elements_1",
+		"SECTION_TYPE_VIEW" => "section_1",
+		"SEF_FOLDER" => "/services/anons/",
+		"SEF_MODE" => "Y",
+		"SET_LAST_MODIFIED" => "N",
+		"SET_STATUS_404" => "Y",
+		"SET_TITLE" => "Y",
+		"SHOW_404" => "Y",
+		"SHOW_CHILD_SECTIONS" => "Y",
+		"SHOW_DETAIL_LINK" => "N",
+		"SHOW_NEXT_ELEMENT" => "N",
+		"SHOW_SECTION_DESCRIPTION" => "Y",
+		"SHOW_SECTION_PREVIEW_DESCRIPTION" => "Y",
+		"SORT_BY1" => "ACTIVE_FROM",
+		"SORT_BY2" => "SORT",
+		"SORT_ORDER1" => "ASC",
+		"SORT_ORDER2" => "ASC",
+		"STORES" => array(
+			0 => "",
+			1 => "",
+		),
+		"STRICT_SECTION_CHECK" => "N",
+		"S_ASK_QUESTION" => "",
+		"S_ORDER_SERVISE" => "",
+		"T_DOCS" => "",
+		"T_GALLERY" => "",
+		"T_GOODS" => "",
+		"T_NEXT_LINK" => "",
+		"T_PREV_LINK" => "",
+		"T_PROJECTS" => "",
+		"T_REVIEWS" => "",
+		"T_SERVICES" => "",
+		"T_STAFF" => "",
+		"USE_CATEGORIES" => "N",
+		"USE_FILTER" => "N",
+		"USE_PERMISSIONS" => "N",
+		"USE_RATING" => "N",
+		"USE_REVIEW" => "N",
+		"USE_RSS" => "N",
+		"USE_SEARCH" => "N",
+		"USE_SHARE" => "N",
+		"COMPONENT_TEMPLATE" => "services",
+		"SEF_URL_TEMPLATES" => array(
+			"news" => "",
+			"section" => "",
+			"detail" => "#ELEMENT_CODE#/",
+		)
+	),
+	false
+); ?>
     <script type="text/javascript">
-        $('a').on('click', function(){
-            if(this.hash) $(document).data('h',1);
+        $('a').on('click', function () {
+            if (this.hash) $(document).data('h', 1);
         });
-        $(document).scroll(function(){
-            if($(this).data('h')) $(this).data('h',0).scrollTop($(this).scrollTop()-70);
+        $(document).scroll(function () {
+            if ($(this).data('h')) $(this).data('h', 0).scrollTop($(this).scrollTop() - 70);
         });
     </script>
-<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+<?php
+require( $_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php" ); ?>

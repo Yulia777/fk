@@ -1,0 +1,35 @@
+@media screen and (min-width: 720px) and (max-width: 1024px) {
+  .services-details {
+    &-cond-install {
+      &__worker {
+        background: none;
+        &--top {
+          width: 90%;
+        }
+        &--bottom {
+          width: 90%;
+        }
+      }
+    }
+    &-cond-service {
+      &__heading {
+        -webkit-background-size: contain;
+        background-size: contain;
+        h1 {
+          width: 70%;
+        }
+      }
+    }
+    &-vent-install {
+      &__heading {
+        background-size: cover;
+        h1 {
+          width: 50%;
+          padding-top: 1em;
+          font-size: 1.9em;
+          line-height: normal;
+        }
+      }
+    }
+  }
+}

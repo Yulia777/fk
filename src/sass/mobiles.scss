@@ -7,4 +7,56 @@
       width: 100%;
     }
   }
+  .services {
+    &-details {
+      &-cond-install {
+        h1 {
+          padding-top: 20px;
+        }
+        &__worker {
+          background: none;
+          &--bottom {
+            padding-left: 0;
+            width: 100%;
+          }
+          &--top {
+            padding-left: 0;
+            width: 100%;
+            padding-top: 45px;
+          }
+        }
+        &__list {
+          &--image {
+            display: none;
+          }
+          &--text {
+            width: 95%;
+          }
+        }
+      }
+      &-cond-service {
+        &__heading {
+          background: none;
+          height: auto;
+          h1 {
+            width: 100%;
+            font-size: 2em;
+          }
+        }
+      }
+      &-vent-install {
+        &__heading {
+          height: 200px;
+          background: none;
+          h1 {
+            width: 90%;
+            padding-top: 40px !important;
+          }
+        }
+        ol {
+          padding-left: 30px;
+        }
+      }
+    }
+  }
 }
