@@ -7,4 +7,33 @@
       width: 100%;
     }
   }
+  .services {
+    &-details {
+      &-cond-install {
+        h1 {
+          padding-top: 20px;
+        }
+        &__worker {
+          background: none;
+          &--bottom {
+            padding-left: 0;
+            width: 100%;
+          }
+          &--top {
+            padding-left: 0;
+            width: 100%;
+            padding-top: 45px;
+          }
+        }
+        &__list {
+          &--image {
+            display: none;
+          }
+          &--text {
+            width: 95%;
+          }
+        }
+      }
+    }
+  }
 }
