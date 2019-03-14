@@ -7,7 +7,7 @@
 		array(
 			"IBLOCK_TYPE" => "aspro_next_content",
 			"IBLOCK_ID" => "12",
-			"NEWS_COUNT" => "8",
+			"NEWS_COUNT" => "21",
 			"SORT_BY1" => "SORT",
 			"SORT_ORDER1" => "DESC",
 			"SORT_BY2" => "SORT",
