@@ -91,164 +91,116 @@ $iVisibleItemsMenu = ($arTheme['MAX_VISIBLE_ITEMS_MENU']['VALUE'] ? $arTheme['MA
                         <span class="tail"></span>
                         <ul class="dropdown-menu">
                             <li class="dropdown-submenu  has_img">
-                                <div class="menu_img"><img src="/upload/resize_cache/iblock/26a/60_60_1/26acd576b1b85498a1f576c697554d12.png" alt="Автоэлектроника" title="Автоэлектроника"></div>
-                                <a href="/avtoelektronika/" title="Автоэлектроника"><span class="name">Автоэлектроника</span><span class="arrow"><i></i></span></a>
+                                <div class="menu_img"><img src="<?=SITE_TEMPLATE_PATH?>/images/menu/ventilation.jpg" style="width:60px" alt="Вентиляция" title="Вентиляция"></div>
+                                <a href="/vent/" title="Вентиляция"><span class="name">Вентиляция</span><span class="arrow"><i></i></span></a>
                                 <ul class="dropdown-menu toggle_menu">
                                     <li class="menu-item   ">
-                                        <a href="/avtoelektronika/gps_navigatory/" title="GPS-навигаторы"><span class="name">GPS-навигаторы</span></a>
+                                        <a href="/vent/ventilyatory/" title="Вентиляторы"><span class="name">Вентиляторы</span></a>
                                     </li>
                                     <li class="menu-item   ">
-                                        <a href="/avtoelektronika/videoregistratory/" title="Видеорегистраторы"><span class="name">Видеорегистраторы</span></a>
+                                        <a href="/vent/ventilyatsionnye_ustanovki/" title="Вентиляционные установки"><span class="name">Вентиляционные установки</span></a>
                                     </li>
                                     <li class="menu-item   ">
-                                        <a href="/avtoelektronika/magnitoly/" title="Магнитолы"><span class="name">Магнитолы</span></a>
+                                        <a href="/vent/kanalnye_nagrevateli/" title="Канальные нагреватели"><span class="name">Канальные нагреватели</span></a>
                                     </li>
                                     <li class="menu-item   ">
-                                        <a href="/avtoelektronika/akustika/" title="Акустика"><span class="name">Акустика</span></a>
+                                        <a href="/vent/okhladiteli/" title="Охладители"><span class="name">Охладители</span></a>
                                     </li>
                                     <li class="menu-item   ">
-                                        <a href="/avtoelektronika/radary_detektory/" title="Радары-детекторы"><span class="name">Радары-детекторы</span></a>
+                                        <a href="/vent/protivoudarnye_klapana/" title="Противоударные клапана"><span class="name">Противоударные клапана</span></a>
+                                    </li>
+                                    <li class="menu-item   ">
+                                        <a href="/vent/rekuperatory/" title="Рекуператоры"><span class="name">Рекуператоры</span></a>
+                                    </li>
+                                    <li class="menu-item   ">
+                                        <a href="/vent/smesitelnye_uzly/" title="Смесительные узлы"><span class="name">Смесительные узлы</span></a>
+                                    </li>
+                                    <li class="menu-item   ">
+                                        <a href="/vent/elektroprivody/" title="Электроприводы"><span class="name">Электроприводы</span></a>
                                     </li>
                                 </ul>
                             </li>
                             <li class="dropdown-submenu  has_img">
-                                <div class="menu_img"><img src="/upload/resize_cache/iblock/837/60_60_1/83727d20d955df4e9d969ef0fefeed37.png" alt="Бытовая техника" title="Бытовая техника"></div>
-                                <a href="/bytovaya_tekhnika/" title="Бытовая техника"><span class="name">Бытовая техника</span><span class="arrow"><i></i></span></a>
+                                <div class="menu_img"><img src="<?=SITE_TEMPLATE_PATH?>/images/menu/conditioners.jpg" alt="Кондиционеры" title="Кондиционеры"></div>
+                                <a href="/konditsionery/" title="Кондиционеры"><span class="name">Кондиционеры</span><span class="arrow"><i></i></span></a>
                                 <ul class="dropdown-menu toggle_menu">
                                     <li class="menu-item   ">
-                                        <a href="/bytovaya_tekhnika/kholodilniki/" title="Холодильники"><span class="name">Холодильники</span></a>
+                                        <a href="/konditsionery/kanalnye-kondicionery/" title="Канальные кондиционеры"><span class="name">Канальные кондиционеры</span></a>
                                     </li>
                                     <li class="menu-item   ">
-                                        <a href="/bytovaya_tekhnika/vodonagrevateli/" title="Водонагреватели"><span class="name">Водонагреватели</span></a>
+                                        <a href="/konditsionery/kassetnye-kondicionery/" title="Кассетные кондиционеры"><span class="name">Кассетные кондиционеры</span></a>
                                     </li>
                                     <li class="menu-item   ">
-                                        <a href="/bytovaya_tekhnika/mikrovolnovye_pechi/" title="Микроволновые печи"><span class="name">Микроволновые печи</span></a>
+                                        <a href="/konditsionery/kolonnye_konditsionery/" title="Колонные кондиционеры"><span class="name">Колонные кондиционеры</span></a>
+                                    </li>
+                                    <li class="menu-item   ">
+                                        <a href="/konditsionery/mobilnye_konditsionery/" title="Мобильные кондиционеры"><span class="name">Мобильные кондиционеры</span></a>
+                                    </li>
+                                    <li class="menu-item   ">
+                                        <a href="/konditsionery/multi-split-cistemy/" title="Мульти-сплит системы"><span class="name">Мульти-сплит системы</span></a>
+                                    </li>
+                                    <li class="menu-item   ">
+                                        <a href="/konditsionery/napolno-potolochnye/" title="Напольно-потолочные кондиционеры"><span class="name">Напольно-потолочные кондиционеры</span></a>
+                                    </li>
+                                    <li class="menu-item   ">
+                                        <a href="/konditsionery/nastennye-kondicionery/" title="Настенные кондиционеры"><span class="name">Настенные кондиционеры</span></a>
                                     </li>
                                 </ul>
                             </li>
                             <li class="dropdown-submenu  has_img">
-                                <div class="menu_img"><img src="/upload/resize_cache/iblock/789/60_60_1/789845cbe923ea97da2a7cb03b9b88eb.png" alt="Напольные покрытия" title="Напольные покрытия"></div>
-                                <a href="/napolnye_pokrytiya/" title="Напольные покрытия"><span class="name">Напольные покрытия</span><span class="arrow"><i></i></span></a>
+                                <div class="menu_img"><img src="<?=SITE_TEMPLATE_PATH?>/images/menu/heating.jpg" alt="Отопление" title="Отопление"></div>
+                                <a href="/otoplenie/" title="Отопление"><span class="name">Отопление</span><span class="arrow"><i></i></span></a>
                                 <ul class="dropdown-menu toggle_menu">
                                     <li class="menu-item   ">
-                                        <a href="/napolnye_pokrytiya/laminat/" title="Ламинат"><span class="name">Ламинат</span></a>
+                                        <a href="/otoplenie/vodonagrevateli-otoplenie/" title="Водонагреватели"><span class="name">Водонагреватели</span></a>
                                     </li>
                                     <li class="menu-item   ">
-                                        <a href="/napolnye_pokrytiya/parketnaya_doska/" title="Паркетная доска"><span class="name">Паркетная доска</span></a>
+                                        <a href="/otoplenie/infrakrasnye_obogrevateli/" title="Инфракрасные обогреватели"><span class="name">Инфракрасные обогреватели</span></a>
                                     </li>
                                     <li class="menu-item   ">
-                                        <a href="/napolnye_pokrytiya/plitka/" title="Плитка"><span class="name">Плитка</span></a>
+                                        <a href="/otoplenie/kaminy/" title="Камины"><span class="name">Камины</span></a>
                                     </li>
                                     <li class="menu-item   ">
-                                        <a href="/napolnye_pokrytiya/podlozhki_osnovaniya/" title="Подложки, основания"><span class="name">Подложки, основания</span></a>
+                                        <a href="/otoplenie/konvektory/" title="Конвекторы"><span class="name">Конвекторы</span></a>
+                                    </li>
+                                    <li class="menu-item   ">
+                                        <a href="/otoplenie/kotly/" title="Котлы"><span class="name">Котлы</span></a>
+                                    </li>
+                                    <li class="menu-item   ">
+                                        <a href="/otoplenie/maslyanye_obogrevateli/" title="Масляные обогреватели"><span class="name">Масляные обогреватели</span></a>
+                                    </li>
+                                    <li class="menu-item   ">
+                                        <a href="/otoplenie/teplovye_zavesy/" title="Тепловые завесы"><span class="name">Тепловые завесы</span></a>
+                                    </li>
+                                    <li class="menu-item   ">
+                                        <a href="/otoplenie/teplovye_pushki/" title="Тепловые пушки"><span class="name">Тепловые пушки</span></a>
                                     </li>
                                 </ul>
                             </li>
                             <li class="dropdown-submenu  has_img">
-                                <div class="menu_img"><img src="/upload/resize_cache/iblock/ff5/60_60_1/ff579b15a2464d1e686f21ea925836d6.png" alt="Садовая техника" title="Садовая техника"></div>
-                                <a href="/sadovaya_tekhnika/" title="Садовая техника"><span class="name">Садовая техника</span><span class="arrow"><i></i></span></a>
+                                <div class="menu_img"><img src="<?=SITE_TEMPLATE_PATH?>/images/menu/microclimate.jpg" alt="Микроклимат" title="Микроклимат"></div>
+                                <a href="/microclima/" title="Микроклимат"><span class="name">Микроклимат</span><span class="arrow"><i></i></span></a>
                                 <ul class="dropdown-menu toggle_menu">
                                     <li class="menu-item   ">
-                                        <a href="/csadovaya_tekhnika/kultivatory/" title="Культиваторы"><span class="name">Культиваторы</span></a>
+                                        <a href="/microclima/moyki_vozdukha/" title="Мойки воздуха"><span class="name">Мойки воздуха</span></a>
                                     </li>
                                     <li class="menu-item   ">
-                                        <a href="/sadovaya_tekhnika/motobloki/" title="Мотоблоки"><span class="name">Мотоблоки</span></a>
+                                        <a href="/microclima/osushiteli_vozdukha/" title="Осушители воздуха"><span class="name">Осушители воздуха</span></a>
+                                    </li>
+                                    <li class="menu-item   ">
+                                        <a href="/microclima/ochistiteli_vozdukha/" title="Очистители воздуха"><span class="name">Очистители воздуха</span></a>
+                                    </li>
+                                    <li class="menu-item   ">
+                                        <a href="/microclima/uvlazhniteli_vozdukha/" title="Увлажнители воздуха"><span class="name">Увлажнители воздуха</span></a>
                                     </li>
                                 </ul>
                             </li>
                             <li class="dropdown-submenu  has_img">
-                                <div class="menu_img"><img src="/upload/resize_cache/iblock/2f3/60_60_1/2f3ea526c46d94c9a69ddac19ce78546.png" alt="Сантехника" title="Сантехника"></div>
-                                <a href="/santekhnika/" title="Сантехника"><span class="name">Сантехника</span><span class="arrow"><i></i></span></a>
+                                <div class="menu_img"><img src="<?=SITE_TEMPLATE_PATH?>/images/menu/sun-energy.jpg" alt="Солнечная энергия" title="Солнечная энергия"></div>
+                                <a href="/solnechnaya_energiya/" title="Солнечная энергия"><span class="name">Солнечная энергия</span><span class="arrow"><i></i></span></a>
                                 <ul class="dropdown-menu toggle_menu">
                                     <li class="menu-item   ">
-                                        <a href="/santekhnika/vanny/" title="Ванны"><span class="name">Ванны</span></a>
-                                    </li>
-                                    <li class="menu-item   ">
-                                        <a href="/santekhnika/dushevye_kabiny/" title="Душевые кабины"><span class="name">Душевые кабины</span></a>
-                                    </li>
-                                    <li class="menu-item   ">
-                                        <a href="/santekhnika/rakoviny_umyvalniki/" title="Раковины, умывальники"><span class="name">Раковины, умывальники</span></a>
-                                    </li>
-                                    <li class="menu-item   ">
-                                        <a href="/santekhnika/smesiteli/" title="Смесители"><span class="name">Смесители</span></a>
-                                    </li>
-                                    <li class="menu-item   ">
-                                        <a href="/santekhnika/unitazy/" title="Унитазы"><span class="name">Унитазы</span></a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="dropdown-submenu  has_img">
-                                <div class="menu_img"><img src="/upload/resize_cache/iblock/b20/60_60_1/b2002c5616aaf3e354ee0fc519713e15.png" alt="Строительные материалы" title="Строительные материалы"></div>
-                                <a href="/stroitelnye_materialy/" title="Строительные материалы"><span class="name">Строительные материалы</span><span class="arrow"><i></i></span></a>
-                                <ul class="dropdown-menu toggle_menu">
-                                    <li class="menu-item   ">
-                                        <a href="/stroitelnye_materialy/klei/" title="Клеи"><span class="name">Клеи</span></a>
-                                    </li>
-                                    <li class="menu-item   ">
-                                        <a href="/stroitelnye_materialy/lakokrasochnye_materialy/" title="Лакокрасочные материалы"><span class="name">Лакокрасочные материалы</span></a>
-                                    </li>
-                                    <li class="menu-item   ">
-                                        <a href="/stroitelnye_materialy/sukhie_stroitelnye_smesi/" title="Сухие строительные смеси"><span class="name">Сухие строительные смеси</span></a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="dropdown-submenu  has_img">
-                                <div class="menu_img"><img src="/upload/resize_cache/iblock/c96/60_60_1/c96fe995142bdfee8f02142778090be8.png" alt="Фото и видео" title="Фото и видео"></div>
-                                <a href="/foto_i_video/" title="Фото и видео"><span class="name">Фото и видео</span><span class="arrow"><i></i></span></a>
-                                <ul class="dropdown-menu toggle_menu">
-                                    <li class="menu-item   ">
-                                        <a href="/foto_i_video/videokamery/" title="Видеокамеры"><span class="name">Видеокамеры</span></a>
-                                    </li>
-                                    <li class="menu-item   ">
-                                        <a href="/foto_i_video/obektivy/" title="Объективы"><span class="name">Объективы</span></a>
-                                    </li>
-                                    <li class="menu-item   ">
-                                        <a href="/foto_i_video/fotoapparaty/" title="Фотоаппараты"><span class="name">Фотоаппараты</span></a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="dropdown-submenu  has_img">
-                                <div class="menu_img"><img src="/upload/resize_cache/iblock/dd2/60_60_1/dd20ee65082105d4c99397322f5faa65.jpg" alt="Одежда" title="Одежда"></div>
-                                <a href="/odezhda/" title="Одежда"><span class="name">Одежда</span><span class="arrow"><i></i></span></a>
-                                <ul class="dropdown-menu toggle_menu">
-                                    <li class="menu-item   ">
-                                        <a href="/odezhda/zhenskaya_odezhda/" title="Женская одежда"><span class="name">Женская одежда</span></a>
-                                    </li>
-                                    <li class="menu-item   ">
-                                        <a href="/odezhda/muzhskaya_odezhda/" title="Мужская одежда"><span class="name">Мужская одежда</span></a>
-                                    </li>
-                                    <li class="menu-item   ">
-                                        <a href="/odezhda/detskaya_dlya_devochek/" title="Детская для девочек"><span class="name">Детская для девочек</span></a>
-                                    </li>
-                                    <li class="menu-item   ">
-                                        <a href="/odezhda/dlya_malchikov/" title="Детская для мальчиков"><span class="name">Детская для мальчиков</span></a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="dropdown-submenu  has_img">
-                                <div class="menu_img"><img src="/upload/resize_cache/iblock/68a/60_60_1/68abf9f24d431e53afb99f8969987388.png" alt="Спортивные товары" title="Спортивные товары"></div>
-                                <a href="/sport/" title="Спортивные товары"><span class="name">Спортивные товары</span><span class="arrow"><i></i></span></a>
-                                <ul class="dropdown-menu toggle_menu">
-                                    <li class="menu-item   ">
-                                        <a href="/sport/veloryukzaki/" title="Велорюкзаки"><span class="name">Велорюкзаки</span></a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="dropdown-submenu  has_img">
-                                <div class="menu_img"><img src="/upload/resize_cache/iblock/b8d/60_60_1/b8dcfa49555502a5ad96065d1ad47910.png" alt="Электроинструмент" title="Электроинструмент"></div>
-                                <a href="/elektroinstrument/" title="Электроинструмент"><span class="name">Электроинструмент</span><span class="arrow"><i></i></span></a>
-                                <ul class="dropdown-menu toggle_menu">
-                                    <li class="menu-item   ">
-                                        <a href="/elektroinstrument/dreli/" title="Дрели" style="white-space: normal;"><span class="name">Дрели</span></a>
-                                    </li>
-                                    <li class="menu-item   ">
-                                        <a href="/elektroinstrument/perforatory/" title="Перфораторы" style="white-space: normal;"><span class="name">Перфораторы</span></a>
-                                    </li>
-                                    <li class="menu-item   ">
-                                        <a href="/elektroinstrument/shurupoverty/" title="Шуруповерты" style="white-space: normal;"><span class="name">Шуруповерты</span></a>
-                                    </li>
-                                    <li class="menu-item   ">
-                                        <a href="/elektroinstrument/akkumulyatory/" title="Аккумуляторы" style="white-space: normal;"><span class="name">Аккумуляторы</span></a>
+                                        <a href="/solnechnaya_energiya/vakuumnye_solnechnye_kollektory/" title="Вакуумные солнечные коллекторы"><span class="name">Вакуумные солнечные коллекторы</span></a>
                                     </li>
                                 </ul>
                             </li>
