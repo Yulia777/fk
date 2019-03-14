@@ -20,5 +20,16 @@
         }
       }
     }
+    &-vent-install {
+      &__heading {
+        background-size: cover;
+        h1 {
+          width: 50%;
+          padding-top: 1em;
+          font-size: 1.9em;
+          line-height: normal;
+        }
+      }
+    }
   }
 }
