@@ -11,3 +11,17 @@
 /* Hide compare button */
 /* a.compare_item { display: none !important;  }*/
 
+.top-data-panel {
+    font-size: 13px;
+    padding-top: 1em;
+}
+.top-data-panel .links-data a {
+    color: #0096df;
+    padding-right: 1em;
+}
+.top-data-panel .links-data a:hover {
+    color: #1976d2;
+}
+.top-data-panel .schedule-data i {
+    padding-right: .5em;
+}

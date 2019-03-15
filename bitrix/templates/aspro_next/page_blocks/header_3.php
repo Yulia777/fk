@@ -8,6 +8,19 @@ else
 	$bPhone = ((int)$arTheme['HEADER_PHONES'] ? true : false);
 $logoClass = ($arTheme['COLORED_LOGO']['VALUE'] !== 'Y' ? '' : ' colored');
 ?>
+<div class="container-fluid top-data-panel">
+    <div class="maxwidth-theme">
+        <div class="row">
+            <div class="links-data col-md-6 col-sm-12">
+                <a href="/company/">Написать директору</a>
+                <a href="/reviews/">Отправить отзыв</a>
+            </div>
+            <div class="schedule-data col-md-6 col-sm-12">
+                <i class="fa fa-clock-o" aria-hidden="true"></i>Мы работаем с 9:00 до 18:00, ПН-ПТ. г.Рязань, Куйбышевское ш. 25
+            </div>
+        </div>
+    </div>
+</div>
 <div class="header-v4 header-wrapper">
 	<div class="logo_and_menu-row">
 		<div class="logo-row">
