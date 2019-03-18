@@ -94,6 +94,7 @@
 					}, 300);
 					var eventdata = {type: 'form_submit', form: form, form_name: '<?=$arResult["arForm"]["VARNAME"]?>'};
 					BX.onCustomEvent('onSubmitForm', [eventdata]);
+					window.location.href = "/thanks/";
 				}
 			},
 			errorPlacement: function( error, element ){
