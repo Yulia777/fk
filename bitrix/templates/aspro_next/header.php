@@ -20,6 +20,7 @@ $bIncludedModule = (\Bitrix\Main\Loader::includeModule("aspro.next"));?>
 	<?if($bIncludedModule)
 		CNext::Start(SITE_ID);?>
     <link href="<?=SITE_TEMPLATE_PATH?>/sg_styles.css" rel="stylesheet">
+    <link href="<?=SITE_TEMPLATE_PATH?>/my_styles.css" rel="stylesheet">
     <link href="<?=SITE_TEMPLATE_PATH?>/slick-slider/slick.css" rel="stylesheet">
     <link href="<?=SITE_TEMPLATE_PATH?>/slick-slider/slick-theme.css" rel="stylesheet">
     <script src="<?=SITE_TEMPLATE_PATH?>/slick-slider/slick.js"></script>
