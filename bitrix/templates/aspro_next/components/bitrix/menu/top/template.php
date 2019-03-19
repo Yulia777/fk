@@ -340,6 +340,34 @@ $iVisibleItemsMenu = ($arTheme['MAX_VISIBLE_ITEMS_MENU']['VALUE'] ? $arTheme['MA
                         </ul>
                     </div>
                 </td>
+                <td class="menu-item dropdown" style="visibility: visible;">
+                    <div class="wrap">
+                        <a class="dropdown-toggle" href="/clients/">
+                            <div>
+                                Для клиентов									<div class="line-wrapper"><span class="line"></span></div>
+                            </div>
+                        </a>
+                        <span class="tail"></span>
+                        <ul class="dropdown-menu" id="menu-company">
+                            <li class="  ">
+                                <a href="/clients/index.php/#delivery/" title="Доставка"><span class="name">Доставка</span></a>
+                            </li>
+                            <li class="  ">
+                                <a href="/clients/index.php/#pay/" title="Оплата"><span class="name">Оплата</span></a>
+                            </li>
+                            <li class="  ">
+                                <a href="/clients/index.php/#return/" title="Возврат"><span class="name">Возврат</span></a>
+                            </li>
+                            <li class="  ">
+                                <a href="/clients/index.php/#reviews/" title="Отзывы"><span class="name">Отзывы</span></a>
+                            </li>
+                            <li class="  ">
+                                <a href="/clients/index.php/#quests/" title="Вопрос-ответ"><span class="name">Вопрос-ответ</span></a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </td>
                 <td class="menu-item" style="visibility: visible;">
                     <div class="wrap">
                         <a class="" href="/contacts/">
