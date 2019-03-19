@@ -1,0 +1,23 @@
+.clients-icon{
+  &__container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 70px auto;
+    flex-flow: wrap;
+  }
+  &__item{
+    margin: 10px auto;
+    p{
+      text-align: center;
+      margin: 10px auto;
+      font-weight: 600;
+    }
+  }
+}
+
+.quest-list  {
+  .order-block {
+    display: none;
+  }
+}
