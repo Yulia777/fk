@@ -28,7 +28,7 @@ if(\Bitrix\Main\Loader::includeModule("aspro.next"))
 			"SHOW_LIST_PAGE" => "N",
 			"SHOW_EDIT_PAGE" => "N",
 			"SHOW_VIEW_PAGE" => "N",
-			"SUCCESS_URL" => "",
+			"SUCCESS_URL" => "/thanks/",
 			"SHOW_ANSWER_VALUE" => "N",
 			"SHOW_ADDITIONAL" => "N",
 			"SHOW_STATUS" => "N",
