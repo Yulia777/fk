@@ -982,7 +982,8 @@ if(!funcDefined('onLoadjqm')){
 									if(data.result == 'Y'){
 										if(arNextOptions['COUNTERS']['USE_1CLICK_GOALS'] !== 'N'){
 											var eventdata = {goal: 'goal_1click_success'};
-											BX.onCustomEvent('onCounterGoals', [eventdata])
+											BX.onCustomEvent('onCounterGoals', [eventdata]);
+											window.location.href = "/thanks/";
 										}
 
 										if(ocb_files.length)
