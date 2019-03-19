@@ -25,3 +25,14 @@
 .top-data-panel .schedule-data i {
     padding-right: .5em;
 }
+.logo_and_menu-row .logo-row .logo {
+    line-height: 1;
+    padding-top: 20px;
+}
+.logo-block .logoUnderText {
+    font-size: 11px;
+    text-align: right;
+    font-weight: 600;
+    line-height: 1;
+    padding-top: 3px;
+}

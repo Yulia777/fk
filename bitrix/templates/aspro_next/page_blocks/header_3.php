@@ -29,6 +29,7 @@ $logoClass = ($arTheme['COLORED_LOGO']['VALUE'] !== 'Y' ? '' : ' colored');
 					<div class="logo-block col-md-2 col-sm-3">
 						<div class="logo<?=$logoClass?>">
 							<?=CNext::ShowLogo();?>
+                            <div class="logoUnderText">Климатическая компания</div>
 						</div>
 					</div>
 					<?if($arRegions):?>
