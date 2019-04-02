@@ -1,9 +1,0 @@
-<?
-if($INCLUDE_FROM_CACHE!='Y')return false;
-$datecreate = '001528278884';
-$dateexpire = '001564278884';
-$ser_content = 'a:2:{s:7:"CONTENT";s:0:"";s:4:"VARS";a:1:{s:5:"arRes";a:35:{s:2:"ID";s:3:"124";s:3:"~ID";s:3:"124";s:12:"PREVIEW_TEXT";s:439:"Установка, подвес, настройка и монтаж любой техники. Работаем качественно, быстро и профессионально. Правильная расстановка и настройка аудио систем, домашних кинотеатров, монтаж телевизоров на стену и многое другое.
-Приедем в день звонка.";s:13:"~PREVIEW_TEXT";s:439:"Установка, подвес, настройка и монтаж любой техники. Работаем качественно, быстро и профессионально. Правильная расстановка и настройка аудио систем, домашних кинотеатров, монтаж телевизоров на стену и многое другое.
-Приедем в день звонка.";s:17:"IBLOCK_SECTION_ID";b:0;s:15:"PREVIEW_PICTURE";s:3:"353";s:16:"~PREVIEW_PICTURE";s:3:"353";s:14:"DETAIL_PICTURE";N;s:15:"~DETAIL_PICTURE";N;s:15:"DETAIL_PAGE_URL";s:49:"/services/ustanovka-i-nastroyka-bytovoy-tekhniki/";s:13:"LIST_PAGE_URL";s:10:"/services/";s:14:"~LIST_PAGE_URL";s:10:"/services/";s:25:"PROPERTY_LINK_GOODS_VALUE";N;s:26:"~PROPERTY_LINK_GOODS_VALUE";N;s:28:"PROPERTY_LINK_GOODS_VALUE_ID";N;s:29:"~PROPERTY_LINK_GOODS_VALUE_ID";N;s:8:"LANG_DIR";s:1:"/";s:9:"~LANG_DIR";s:1:"/";s:4:"CODE";s:38:"ustanovka-i-nastroyka-bytovoy-tekhniki";s:5:"~CODE";s:38:"ustanovka-i-nastroyka-bytovoy-tekhniki";s:11:"EXTERNAL_ID";s:5:"10630";s:12:"~EXTERNAL_ID";s:5:"10630";s:14:"IBLOCK_TYPE_ID";s:18:"aspro_next_content";s:15:"~IBLOCK_TYPE_ID";s:18:"aspro_next_content";s:9:"IBLOCK_ID";s:2:"14";s:10:"~IBLOCK_ID";s:2:"14";s:11:"IBLOCK_CODE";s:19:"aspro_next_services";s:12:"~IBLOCK_CODE";s:19:"aspro_next_services";s:18:"IBLOCK_EXTERNAL_ID";s:22:"aspro_next_services_s1";s:19:"~IBLOCK_EXTERNAL_ID";s:22:"aspro_next_services_s1";s:3:"LID";s:2:"s1";s:4:"~LID";s:2:"s1";s:17:"PREVIEW_TEXT_TYPE";s:4:"html";s:18:"~PREVIEW_TEXT_TYPE";s:4:"html";s:26:"IBLOCK_SECTION_ID_SELECTED";N;}}}';
-return true;
-?>

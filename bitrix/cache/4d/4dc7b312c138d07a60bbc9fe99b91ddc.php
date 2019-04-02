@@ -1,7 +1,0 @@
-<?
-if($INCLUDE_FROM_CACHE!='Y')return false;
-$datecreate = '001531317506';
-$dateexpire = '001531360706';
-$ser_content = 'a:2:{s:7:"CONTENT";s:0:"";s:4:"VARS";a:2:{s:3:"SEL";a:0:{}s:6:"VIEWED";a:5:{i:0;a:6:{s:10:"ELEMENT_ID";s:3:"200";s:10:"PRODUCT_ID";s:3:"200";s:10:"VIEW_COUNT";s:1:"3";s:4:"NAME";s:39:"Автомагнитола JVC KD-LX50R";s:5:"PRICE";s:7:"2900.00";s:8:"CURRENCY";s:3:"RUB";}i:1;a:6:{s:10:"ELEMENT_ID";s:3:"159";s:10:"PRODUCT_ID";s:3:"159";s:10:"VIEW_COUNT";s:1:"2";s:4:"NAME";s:48:"Перфоратор Bosch Professional GBH 2-26";s:5:"PRICE";s:7:"3436.00";s:8:"CURRENCY";s:3:"RUB";}i:2;a:6:{s:10:"ELEMENT_ID";s:3:"162";s:10:"PRODUCT_ID";s:3:"162";s:10:"VIEW_COUNT";s:1:"2";s:4:"NAME";s:52:"Микроволновая печь BEKO MWF 2310 ES";s:5:"PRICE";s:7:"5600.00";s:8:"CURRENCY";s:3:"RUB";}i:3;a:6:{s:10:"ELEMENT_ID";s:3:"197";s:10:"PRODUCT_ID";s:3:"197";s:10:"VIEW_COUNT";s:1:"2";s:4:"NAME";s:65:"Фотоаппарат зеркальный Sony SLT-A37K+SAL1855";s:5:"PRICE";s:8:"17990.00";s:8:"CURRENCY";s:3:"RUB";}i:4;a:6:{s:10:"ELEMENT_ID";s:3:"203";s:10:"PRODUCT_ID";s:3:"203";s:10:"VIEW_COUNT";s:1:"2";s:4:"NAME";s:42:"Объектив Canon EF24-105 F4L IS USM";s:5:"PRICE";s:8:"37000.00";s:8:"CURRENCY";s:3:"RUB";}}}}';
-return true;
-?>

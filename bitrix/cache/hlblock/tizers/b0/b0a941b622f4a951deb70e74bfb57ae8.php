@@ -1,7 +1,0 @@
-<?
-if($INCLUDE_FROM_CACHE!='Y')return false;
-$datecreate = '001528481826';
-$dateexpire = '001532081826';
-$ser_content = 'a:2:{s:7:"CONTENT";s:0:"";s:4:"VARS";a:4:{i:0;a:7:{s:2:"ID";s:1:"1";s:7:"UF_NAME";s:43:"Подарочные сертификаты";s:7:"UF_SORT";s:3:"100";s:9:"UF_XML_ID";s:5:"bonus";s:7:"UF_LINK";s:6:"/sale/";s:7:"UF_FILE";s:3:"251";s:15:"PREVIEW_PICTURE";a:4:{s:3:"src";s:51:"/upload/uf/3ac/3acc6deebd416dd00c5ec2f049c92f2e.png";s:5:"width";i:44;s:6:"height";i:44;s:4:"size";s:3:"413";}}i:1;a:7:{s:2:"ID";s:1:"2";s:7:"UF_NAME";s:48:"Весь товар сертифицирован";s:7:"UF_SORT";s:3:"200";s:9:"UF_XML_ID";s:4:"sert";s:7:"UF_LINK";N;s:7:"UF_FILE";s:3:"252";s:15:"PREVIEW_PICTURE";a:4:{s:3:"src";s:51:"/upload/uf/2c1/2c1c00124df4fa8a89e64db35ff0caa6.png";s:5:"width";i:44;s:6:"height";i:44;s:4:"size";s:4:"1119";}}i:2;a:7:{s:2:"ID";s:1:"3";s:7:"UF_NAME";s:41:"Возврат и обмен товара";s:7:"UF_SORT";s:3:"300";s:9:"UF_XML_ID";s:4:"deny";s:7:"UF_LINK";s:15:"/help/warranty/";s:7:"UF_FILE";s:3:"253";s:15:"PREVIEW_PICTURE";a:4:{s:3:"src";s:51:"/upload/uf/f8e/f8eaeff8c1f2ab771c3c7c42a8d80028.png";s:5:"width";i:44;s:6:"height";i:44;s:4:"size";s:4:"1100";}}i:3;a:7:{s:2:"ID";s:1:"4";s:7:"UF_NAME";s:49:"Удобная и быстрая доставка";s:7:"UF_SORT";s:3:"400";s:9:"UF_XML_ID";s:8:"delivery";s:7:"UF_LINK";s:15:"/help/delivery/";s:7:"UF_FILE";s:3:"254";s:15:"PREVIEW_PICTURE";a:4:{s:3:"src";s:51:"/upload/uf/184/184b5e6e82a3eb3e2e53ec6cf5eecc76.png";s:5:"width";i:44;s:6:"height";i:44;s:4:"size";s:3:"542";}}}}';
-return true;
-?>
