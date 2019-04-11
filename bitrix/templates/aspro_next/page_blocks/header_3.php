@@ -66,11 +66,11 @@ $logoClass = ($arTheme['COLORED_LOGO']['VALUE'] !== 'Y' ? '' : ' colored');
 						<div class="pull-right block-link">
 							<?=CNext::ShowBasketWithCompareLink('with_price', 'big', true, 'wrap_icon inner-table-block baskets');?>
 						</div>
-						<div class="pull-right">
+						<!--<div class="pull-right">
 							<div class="wrap_icon inner-table-block">
-								<?=CNext::showCabinetLink(true, true, 'big', true);?>
+								<?/*=CNext::showCabinetLink(true, true, 'big', true);*/?>
 							</div>
-						</div>
+						</div>-->
 						<?if($bPhone):?>
 							<div class="pull-right">
 								<div class="wrap_icon inner-table-block">

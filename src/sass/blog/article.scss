@@ -37,7 +37,7 @@
     li{
       &::before{
         content: "•";
-        color: #1976d2;
+        color: $blue;
         font-size: 25px;
         line-height: 20px;
         position: absolute;
