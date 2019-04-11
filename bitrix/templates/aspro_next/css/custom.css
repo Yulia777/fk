@@ -11,3 +11,28 @@
 /* Hide compare button */
 /* a.compare_item { display: none !important;  }*/
 
+.top-data-panel {
+    font-size: 13px;
+    padding-top: 1em;
+}
+.top-data-panel .links-data a {
+    color: #0096df;
+    padding-right: 1em;
+}
+.top-data-panel .links-data a:hover {
+    color: #1976d2;
+}
+.top-data-panel .schedule-data i {
+    padding-right: .5em;
+}
+.logo_and_menu-row .logo-row .logo {
+    line-height: 1;
+    padding-top: 20px;
+}
+.logo-block .logoUnderText {
+    font-size: 11px;
+    text-align: right;
+    font-weight: 600;
+    line-height: 1;
+    padding-top: 3px;
+}
