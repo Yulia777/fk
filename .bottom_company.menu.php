@@ -1,50 +1,36 @@
 <?
 $aMenuLinks = Array(
-	/*Array(
-		"Компания", 
-		"/company/index.php", 
-		Array(), 
-		Array(), 
-		"" 
-	),*/
 	Array(
-		"О компании", 
-		"/company/", 
+		"О компании",
+		"/company/",
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
-		"Новости", 
-		"/company/news/", 
+		"Сертификаты",
+		"/company/#sertificati/",
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
-		"Сотрудники", 
-		"/company/staff/", 
+		"Отзывы",
+		"/company/#otzivi/",
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
-		"Вакансии", 
-		"/company/vacancy/", 
+		"Нам доверяют",
+		"/company/#nam-doveriaut/",
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
-		"Магазины", 
-		"/contacts/stores/", 
-		Array(), 
-		Array(), 
-		"" 
-	),
-	Array(
-		"Политика", 
-		"/include/licenses_detail.php", 
+		"Написать директору",
+		"/company/#napisat-directory/",
 		Array(), 
 		Array(), 
 		"" 
