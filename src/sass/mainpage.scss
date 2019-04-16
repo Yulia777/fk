@@ -3,6 +3,10 @@
     display: flex;
     justify-content: space-between;
 
+    h2 a{
+      color:black;
+    }
+
     .popup_link img {
       margin: 4px 2px;
       padding: 7px;
@@ -17,6 +21,7 @@
         width: 100%;
         max-width: 480px;
       }
+      margin-bottom: 70px;
     }
     &__vk {
       max-width: 460px;
@@ -70,4 +75,21 @@
   background: url(/images/slider-shadow-down.jpg) no-repeat top center;
   height: 9px;
   margin: 30px auto !important;
+}
+
+.top-data-panel{
+  .schedule-data{
+    text-align:right;
+  }
+}
+
+.front-blog{
+  a{
+    color:black;
+  }
+}
+
+.footer-menu{
+  display: flex;
+  justify-content: space-between;
 }

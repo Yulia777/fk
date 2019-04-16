@@ -11,11 +11,11 @@ $logoClass = ($arTheme['COLORED_LOGO']['VALUE'] !== 'Y' ? '' : ' colored');
 <div class="container-fluid top-data-panel">
     <div class="maxwidth-theme">
         <div class="row">
-            <div class="links-data col-md-6 col-sm-12">
+            <div class="links-data col-md-7 col-sm-12">
                 <a href="/company/">Написать директору</a>
                 <a href="/reviews/">Отправить отзыв</a>
             </div>
-            <div class="schedule-data col-md-6 col-sm-12">
+            <div class="schedule-data col-md-5 col-sm-12">
                 <i class="fa fa-clock-o" aria-hidden="true"></i>Мы работаем с 9:00 до 18:00, ПН-ПТ. г.Рязань, Куйбышевское ш. 25
             </div>
         </div>
@@ -66,11 +66,11 @@ $logoClass = ($arTheme['COLORED_LOGO']['VALUE'] !== 'Y' ? '' : ' colored');
 						<div class="pull-right block-link">
 							<?=CNext::ShowBasketWithCompareLink('with_price', 'big', true, 'wrap_icon inner-table-block baskets');?>
 						</div>
-						<div class="pull-right">
+						<!--<div class="pull-right">
 							<div class="wrap_icon inner-table-block">
-								<?=CNext::showCabinetLink(true, true, 'big', true);?>
+								<?/*=CNext::showCabinetLink(true, true, 'big', true);*/?>
 							</div>
-						</div>
+						</div>-->
 						<?if($bPhone):?>
 							<div class="pull-right">
 								<div class="wrap_icon inner-table-block">

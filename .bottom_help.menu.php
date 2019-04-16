@@ -1,36 +1,36 @@
 <?
 $aMenuLinks = Array(
 	Array(
-		"Помощь", 
-		"/help/", 
+		"Для клиентов",
+		"/clients/",
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
-		"Блог", 
-		"/blog/", 
+		"Доставка",
+		"/clients/#delivery/",
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
-		"Вопрос-ответ", 
-		"/info/faq/", 
+		"Способы оплаты",
+		"/clients/#pay/",
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
-		"Бренды", 
-		"/info/brands/", 
+		"Возврат",
+		"/clients/#return/",
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
-		"Обзоры", 
-		"/landings/", 
+		"Вопрос-Ответ",
+		"/clients/#quests/",
 		Array(), 
 		Array(), 
 		"" 

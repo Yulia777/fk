@@ -265,34 +265,13 @@ $iVisibleItemsMenu = ($arTheme['MAX_VISIBLE_ITEMS_MENU']['VALUE'] ? $arTheme['MA
                         </a>
                     </div>
                 </td>
-                <td class="menu-item dropdown" style="visibility: visible;">
+                <td class="menu-item" style="visibility: visible;">
                     <div class="wrap">
-                        <a class="dropdown-toggle" href="/projects/">
+                        <a class="" href="/projects/">
                             <div>
                                 Проекты									<div class="line-wrapper"><span class="line"></span></div>
                             </div>
                         </a>
-                        <span class="tail"></span>
-                        <ul class="dropdown-menu">
-                            <li class="  ">
-                                <a href="/projects/internet-magaziny/" title="Интернет-магазины"><span class="name">Интернет-магазины</span></a>
-                            </li>
-                            <li class="  ">
-                                <a href="/projects/korporativnye-sayty/" title="Корпоративные сайты"><span class="name">Корпоративные сайты</span></a>
-                            </li>
-                            <li class="  ">
-                                <a href="/projects/mobilnye-prilozheniya/" title="Мобильные приложения"><span class="name">Мобильные приложения</span></a>
-                            </li>
-                            <li class="  ">
-                                <a href="/projects/bazovoe-seo/" title="Базовое SEO"><span class="name">Базовое SEO</span></a>
-                            </li>
-                            <li class="  ">
-                                <a href="/projects/kontekstnaya-reklama/" title="Контекстная реклама"><span class="name">Контекстная реклама</span></a>
-                            </li>
-                            <li class="  ">
-                                <a href="/projects/sotsialnye-seti/" title="Социальные сети"><span class="name">Социальные сети</span></a>
-                            </li>
-                        </ul>
                     </div>
                 </td>
                 <td class="menu-item dropdown" style="visibility: visible;">
