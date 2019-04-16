@@ -3,6 +3,10 @@
     display: flex;
     justify-content: space-between;
 
+    h2 a{
+      color:black;
+    }
+
     .popup_link img {
       margin: 4px 2px;
       padding: 7px;
@@ -76,5 +80,11 @@
 .top-data-panel{
   .schedule-data{
     text-align:right;
+  }
+}
+
+.front-blog{
+  a{
+    color:black;
   }
 }

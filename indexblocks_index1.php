@@ -57,7 +57,9 @@
 <div class="maxwidth-theme mainpage-custom">
     <div class="main-review">
         <section class="main-review__left">
-            <h2>Отзывы клиентов:</h2>
+            <h2>
+                 <a href="/reviews/">Отзывы клиентов:</a>
+            </h2>
 	        <?$APPLICATION->IncludeComponent(
 	"bitrix:news", 
 	"reviews-company", 
@@ -201,12 +203,16 @@
         </section>
         <section class="main-review__right">
             <div class="main-review__our-clients">
-                <h2>Нам доверяют:</h2>
+                <h2>
+                   <a href="/company/index.php/#nam-doveriaut/">Нам доверяют:</a>
+                </h2>
                 <img src="/images/main/our-clients.jpg" alt="Нам доверяют">
             </div>
 
             <div class="main-review__our-objects">
-                <h3>Фото наших объектов:</h3>
+                <h2>
+                    <a href="/projects/">Фото наших объектов:</a>
+                </h2>
                 <?php
                 for ($photo = 1; $photo <=9; $photo++) {?>
                     <a href="/images/main/objects/<?= $photo ?>big-min.jpg" data-fancybox-group="our_objects" class="popup_link fancy">
