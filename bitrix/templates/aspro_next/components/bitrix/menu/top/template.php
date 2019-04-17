@@ -230,28 +230,22 @@ $iVisibleItemsMenu = ($arTheme['MAX_VISIBLE_ITEMS_MENU']['VALUE'] ? $arTheme['MA
                         <span class="tail"></span>
                         <ul class="dropdown-menu">
                             <li class="  ">
-                                <a href="/services/ustanovka-i-nastroyka-bytovoy-tekhniki/" title="Установка и настройка бытовой техники"><span class="name">Установка и настройка бытовой техники</span></a>
+                                <a href="/services/montazh-konditsionerov/" title="Монтаж кондиционеров"><span class="name">Монтаж кондиционеров</span></a>
                             </li>
                             <li class="  ">
-                                <a href="/services/ustanovka-santekhniki/" title="Установка сантехники"><span class="name">Установка сантехники</span></a>
+                                <a href="/services/montazh-ventilyatsii/" title="Монтаж вентиляции"><span class="name">Монтаж вентиляции</span></a>
                             </li>
                             <li class="  ">
-                                <a href="/services/strakhovanie-pokupki/" title="Страхование покупки"><span class="name">Страхование покупки</span></a>
+                                <a href="/services/montazh-teplovogo-oborudovaniya/" title="Монтаж теплового оборудования"><span class="name">Монтаж теплового<br> оборудования</span></a>
                             </li>
                             <li class="  ">
-                                <a href="/services/nastroyka-kompyutera/" title="Настройка компьютера"><span class="name">Настройка компьютера</span></a>
+                                <a href="/services/obsluzhivanie-konditsionerov/" title="Обслуживание кондиционеров"><span class="name">Обслуживание<br> кондиционеров</span></a>
                             </li>
                             <li class="  ">
-                                <a href="/services/naryazhaem-elki-na-domu/" title="Наряжаем елки на дому"><span class="name">Наряжаем елки на дому</span></a>
+                                <a href="/services/obsluzhivanie-sistem-ventilyatsii/" title="Обслуживание систем вентиляции"><span class="name">Обслуживание систем<br> вентиляции</span></a>
                             </li>
                             <li class="  ">
-                                <a href="/services/ustanovka-avtomobilnoy-tekhniki/" title="Установка автомобильной техники"><span class="name">Установка автомобильной техники</span></a>
-                            </li>
-                            <li class="  ">
-                                <a href="/services/elektromontazhnye-raboty/" title="Электромонтажные работы"><span class="name">Электромонтажные работы</span></a>
-                            </li>
-                            <li class="  ">
-                                <a href="/services/anons/" title="Услуги"><span class="name">Услуги</span></a>
+                                <a href="/services/obsluzhivanie-teplovogo-oborudovaniya/" title="Обслуживание теплового оборудования"><span class="name">Обслуживание теплового<br> оборудования</span></a>
                             </li>
                         </ul>
                     </div>
