@@ -289,7 +289,7 @@
 
     &-submit {
         font-size: 18px;
-        background-color: #2bb926;
+        background-color: $blue;
         width: 85%;
         border-radius: 45px;
         padding: 10px 20px;
@@ -332,7 +332,7 @@
         height: 55px;
         padding-top: 10px;
         padding-left: 10px;
-        background: #47B61A;
+        background: $blue;
         &:after {
             //background-image: url(/bitrix/templates/sales-generator/images/icon-download.png);
             position: relative;

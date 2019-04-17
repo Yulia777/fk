@@ -113,7 +113,7 @@
   }
 
   &-active a {
-    color: #3FD776;
+    color: $blue;
     text-decoration: underline;
   }
 
@@ -170,12 +170,12 @@
 .blog-page-next span::before, .blog-page-previous span::before {
   font-family: FontAwesome,sans-serif;
   content: '\F105';
-  color: #1773cf;
+  color: $blue;
   font-size: 22px;
 }
 .blog-page-previous span::before {
   content: '\F104';
   font-family: FontAwesome,sans-serif;
-  color: #1773cf;
+  color: $blue;
   font-size: 22px;
 }

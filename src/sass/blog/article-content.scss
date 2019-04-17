@@ -349,7 +349,7 @@
 .tips-read {
     padding: 10px;
     position: relative;
-    border: 3px solid #1976d2;
+    border: 3px solid $blue;
 
     p {
         font-weight: 600;
@@ -357,7 +357,7 @@
 
     li {
         text-decoration: underline;
-        color: #1252A1;
+        color: $blue;
         list-style-type: none;
 
         &:before {
@@ -369,10 +369,10 @@
     }
 
     a {
-        color: #3351e5;
+        color: $blue;
 
         &:hover {
-            color: #1976d2 !important;
+            color: $blue !important;
         }
     }
 }
@@ -410,7 +410,7 @@
 }
 
 .quotes-block {
-    border-left: 4px solid #1976d2;
+    border-left: 4px solid $blue;
     background-color: #f4f4f4;
     padding: 10px 15px;
 }

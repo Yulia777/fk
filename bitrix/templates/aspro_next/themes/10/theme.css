@@ -1025,20 +1025,20 @@ body .basket-link.basket-count .count {
   color: #0088cc;
 }
 .top-btn:hover .svg:not(.inline) {
-  background-color: #0088cc;
+  background-color: #02A0E3;
 }
 .top-btn .svg.inline:hover svg path,
 .top-btn:hover .svg.inline svg path,
 .svg.inline:not(.colored):hover svg path,
 a:hover .svg.inline path {
-  fill: #0088cc;
+  fill: #02A0E3;
 }
 a:hover .svg:not(.inline) {
-  background-color: #0088cc;
+  background-color: #02A0E3;
 }
 .fill_bg_n .menu-row.bgcolored,
 .fill_bg_y .menu-row.bgcolored > .maxwidth-theme {
-  background-color: #0088cc;
+  background-color: #02A0E3;
 }
 .menu-row.bgcolored .mega-menu table td:hover {
   background-color: #009ceb;
