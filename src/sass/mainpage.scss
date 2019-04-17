@@ -3,6 +3,10 @@
     display: flex;
     justify-content: space-between;
 
+    h2 a{
+      color:black;
+    }
+
     .popup_link img {
       margin: 4px 2px;
       padding: 7px;
@@ -17,6 +21,7 @@
         width: 100%;
         max-width: 480px;
       }
+      margin-bottom: 70px;
     }
     &__vk {
       max-width: 460px;
@@ -71,6 +76,7 @@
   height: 9px;
   margin: 30px auto !important;
 }
+
 .fill_bg_n {
   .menu-row.bgcolored, .fill_bg_y .menu-row.bgcolored>.maxwidth-theme {
     background-color: $blue;
@@ -169,4 +175,21 @@ button.button, input.button, .button, #header ul.menu.full.opened li:not(.search
 }
 header .menu_colored .menu_top_block>li.current>a, header .menu_dark .menu_top_block.menu>li.current>a, header .menu_dark .menu_top_block.menu>li.current:hover>a, .menu_top_block.catalog_block .dropdown>li.full:hover>a:before, .menu_top_block.catalog_block .dropdown>li.full.current>a, header .menu_top_block li.catalog>.dropdown>li.current>a, .left_menu>li.current>a, .left_menu>li:hover>a:before {
   background: $blue;
+
+
+.top-data-panel{
+  .schedule-data{
+    text-align:right;
+  }
+}
+
+.front-blog{
+  a{
+    color:black;
+  }
+}
+
+.footer-menu{
+  display: flex;
+  justify-content: space-between;
 }

@@ -1,4 +1,4 @@
-.clients-icon{
+.company-icon{
   &__container{
     display: flex;
     justify-content: space-around;
@@ -23,11 +23,5 @@
       display: block;
       margin: 0 auto;
     }
-  }
-}
-
-.quest-list  {
-  .order-block {
-    display: none;
   }
 }

@@ -3,6 +3,33 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetPageProperty("HIDE_LEFT_BLOCK", "Y");
 $APPLICATION->SetTitle("О компании");
 ?>
+    <div class="company-icon__container">
+        <div class="clients-icon__item">
+            <a href="/company/#sertificati/">
+                <img src="<?=SITE_TEMPLATE_PATH?>/images/company/license.png" alt="">
+                <p>Сертификаты</p>
+            </a>
+        </div>
+        <div class="company-icon__item">
+            <a href="/company/#otzivi/">
+                <img src="<?=SITE_TEMPLATE_PATH?>/images/clients/review.png" alt="">
+                <p>Отзывы</p>
+            </a>
+        </div>
+        <div class="company-icon__item">
+            <a href="/company/#nam-doveriaut/">
+                <img src="<?=SITE_TEMPLATE_PATH?>/images/company/trust.png" alt="">
+                <p>Нам доверяют</p>
+            </a>
+        </div>
+        <div class="company-icon__item">
+            <a href="/company/#napisat-directory/">
+                <img src="<?=SITE_TEMPLATE_PATH?>/images/company/message.png" alt="">
+                <p>Написать директору</p>
+            </a>
+        </div>
+    </div>
+
 <p class="company-description">
     Купить кондиционер в Рязани вы можете в компании «Формула Климата», которая работает на рынке кондиционеров уже с
     2003 года. 13 лет опыта позволяют нам делать нашу работу качественно и без лишний промедлений. Однако, с началом
