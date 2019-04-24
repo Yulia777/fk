@@ -34,9 +34,9 @@ table {border-collapse:collapse;}
 ol {counter-reset:li;}
 ol li, ul li{position:relative;padding-left:18px;}
 ol li:before, ul li:before{position:absolute;left:0px;}
-ol li:before{content:counter(li) ". " !important;counter-increment:li;padding-right:0 !important;color:#383838;}
+ol li:before{/*content:counter(li) "" !important;*/counter-increment:li;padding-right:0 !important;color:#383838;}
 ul li:before{content:"\25CF";color:#383838;}
-li{list-style-type:none;}
+/*li{list-style-type:none;}*/
 .big_text {font-size:18px;font-weight:500;}
 .middle_text {font-size:14px;}
 hr.long { margin: 35px 0px 30px; }
