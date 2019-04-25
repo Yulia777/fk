@@ -2,7 +2,7 @@
 $APPLICATION->SetTitle("Каталог");
 $APPLICATION->IncludeComponent(
 	"bitrix:catalog", 
-	"main", 
+	"compuproject",
 	array(
 		"IBLOCK_TYPE" => "aspro_next_catalog",
 		"IBLOCK_ID" => "17",
