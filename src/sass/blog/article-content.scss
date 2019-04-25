@@ -291,26 +291,25 @@
     margin-left: 5px;
     ol {
         counter-reset: myCounter;
-    }
-
-    li {
-        list-style: none;
-        &:before {
-            counter-increment: myCounter;
-            content: counter(myCounter);
-            color: orange;
-            text-align: center;
-            margin-right: 10px;
-            margin-left: -34px;
-            line-height: 10px;
-            width: 32px;
-            height: 32px;
-            font-weight: 700;
-            font-size: 15px;
-            border: 2px solid orange;
-            border-radius: 50%;
-            padding: 8px 0;
-            margin-top: -5px;
+        li {
+            list-style: none;
+            &:before {
+                counter-increment: myCounter;
+                content: counter(myCounter);
+                color: orange;
+                text-align: center;
+                margin-right: 10px;
+                margin-left: -34px;
+                line-height: 10px;
+                width: 32px;
+                height: 32px;
+                font-weight: 700;
+                font-size: 15px;
+                border: 2px solid orange;
+                border-radius: 50%;
+                padding: 8px 0;
+                margin-top: -5px;
+            }
         }
     }
 }
