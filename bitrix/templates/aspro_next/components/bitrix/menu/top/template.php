@@ -142,9 +142,6 @@ $iVisibleItemsMenu = ($arTheme['MAX_VISIBLE_ITEMS_MENU']['VALUE'] ? $arTheme['MA
                                     <li class="menu-item   ">
                                         <a href="/konditsionery/napolno-potolochnye/" title="Напольно-потолочные кондиционеры"><span class="name">Напольно-потолочные кондиционеры</span></a>
                                     </li>
-                                    <li class="menu-item   ">
-                                        <a href="/konditsionery/nastennye-kondicionery/" title="Настенные кондиционеры"><span class="name">Настенные кондиционеры</span></a>
-                                    </li>
                                 </ul>
                             </li>
                             <li class="dropdown-submenu  has_img">
@@ -203,10 +200,6 @@ $iVisibleItemsMenu = ($arTheme['MAX_VISIBLE_ITEMS_MENU']['VALUE'] ? $arTheme['MA
                                         <a href="/solnechnaya_energiya/vakuumnye_solnechnye_kollektory/" title="Вакуумные солнечные коллекторы"><span class="name">Вакуумные солнечные коллекторы</span></a>
                                     </li>
                                 </ul>
-                            </li>
-                            <li class="  has_img">
-                                <div class="menu_img"><img src="/upload/resize_cache/iblock/a5f/60_60_1/a5fb65ed580489e637b6dfdfdf92aee7.png" alt="Настенные кондиционеры" title="Настенные кондиционеры"></div>
-                                <a href="/nastennye_konditsionery/" title="Настенные кондиционеры"><span class="name">Настенные кондиционеры</span></a>
                             </li>
                         </ul>
                     </div>

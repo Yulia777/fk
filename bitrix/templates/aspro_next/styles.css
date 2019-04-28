@@ -179,3 +179,6 @@ a.icon-text:focus { color: #fff; }
     max-width: 60%;
     display: block;
 }
+.section_block .sections_wrapper.compuproject .item .catalog-image img {
+    padding: 55px!important;
+}

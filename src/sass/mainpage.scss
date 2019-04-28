@@ -47,6 +47,7 @@
     &__list {
       ol {
         counter-reset: count;
+        list-style-type: none;
         li {
           margin: 0 0 30px;
           &:before {
