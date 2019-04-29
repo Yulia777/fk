@@ -60,7 +60,7 @@
 			"SET_LAST_MODIFIED" => "N",
 			"INCLUDE_SUBSECTIONS" => "Y",
 			"STRICT_SECTION_CHECK" => "N",
-			"TITLE_BLOCK" => "Техноблог",
+			"TITLE_BLOCK" => "Блог",
 			"TITLE_BLOCK_ALL" => "Все записи",
 			"ALL_URL" => "blog/",
 			"PAGER_BASE_LINK_ENABLE" => "N",

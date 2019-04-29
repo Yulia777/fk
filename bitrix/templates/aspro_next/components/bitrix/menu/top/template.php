@@ -263,27 +263,6 @@ $iVisibleItemsMenu = ($arTheme['MAX_VISIBLE_ITEMS_MENU']['VALUE'] ? $arTheme['MA
                 </td>
                 <td class="menu-item dropdown" style="visibility: visible;">
                     <div class="wrap">
-                        <a class="dropdown-toggle" href="/help/">
-                            <div>
-                                Как купить									<div class="line-wrapper"><span class="line"></span></div>
-                            </div>
-                        </a>
-                        <span class="tail"></span>
-                        <ul class="dropdown-menu">
-                            <li class="  ">
-                                <a href="/help/payment/" title="Условия оплаты"><span class="name">Условия оплаты</span></a>
-                            </li>
-                            <li class="  ">
-                                <a href="/help/delivery/" title="Условия доставки"><span class="name">Условия доставки</span></a>
-                            </li>
-                            <li class="  ">
-                                <a href="/help/warranty/" title="Гарантия на товар"><span class="name">Гарантия на товар</span></a>
-                            </li>
-                        </ul>
-                    </div>
-                </td>
-                <td class="menu-item dropdown" style="visibility: visible;">
-                    <div class="wrap">
                         <a class="dropdown-toggle" href="/company/">
                             <div>
                                 О компании									<div class="line-wrapper"><span class="line"></span></div>
