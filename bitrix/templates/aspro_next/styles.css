@@ -182,3 +182,6 @@ a.icon-text:focus { color: #fff; }
 .section_block .sections_wrapper.compuproject .item .catalog-image img {
     padding: 55px!important;
 }
+.right_block ul, .right_block ol {
+    list-style-type:none;
+}
