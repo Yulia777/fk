@@ -142,9 +142,6 @@ $iVisibleItemsMenu = ($arTheme['MAX_VISIBLE_ITEMS_MENU']['VALUE'] ? $arTheme['MA
                                     <li class="menu-item   ">
                                         <a href="/konditsionery/napolno-potolochnye/" title="Напольно-потолочные кондиционеры"><span class="name">Напольно-потолочные кондиционеры</span></a>
                                     </li>
-                                    <li class="menu-item   ">
-                                        <a href="/konditsionery/nastennye-kondicionery/" title="Настенные кондиционеры"><span class="name">Настенные кондиционеры</span></a>
-                                    </li>
                                 </ul>
                             </li>
                             <li class="dropdown-submenu  has_img">
@@ -204,10 +201,6 @@ $iVisibleItemsMenu = ($arTheme['MAX_VISIBLE_ITEMS_MENU']['VALUE'] ? $arTheme['MA
                                     </li>
                                 </ul>
                             </li>
-                            <li class="  has_img">
-                                <div class="menu_img"><img src="/upload/resize_cache/iblock/a5f/60_60_1/a5fb65ed580489e637b6dfdfdf92aee7.png" alt="Настенные кондиционеры" title="Настенные кондиционеры"></div>
-                                <a href="/nastennye_konditsionery/" title="Настенные кондиционеры"><span class="name">Настенные кондиционеры</span></a>
-                            </li>
                         </ul>
                     </div>
                 </td>
@@ -266,27 +259,6 @@ $iVisibleItemsMenu = ($arTheme['MAX_VISIBLE_ITEMS_MENU']['VALUE'] ? $arTheme['MA
                                 Проекты									<div class="line-wrapper"><span class="line"></span></div>
                             </div>
                         </a>
-                    </div>
-                </td>
-                <td class="menu-item dropdown" style="visibility: visible;">
-                    <div class="wrap">
-                        <a class="dropdown-toggle" href="/help/">
-                            <div>
-                                Как купить									<div class="line-wrapper"><span class="line"></span></div>
-                            </div>
-                        </a>
-                        <span class="tail"></span>
-                        <ul class="dropdown-menu">
-                            <li class="  ">
-                                <a href="/help/payment/" title="Условия оплаты"><span class="name">Условия оплаты</span></a>
-                            </li>
-                            <li class="  ">
-                                <a href="/help/delivery/" title="Условия доставки"><span class="name">Условия доставки</span></a>
-                            </li>
-                            <li class="  ">
-                                <a href="/help/warranty/" title="Гарантия на товар"><span class="name">Гарантия на товар</span></a>
-                            </li>
-                        </ul>
                     </div>
                 </td>
                 <td class="menu-item dropdown" style="visibility: visible;">
