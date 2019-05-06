@@ -1,3 +1,4 @@
+<? $APPLICATION->SetPageProperty("HIDE_LEFT_BLOCK", "Y"); ?>
 <? $APPLICATION->IncludeComponent(
     "bitrix:catalog.section.list",
     "compuproject",
