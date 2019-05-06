@@ -605,9 +605,9 @@ $APPLICATION->IncludeComponent(
 		"STORES_FILTER_ORDER" => "SORT_ASC",
 		"FILE_404" => "",
 		"SEF_URL_TEMPLATES" => array(
-			"sections" => "catalog/",
-			"section" => "#SECTION_CODE_PATH#/",
-			"element" => "#ELEMENT_CODE#/",
+			"sections" => "",
+			"section" => "#SECTION_CODE#/",
+			"element" => "#SECTION_CODE#/#ELEMENT_CODE#/",
 			"compare" => "compare.php?action=#ACTION_CODE#",
 			"smart_filter" => "#SECTION_CODE_PATH#/filter/#SMART_FILTER_PATH#/apply/",
 		),

@@ -1,12 +1,12 @@
 <?
 $aMenuLinks = Array(
-	Array(
-		"Каталог", 
-		"/catalog/", 
-		Array(), 
-		Array("NOT_VISIBLE"=>"Y", "CLASS"=>"catalog wide_menu"), 
-		"" 
-	),
+    Array(
+        "Каталог",
+        "/catalog/",
+        Array(),
+        Array("NOT_VISIBLE"=>"Y", "CLASS"=>"catalog wide_menu"),
+        ""
+    ),
 	Array(
 		"Акции", 
 		"/sale/", 
