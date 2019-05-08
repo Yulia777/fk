@@ -12,7 +12,7 @@ $logoClass = ($arTheme['COLORED_LOGO']['VALUE'] !== 'Y' ? '' : ' colored');
     <div class="maxwidth-theme">
         <div class="row">
             <div class="links-data col-md-7 col-sm-12">
-                <a href="/company/">Написать директору</a>
+                <a href="/company/#napisat-directory/">Написать директору</a>
                 <a href="/reviews/">Отправить отзыв</a>
             </div>
             <div class="schedule-data col-md-5 col-sm-12">
