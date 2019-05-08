@@ -1,12 +1,12 @@
 <?
 $aMenuLinks = Array(
-	Array(
-		"Каталог", 
-		"/catalog/", 
-		Array(), 
-		Array("NOT_VISIBLE"=>"Y", "CLASS"=>"catalog wide_menu"), 
-		"" 
-	),
+    Array(
+        "Каталог",
+        "/catalog/",
+        Array(),
+        Array("NOT_VISIBLE"=>"Y", "CLASS"=>"catalog wide_menu"),
+        ""
+    ),
 	Array(
 		"Акции", 
 		"/sale/", 
@@ -43,12 +43,19 @@ $aMenuLinks = Array(
 		"" 
 	),
 	Array(
-		"Компания", 
+		"О компании",
 		"/company/", 
 		Array(), 
 		Array(), 
 		"" 
 	),
+    Array(
+        "Для клиентов",
+        "/clients/",
+        Array(),
+        Array(),
+        ""
+    ),
 	Array(
 		"Контакты", 
 		"/contacts/", 

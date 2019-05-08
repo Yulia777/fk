@@ -14,7 +14,7 @@ $APPLICATION->IncludeComponent(
 		"PRODUCT_QUANTITY_VARIABLE" => "quantity",
 		"PRODUCT_PROPS_VARIABLE" => "prop",
 		"SEF_MODE" => "Y",
-		"SEF_FOLDER" => "/",
+		"SEF_FOLDER" => "/catalog/",
 		"AJAX_MODE" => "N",
 		"AJAX_OPTION_JUMP" => "N",
 		"AJAX_OPTION_STYLE" => "Y",
@@ -605,11 +605,11 @@ $APPLICATION->IncludeComponent(
 		"STORES_FILTER_ORDER" => "SORT_ASC",
 		"FILE_404" => "",
 		"SEF_URL_TEMPLATES" => array(
-			"sections" => "catalog/",
-			"section" => "#SECTION_CODE_PATH#/",
-			"element" => "#ELEMENT_CODE#/",
+			"sections" => "",
+			"section" => "#SECTION_CODE#/",
+			"element" => "#SECTION_CODE#/#ELEMENT_CODE#/",
 			"compare" => "compare.php?action=#ACTION_CODE#",
-			"smart_filter" => "#SECTION_CODE_PATH#/filter/#SMART_FILTER_PATH#/apply/",
+			"smart_filter" => "#SECTION_CODE#/filter/#SMART_FILTER_PATH#/apply/",
 		),
 		"VARIABLE_ALIASES" => array(
 			"compare" => array(

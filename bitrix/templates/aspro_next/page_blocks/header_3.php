@@ -96,17 +96,17 @@ $logoClass = ($arTheme['COLORED_LOGO']['VALUE'] !== 'Y' ? '' : ' colored');
 				<div class="col-md-12">
 					<div class="menu-only">
 						<nav class="mega-menu sliced">
-							<?$APPLICATION->IncludeComponent("bitrix:main.include", ".default",
-								array(
-									"COMPONENT_TEMPLATE" => ".default",
-									"PATH" => SITE_DIR."include/menu/menu.top.php",
-									"AREA_FILE_SHOW" => "file",
-									"AREA_FILE_SUFFIX" => "",
-									"AREA_FILE_RECURSIVE" => "Y",
-									"EDIT_TEMPLATE" => "include_area.php"
-								),
-								false, array("HIDE_ICONS" => "Y")
-							);?>
+                            <?$APPLICATION->IncludeComponent("bitrix:main.include", ".default",
+                                array(
+                                    "COMPONENT_TEMPLATE" => ".default",
+                                    "PATH" => SITE_DIR."include/menu/menu.top.php",
+                                    "AREA_FILE_SHOW" => "file",
+                                    "AREA_FILE_SUFFIX" => "",
+                                    "AREA_FILE_RECURSIVE" => "Y",
+                                    "EDIT_TEMPLATE" => "include_area.php"
+                                ),
+                                false, array("HIDE_ICONS" => "Y")
+                            );?>
 						</nav>
 					</div>
 				</div>
