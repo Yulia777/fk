@@ -30,24 +30,26 @@ class CatalogSmartFilterProperties
         $entity_data_class_hide = $entityHide->getDataClass();
 
         $rsDataShow = $entity_data_class_show::getList(array(
-            "select" => array("UF_SECTION", "UF_PROPERTIES"),
-            "order" => array("UF_SECTION" => "ASC"),
+            "select" => array("UF_PROPERTY", "UF_SECTIONS"),
+            "order" => array("UF_PROPERTY" => "ASC"),
             "filter" => array("UF_ACTIVE"=>"1")
         ));
         $rsDataHide = $entity_data_class_hide::getList(array(
-            "select" => array("UF_SECTION", "UF_PROPERTIES"),
-            "order" => array("UF_SECTION" => "ASC"),
+            "select" => array("UF_PROPERTY", "UF_SECTIONS"),
+            "order" => array("UF_PROPERTY" => "ASC"),
             "filter" => array("UF_ACTIVE"=>"1")
         ));
         while ($arData = $rsDataShow->Fetch()) {
-            static::$propertiesShow[$arData['UF_SECTION']] = $arData['UF_PROPERTIES'];
-            foreach ($arData['UF_PROPERTIES'] as $val) {
-                static::$propertiesHideDefault[] = $val;
+            foreach ($arData['UF_SECTIONS'] as $section) {
+                static::$propertiesShow[$section][] = $arData['UF_PROPERTY'];
+                static::$propertiesHideDefault[] = $arData['UF_PROPERTY'];
             }
         }
         static::$propertiesHideDefault = $array = array_values(array_unique(static::$propertiesHideDefault));
         while ($arData = $rsDataHide->Fetch()) {
-            static::$propertiesHide[$arData['UF_SECTION']] = $arData['UF_PROPERTIES'];
+            foreach ($arData['UF_SECTIONS'] as $section) {
+                static::$propertiesHide[$section][] = $arData['UF_PROPERTY'];
+            }
         }
     }
 
