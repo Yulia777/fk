@@ -32,11 +32,7 @@ $APPLICATION->IncludeComponent(
 			0 => "",
 			1 => "",
 		),
-		"FILTER_PROPERTY_CODE" => array(
-			0 => "CML2_ARTICLE",
-			1 => "IN_STOCK",
-			2 => "",
-		),
+		"FILTER_PROPERTY_CODE" => array(),
 		"FILTER_PRICE_CODE" => array(
 			0 => "BASE",
 		),
