@@ -2,6 +2,7 @@
 
 $arParams["POPUP_POSITION"] = (isset($arParams["POPUP_POSITION"]) && in_array($arParams["POPUP_POSITION"], array("left", "right"))) ? $arParams["POPUP_POSITION"] : "left";
 include($_SERVER['DOCUMENT_ROOT'].SITE_DIR.'include/compuproject/CatalogSmartFilterProperties.php');
+include($_SERVER['DOCUMENT_ROOT'] . SITE_DIR . 'include/compuproject/SortPropertyValues.php');
 $arResult["ITEMS"] = CatalogSmartFilterProperties::getInstance()->updateSmartFilterPropertiesArray($arResult["ITEMS"]);
 foreach($arResult["ITEMS"] as $key => $arItem)
 {
@@ -10,4 +11,5 @@ foreach($arResult["ITEMS"] as $key => $arItem)
 		if($arResult["ITEMS"][$key]["VALUES"])
 			$arResult["ITEMS"][$key]["VALUES"][0]["VALUE"]=$arItem["NAME"];
 	}
+    $arItem["VALUES"] = SortPropertyValues::sort($arItem["VALUES"]);
 }
