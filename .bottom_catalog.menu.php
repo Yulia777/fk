@@ -9,35 +9,35 @@ $aMenuLinks = Array(
 	),
 	Array(
 		"Вентиляция",
-		"/vent/",
+		"/catalog/vent/",
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
 		"Кондиционеры",
-		"/konditsionery/",
+		"/catalog//konditsionery/",
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
 		"Отопление",
-		"/otoplenie/",
+		"/catalog//otoplenie/",
 		Array(), 
 		Array(), 
 		"" 
 	),
     Array(
         "Микроклимат",
-        "/microclima/",
+        "/catalog//microclima/",
         Array(),
         Array(),
         ""
     ),
     Array(
         "Солнечная энергия",
-        "/solnechnaya_energiya/",
+        "/catalog//solnechnaya_energiya/",
         Array(),
         Array(),
         ""
