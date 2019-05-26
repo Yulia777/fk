@@ -26,9 +26,13 @@ $APPLICATION->AddChainItem("Контакты", "/contacts/");?>
                 </div>
             </div>
             <div class="contacts-block__image">
-                <img class="contacts__banner"
-                     alt="Sample Image"
-                     src="http://i.imgur.com/I86rTVl.jpg">
+                    <script type="text/javascript" src="https://vk.com/js/api/openapi.js?160"></script>
+
+                    <!-- VK Widget -->
+                    <div id="vk_groups"></div>
+                    <script type="text/javascript">
+                        VK.Widgets.Group("vk_groups", {mode: 3, no_cover: 1, width: "320px"}, 119260418);
+                    </script>
             </div>
         </div>
         <div class="contacts-map">
