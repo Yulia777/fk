@@ -32,11 +32,7 @@ $APPLICATION->IncludeComponent(
 			0 => "",
 			1 => "",
 		),
-		"FILTER_PROPERTY_CODE" => array(
-			0 => "CML2_ARTICLE",
-			1 => "IN_STOCK",
-			2 => "",
-		),
+		"FILTER_PROPERTY_CODE" => array(),
 		"FILTER_PRICE_CODE" => array(
 			0 => "BASE",
 		),
@@ -588,7 +584,7 @@ $APPLICATION->IncludeComponent(
 		"USE_FILTER_PRICE" => "N",
 		"DISPLAY_ELEMENT_COUNT" => "Y",
 		"RESTART" => "N",
-		"USE_LANGUAGE_GUESS" => "Y",
+		"USE_LANGUAGE_GUESS" => "N",
 		"NO_WORD_LOGIC" => "Y",
 		"SHOW_SECTION_DESC" => "Y",
 		"TITLE_SLIDER" => "Рекомендуем",
