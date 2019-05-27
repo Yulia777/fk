@@ -97,6 +97,13 @@ class CatalogSmartFilterProperties
         $arVariables = "0";
         $sectionId = null;
         CComponentEngine::ParseComponentPath('/catalog/', array('SECTION_CODE' => '#SECTION_CODE#/'), $arVariables);
+        if(empty($arVariables)) {
+            global $APPLICATION;
+            $page = explode("/", $APPLICATION->GetCurPage());
+            if(isset($page[2])) {
+                $arVariables['SECTION_CODE'] = $page[2];
+            }
+        }
         $rsSections = CIBlockSection::GetList(array(), array('IBLOCK_ID' => self::IBLOCK_ID, '=CODE' => $arVariables['SECTION_CODE']));
         if ($arSection = $rsSections->Fetch()) {
             $sectionId = $arSection["ID"];
