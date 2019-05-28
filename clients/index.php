@@ -293,7 +293,7 @@ $APPLICATION->SetTitle("Для клиентов");
 		"PAGER_DESC_NUMBERING_CACHE_TIME" => "36000",
 		"PAGER_SHOW_ALL" => "N",
 		"VIEW_TYPE" => "accordion",
-		"SHOW_TABS" => "Y",
+		"SHOW_TABS" => "N",
 		"SHOW_SECTION_PREVIEW_DESCRIPTION" => "Y",
 		"SECTION_ELEMENTS_TYPE_VIEW" => "list_elements_1",
 		"SHOW_SECTION_NAME" => "N",
