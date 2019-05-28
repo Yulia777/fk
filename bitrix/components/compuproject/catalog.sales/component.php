@@ -7,14 +7,14 @@ $arResult["SEF_FOLDER"] = trim($arParams["SEF_FOLDER"]);
 $arResult["SECTION_CODE"] = "";
 $arResult["SECTION_ID"] = "";
 
-
 if($_REQUEST['SECTION_CODE'] !== null && $_REQUEST['SECTION_CODE'] !== "") {
-    $arFilter = array("CODE"=>$_REQUEST['SECTION_CODE']);
+    $sectionCode = strstr($_REQUEST['SECTION_CODE'], '/', true);
+    $arFilter = array("CODE"=>$sectionCode);
     $arSelect = array("ID");
     $rsSections = CIBlockSection::GetList(Array("SORT"=>"ASC"),$arFilter,false,$arSelect,false);
     while ($arSection = $rsSections->Fetch())
     {
-        $arResult["SECTION_CODE"] = $_REQUEST['SECTION_CODE'];
+        $arResult["SECTION_CODE"] = $sectionCode;
         $arResult["SECTION_ID"] = $arSection["ID"];
     }
 }

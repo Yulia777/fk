@@ -96,7 +96,7 @@ if(
 
 				$arResult["CATEGORIES"][$i]["ITEMS"][] = array(
 					"NAME" => GetMessage("CC_BST_MORE"),
-					"URL" => htmlspecialcharsbxex($url),
+					"URL" => htmlspecialcharsbx($url),
 				);
 				break;
 			}
