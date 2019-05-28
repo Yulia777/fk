@@ -29,7 +29,7 @@ $this->setFrameMode(true);
 								</a>
 							</div>
 						<?endif;?>
-						
+
 						<div class="info">
 							<?// section name?>
 							<?if(in_array('NAME', $arParams['FIELD_CODE'])):?>
@@ -44,19 +44,21 @@ $this->setFrameMode(true);
 							<?if($arItem['CHILD']):?>
 								<div class="text childs services__container">
 										<?foreach($arItem['CHILD'] as $arSubItem):?>
-                                        <pre style="display: none;"><?print_r($arSubItem)?></pre>
+
 											<div class="services__item shine">
-                                                <a class="services__description" href="<?=($arSubItem['SECTION_PAGE_URL'] ? $arSubItem['SECTION_PAGE_URL'] : $arSubItem['DETAIL_PAGE_URL'] );?>">
-                                                    <?=$arSubItem['NAME']?>
-                                                </a>
                                                 <a href="<?=($arSubItem['SECTION_PAGE_URL'] ? $arSubItem['SECTION_PAGE_URL'] : $arSubItem['DETAIL_PAGE_URL'] );?>">
                                                     <img src="<?=CFile::GetPath($arSubItem["PREVIEW_PICTURE"])?>" alt="<?=$arSubItem['NAME']?> в Рязани">
                                                 </a>
+                                                <div class="services--title-white">
+                                                    <a href="<?=($arSubItem['SECTION_PAGE_URL'] ? $arSubItem['SECTION_PAGE_URL'] : $arSubItem['DETAIL_PAGE_URL'] );?>">
+                                                        <?=$arSubItem['NAME']?>
+                                                    </a>
+                                                </div>
                                             </div>
 										<?endforeach;?>
 								</div>
 							<?endif;?>
-							
+
 							<?// section preview text?>
 							<?if(strlen($arItem['UF_TOP_SEO']) && $arParams['SHOW_SECTION_PREVIEW_DESCRIPTION'] != 'N'):?>
 								<div class="text">
