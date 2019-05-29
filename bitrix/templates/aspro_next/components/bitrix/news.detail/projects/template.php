@@ -18,7 +18,7 @@
 <div class="item projects-blocks">
 	<?// element name?>
 	<?if($arParams['DISPLAY_NAME'] != 'N' && strlen($arResult['NAME'])):?>
-		<h2 itemprop="name"><?=$arResult['NAME']?></h2>
+		<h1 class="shares-block" itemprop="name"><?=$arResult['NAME']?></h1>
 	<?endif;?>
 	<div class="head-block<?=($arResult['GALLERY'] ? '' : ' wti')?>">
 		<div class="row">
