@@ -1,6 +1,6 @@
 <?
 $sSectionName = "Блог";
-$arDirProperties = Array(
-	"HIDE_LEFT_BLOCK" => "Y",
+$arDirProperties = array(
+   "HIDE_LEFT_BLOCK" => "Y"
 );
 ?>
