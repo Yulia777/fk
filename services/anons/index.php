@@ -91,8 +91,8 @@ $APPLICATION->IncludeComponent(
 		"SHOW_NEXT_ELEMENT" => "N",
 		"SHOW_SECTION_DESCRIPTION" => "Y",
 		"SHOW_SECTION_PREVIEW_DESCRIPTION" => "Y",
-		"SORT_BY1" => "ACTIVE_FROM",
-		"SORT_BY2" => "SORT",
+		"SORT_BY1" => "SORT",
+		"SORT_BY2" => "ID",
 		"SORT_ORDER1" => "ASC",
 		"SORT_ORDER2" => "ASC",
 		"STORES" => array(

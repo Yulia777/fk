@@ -109,6 +109,7 @@
 					}
 					elseif($arItem["OFFERS"]){
 						$strMeasure = $arItem["MIN_PRICE"]["CATALOG_MEASURE_NAME"];
+						$arParams['OFFERS_CUSTOM'] = true;
 					}
 					
 					$elementName = ((isset($arItem['IPROPERTY_VALUES']['ELEMENT_PAGE_TITLE']) && $arItem['IPROPERTY_VALUES']['ELEMENT_PAGE_TITLE']) ? $arItem['IPROPERTY_VALUES']['ELEMENT_PAGE_TITLE'] : $arItem['NAME']);
@@ -116,6 +117,9 @@
 					<div class="catalog_item main_item_wrapper item_wrap <?=(($_GET['q'])) ? 's' : ''?>" id="<?=$arItemIDs["strMainID"];?>">
 						<div>
 							<div class="image_wrapper_block">
+                                <pre style="display: none;">
+                                    <?print_r($arItem["OFFERS"])?>
+                                </pre>
 								<div class="stickers">
 									<?$prop = ($arParams["STIKERS_PROP"] ? $arParams["STIKERS_PROP"] : "HIT");?>
 									<?foreach(CNext::GetItemStickers($arItem["PROPERTIES"][$prop]) as $arSticker):?>
@@ -208,6 +212,7 @@
 								</div>-->
 								<div class="cost prices clearfix">
 									<?if( $arItem["OFFERS"]){?>
+                                        <?$arParams['IS_ON_SALE'] = 'Y';?>
 										<div class="with_matrix <?=($arParams["SHOW_OLD_PRICE"]=="Y" ? 'with_old' : '');?>" style="display:none;">
 											<div class="price price_value_block"><span class="values_wrapper"></span></div>
 											<?if($arParams["SHOW_OLD_PRICE"]=="Y"):?>
