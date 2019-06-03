@@ -3,9 +3,9 @@ define("BX_USE_MYSQLI", true);
 define("DBPersistent", false);
 $DBType = "mysql";
 $DBHost = "localhost";
-$DBLogin = "pbuka_fk62";
-$DBPassword = "sg123456";
-$DBName = "pbuka_fk62";
+$DBLogin = "u0701521_default";
+$DBPassword = "Xk!dCl6p";
+$DBName = "u0701521_default";
 $DBDebug = false;
 $DBDebugToFile = false;
 

@@ -1,5 +1,0 @@
-<?
-$MESS["SENDER_INTEGRATION_BITRIX24_RATING_BLOCKED"] = "You have been blocked.";
-$MESS["SENDER_INTEGRATION_BITRIX24_RATING_UPGRADED"] = "Daily sending limit increased.";
-$MESS["SENDER_INTEGRATION_BITRIX24_RATING_DOWNGRADED"] = "Daily sending limit decreased.";
-?>

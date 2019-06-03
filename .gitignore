@@ -10,6 +10,9 @@
 /bitrix/templates/sales-generator/sg_styles.css
 /bitrix/templates/sales-generator/template_styles.css
 /bitrix/templates/sales-generator/assets/js/main.script.js
+/bitrix/modules/
+/bitrix/wizard/
+/bitrix/blocks/
 /user/user-app/node_modules/
 .ftpconfig
 .jpg

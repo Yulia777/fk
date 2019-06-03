@@ -3,6 +3,10 @@
     display: flex;
     justify-content: space-between;
 
+    h2 a{
+      color:black;
+    }
+
     .popup_link img {
       margin: 4px 2px;
       padding: 7px;
@@ -17,9 +21,11 @@
         width: 100%;
         max-width: 480px;
       }
+      margin-bottom: 10px;
     }
     &__vk {
       max-width: 460px;
+      margin-top: 35px;
     }
   }
 
@@ -42,6 +48,7 @@
     &__list {
       ol {
         counter-reset: count;
+        list-style-type: none;
         li {
           margin: 0 0 30px;
           &:before {
@@ -70,4 +77,129 @@
   background: url(/images/slider-shadow-down.jpg) no-repeat top center;
   height: 9px;
   margin: 30px auto !important;
+}
+
+.fill_bg_n {
+  .menu-row.bgcolored, .fill_bg_y .menu-row.bgcolored>.maxwidth-theme {
+    background-color: $blue;
+  }
+}
+a, .link, .button.transparent, .button.transparent:hover, .specials_slider_wrapp ul.tabs>li span, .tab_slider_wrapp ul.tabs>li span, .basket_wrapp .basket_block .link:hover+.wraps_icon_block+.text .title, .stores .stores_list .item a span, .phones .order_wrap_btn, .footer_bottom .all_menu_block ul li a:hover, .footer_bottom .submenu_top .menu_item a:hover, .avtorization-call.enter:hover span, .top-h-row .h-user-block a:hover, ul.menu .child li.menu_item a, #header .catalog_menu ul.menu>li.current>a, ul.menu .child .depth3 a, ul.menu .child li.menu_title a:hover, #header ul.menu li .child.submenu .child_wrapp a:not(.title), .img_block_capcha .reload, .h_color_white .center_block .menu.full>li:hover>a, .m_color_white #header .wrapper_middle_menu .menu.bottom>li:hover>a, .m_color_white #header .wrapper_middle_menu .menu.bottom>li.hover>a, body #header ul.menu li .child.line .child_wrapp>a:hover, .basket_sort ul.tabs li .wrap_li>span *, .basket_sort ul.tabs li .wrap_li>span, .bx_filter_parameters_box_title:hover, .bx_filter .bx_filter_popup_result a, .left_block .internal_sections_list .child_wrapp .child li.cur>a, .left_block .internal_sections_list .child_wrapp .child li.depth3 a.menu_item.cur, .left_block .internal_sections_list .child_wrapp a:hover, .ajax_load_btn:hover .more_text_ajax, .breadcrumbs a:hover span, .tabs-head li.current span, .item-stock .store_view, .reviews-post-reply-buttons a:hover, h4.hover, .button.transparent.white:hover, .button.white_bg, .item .child_container .child_wrapp .menu_item.current a, .item .child_container .child_wrapp .menu_item:hover a {
+  color:$blue;
+}
+.dark-color:hover, a.colored, .colored {
+  color:$blue;
+}
+.top-data-panel .links-data a {
+  color:$blue;
+}
+.btn.btn-default {
+  background-color: $blue;
+  border-color: $blue;
+}
+a.scroll-to-top.ROUND_COLOR, a.scroll-to-top.RECT_COLOR {
+  background-color: $blue;
+}
+.subscribe-form input.send_btn {
+  background-color: $blue;
+}
+body .basket-link.basket-count .count {
+  background-color: $blue;
+}
+.smartfilter .bx_ui_slider_track .bx_ui_slider_range, .bx_filter .bx_ui_slider_pricebar_V {
+  background: $blue;
+}
+.smartfilter .bx_ui_slider_track .bx_ui_slider_handle {
+  border-color: $blue;
+}
+.sort_display a.current {
+  background-color: $blue;
+}
+.more_text_ajax:after {
+  background-color: $blue;
+}
+.module-pagination .nums .cur {
+  background: $blue;
+}
+#basket-root .basket-coupon-block-coupon-btn {
+  background-color: $blue;
+}
+#basket-root .basket-checkout-section .btn.btn-default:not(.basket-btn-checkout) {
+  border-color: $blue;
+  background-color: $blue;
+}
+.btn.btn-default.white:not(.grey) {
+  color: $blue !important;
+  border: 1px solid $blue;
+}
+.page_error_block svg path {
+  fill: $blue;
+}
+.tabs .nav-tabs li.active a {
+  color: $blue;
+}
+.tabs .nav-tabs li.active a:before {
+  background: $blue;
+}
+a .zoom {
+  background: $blue;
+}
+.button.transparent, .h_color_white .header_wrap .menu>li.current>a span, .h_color_white.wrapper #header ul.menu li .child .child_wrapp, .m_color_white.wrapper #header ul.menu li .child .child_wrapp, .basket_normal .popup.card_popup_frame .basket_popup_wrapp, .basket_sort ul.tabs li.cur div, .smartfilter .bx_ui_slider_track .bx_ui_slider_handle, .bx_filter .button, .bx_filter_vertical input[type="checkbox"]:checked+label.sku, .sku_props .bx_item_detail_size ul li.active, .bx_size_scroller_container .bx_size ul li.bx_active, .bx_filter .bx_filter_param_label.active .bx_filter_param_btn, .bx_catalog_item_scu .bx_item_detail_scu ul li.active span.cnt, .item_slider .thumbs li.current, .popup-window.popup-window-titlebar .popup-window-top-row .popup-window-left-column, .popup-window.popup-window-titlebar .popup-window-top-row .popup-window-center-column, .popup-window.popup-window-titlebar .popup-window-top-row .popup-window-right-column, .popup-window.popup-window-titlebar-light .popup-window-top-row .popup-window-left-column, .popup-window.popup-window-titlebar-light .popup-window-top-row .popup-window-center-column, .popup-window.popup-window-titlebar-light .popup-window-top-row .popup-window-right-column, .bx_element input[type=radio]:checked+label .bx_logotype, .bx_element label.selected .bx_logotype {
+  border-color: $blue;
+}
+.like_icons .compare_item.added i, .like_icons .wish_item.added i {
+  border-color: $blue;
+  background-color: $blue;
+}
+ul li::before {
+  color: $blue;
+}
+.button {
+  background-color: $blue;
+}
+.article ul li::before {
+  color: $blue;
+}
+.head-block .item-link.active .title, .head-block .item-link.active span, .head-block .item-link.active .btn-inline {
+  color: $blue;
+}
+.head-block .item-link.active .title span:before, .head-block .item-link.active .title .btn-inline:before {
+  background: $blue;
+}
+.introtext {
+  border-bottom-color: $blue;
+}
+button.button, input.button, .button, #header ul.menu.full.opened li:not(.search_row):hover, #header ul.menu.full>li.search_row #search-submit-button:hover, table.title-search-result td.title-search-all a .icon, .flex-direction-nav li:hover, .flex-direction-nav li:first-child:hover, .top_slider_wrapp .flex-direction-nav li:hover, .like_icons .wish_item.added, .like_icons .compare_item.added, .light .stores .all_map, .block_wr.dark, .popup .close:hover, .header_wrap #header .middle-h-row .logo_wrapp .logo a, .h_color_colored .header_wrap #header, .registraion-page .top p:after, .has_menu.m_color_colored #header .catalog_menu, .module-cart .remove-cell a:hover, .cart_shell .remove-cell a:hover, .bx_item_set_hor .bx_item_set_hor_item a.remove, .bx_filter .bx_filter_popup_result, .bx_filter .bx_filter_parameters_box_title:before, .bx_filter_vertical input[type="checkbox"]+label:before, .filter input[type="checkbox"]+label:before, .filter input[type="radio"]+label:before, .bx_filter label.pal:hover .bx_filter_param_btn, .bx_filter .bx_filter_param_label.active .bx_filter_param_btn, .bx_filter_vertical input[type="checkbox"]:checked+label.sku, .left_block .internal_sections_list li.cur, .left_block .internal_sections_list li:hover, .left_block .internal_sections_list .title .inner_block:hover:before, .left_block .internal_sections_list .child_wrapp .child li.depth3 a.menu_item.cur:before, .left_block .internal_sections_list .child_wrapp .child li.depth3 a.menu_item:hover:before, .left_block .internal_sections_list .child_wrapp ul.child li.cur:after, .left_block .internal_sections_list .child_wrapp ul.child li:hover:after, body #content .props_list tr td>span:before, body #content .props_list tr td>.txt:before, .module-pagination .nums .cur, .more_text_ajax:before, .captcha_reload:before, .sku_props .bx_item_detail_size ul li.active, .bx_size_scroller_container .bx_size ul li.bx_active, .bx_catalog_item_scu .bx_item_detail_scu ul li.active span:not(.cnt_item), .ik_select_list .ik_select_list_inner ul li.ik_select_active, .bx_filter_select_popup ul li label.selected, .filter_opener.opened, .no_goods .no_products:before, .wr_scrollbar .scrollbar .handle, .remove:hover, a i.arrow, .popup-window-close-icon.popup-window-titlebar-close-icon:hover, .bx_kit_item .bx_kit_item_add, .catalog_detail .offers_table td.opener:hover .opener_icon, .opener_icon:hover, .char_name .hint .icon:hover, .char_name .hint.active .icon, .location-block-wrapper .bx-sls .bx-ui-sls-clear:before, h4:hover .opener_icon, .bg_block:before, #order_form_div input[type="submit"], .module-order-history .item_name:hover .icon, .module-order-history .item_name:hover .icon, .faq.list .item .q:hover .opener_icon, .jobs_wrapp .item .name tr:hover .opener_icon {
+  background: $blue;
+}
+.bigs .flex-direction-nav li {
+  background: $blue;
+}
+header .menu_colored .menu_top_block>li.current>a, header .menu_dark .menu_top_block.menu>li.current>a, header .menu_dark .menu_top_block.menu>li.current:hover>a, .menu_top_block.catalog_block .dropdown>li.full:hover>a:before, .menu_top_block.catalog_block .dropdown>li.full.current>a, header .menu_top_block li.catalog>.dropdown>li.current>a, .left_menu>li.current>a, .left_menu>li:hover>a:before {
+  background: $blue;
+}
+
+
+.top-data-panel{
+  .schedule-data{
+    text-align:right;
+  }
+}
+
+.front-blog{
+  a{
+    color:black;
+  }
+}
+
+.footer-menu{
+  display: flex;
+  justify-content: space-between;
+}
+.projects  {
+  .introtext {
+    border:0;
+    padding: 0;
+    margin-bottom: 10px;
+  }
 }

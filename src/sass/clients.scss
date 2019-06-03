@@ -8,10 +8,20 @@
   }
   &__item{
     margin: 10px auto;
+    a{
+      color:#02a0e3 ;
+      &:hover{
+        color:black;
+      }
+    }
     p{
       text-align: center;
       margin: 10px auto;
       font-weight: 600;
+    }
+    img{
+      display: block;
+      margin: 0 auto;
     }
   }
 }

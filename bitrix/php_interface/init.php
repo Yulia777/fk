@@ -80,34 +80,23 @@ function updateElementsPrice() {
     return "updateElementsPrice();";
 }
 
-AddEventHandler("iblock", "OnBeforeIBlockElementUpdate", "createElementCode");
-function createElementCode(&$arFields) {
-    if($arFields["IBLOCK_ID"] == "17") {
-        $elementCode = str_pad($arFields['ID'], 6, '0', STR_PAD_LEFT);
-        reset($arFields["PROPERTY_VALUES"][284]);
-        reset($arFields["PROPERTY_VALUES"][229]);
-        $arFields["PROPERTY_VALUES"][284][key($arFields["PROPERTY_VALUES"][284])]["VALUE"] = $elementCode;
-        $arFields["PROPERTY_VALUES"][229][key($arFields["PROPERTY_VALUES"][229])]["VALUE"] = $elementCode;
+function updateElementsArticle() {
+    if(CModule::IncludeModule("iblock")) {
+        $elements = CIBlockElement::GetList (
+            Array("ID" => "ASC"),
+            Array("IBLOCK_ID" => CATALOG_IBLOCK,"ACTIVE" => "Y"),
+            false,
+            false,
+            Array('ID','PROPERTY_EL_CODE')
+        );
+        while($element= $elements->GetNext())
+        {
+            $elementCode = str_pad($element['ID'], 6, '0', STR_PAD_LEFT);
+            if(!isset($element['PROPERTY_EL_CODE_VALUE']) || $element['PROPERTY_EL_CODE_VALUE'] != $elementCode) {
+                CIBlockElement::SetPropertyValues($element['ID'], CATALOG_IBLOCK, $elementCode, "EL_CODE");
+            }
+        }
     }
+    return "updateElementsArticle();";
 }
-//AddEventHandler("catalog", "OnBeforePriceAdd", "testOnBeforePriceAdd");
-//function testOnBeforePriceAdd(&$arFields) {
-//    AddMessage2Log("testOnBeforePriceAdd");
-//    AddMessage2Log($arFields);
-//}
-//AddEventHandler("catalog", "OnBeforePriceAdd", "testOnBeforePriceUpdate");
-//function testOnBeforePriceUpdate(&$arFields) {
-//    AddMessage2Log("testOnBeforePriceUpdate");
-//    AddMessage2Log($arFields);
-//}
-//AddEventHandler("catalog", "OnPriceAdd", "testOnPriceAdd");
-//function testOnPriceAdd(&$arFields) {
-//    AddMessage2Log("testOnPriceAdd");
-//    AddMessage2Log($arFields);
-//}
-//AddEventHandler("catalog", "OnPriceUpdate", "testOnPriceUpdate");
-//function testOnPriceUpdate(&$arFields) {
-//    AddMessage2Log("testOnPriceUpdate");
-//    AddMessage2Log($arFields);
-//}
 

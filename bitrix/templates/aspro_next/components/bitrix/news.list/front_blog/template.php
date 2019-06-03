@@ -4,8 +4,8 @@
 	<div class="blog_wrapper banners-small blog">
 		<?if($arParams["TITLE_BLOCK"] || $arParams["TITLE_BLOCK_ALL"]):?>
 			<div class="top_block">
-				<h3 class="title_block"><?=$arParams["TITLE_BLOCK"];?></h3>
-				<a href="<?=SITE_DIR.$arParams["ALL_URL"];?>"><?=$arParams["TITLE_BLOCK_ALL"] ;?></a>
+                <h2 class="front-blog"><a href="<?=SITE_DIR.$arParams["ALL_URL"];?>"><?=$arParams["TITLE_BLOCK"];?></a></h2>
+				<!--<a href="<?/*=SITE_DIR.$arParams["ALL_URL"];*/?>"><?/*=$arParams["TITLE_BLOCK_ALL"] ;*/?></a>-->
 			</div>
 		<?endif;?>
 		<div class="items">

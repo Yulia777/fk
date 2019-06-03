@@ -2,7 +2,7 @@
 $APPLICATION->SetTitle("Каталог");
 $APPLICATION->IncludeComponent(
 	"bitrix:catalog", 
-	"main", 
+	"compuproject",
 	array(
 		"IBLOCK_TYPE" => "aspro_next_catalog",
 		"IBLOCK_ID" => "17",
@@ -14,7 +14,7 @@ $APPLICATION->IncludeComponent(
 		"PRODUCT_QUANTITY_VARIABLE" => "quantity",
 		"PRODUCT_PROPS_VARIABLE" => "prop",
 		"SEF_MODE" => "Y",
-		"SEF_FOLDER" => "/",
+		"SEF_FOLDER" => "/catalog/",
 		"AJAX_MODE" => "N",
 		"AJAX_OPTION_JUMP" => "N",
 		"AJAX_OPTION_STYLE" => "Y",
@@ -32,11 +32,7 @@ $APPLICATION->IncludeComponent(
 			0 => "",
 			1 => "",
 		),
-		"FILTER_PROPERTY_CODE" => array(
-			0 => "CML2_ARTICLE",
-			1 => "IN_STOCK",
-			2 => "",
-		),
+		"FILTER_PROPERTY_CODE" => array(),
 		"FILTER_PRICE_CODE" => array(
 			0 => "BASE",
 		),
@@ -588,7 +584,7 @@ $APPLICATION->IncludeComponent(
 		"USE_FILTER_PRICE" => "N",
 		"DISPLAY_ELEMENT_COUNT" => "Y",
 		"RESTART" => "N",
-		"USE_LANGUAGE_GUESS" => "Y",
+		"USE_LANGUAGE_GUESS" => "N",
 		"NO_WORD_LOGIC" => "Y",
 		"SHOW_SECTION_DESC" => "Y",
 		"TITLE_SLIDER" => "Рекомендуем",
@@ -605,11 +601,11 @@ $APPLICATION->IncludeComponent(
 		"STORES_FILTER_ORDER" => "SORT_ASC",
 		"FILE_404" => "",
 		"SEF_URL_TEMPLATES" => array(
-			"sections" => "catalog/",
-			"section" => "#SECTION_CODE_PATH#/",
-			"element" => "#ELEMENT_CODE#/",
+			"sections" => "",
+			"section" => "#SECTION_CODE#/",
+			"element" => "#SECTION_CODE#/#ELEMENT_CODE#/",
 			"compare" => "compare.php?action=#ACTION_CODE#",
-			"smart_filter" => "#SECTION_CODE_PATH#/filter/#SMART_FILTER_PATH#/apply/",
+			"smart_filter" => "#SECTION_CODE#/filter/#SMART_FILTER_PATH#/apply/",
 		),
 		"VARIABLE_ALIASES" => array(
 			"compare" => array(

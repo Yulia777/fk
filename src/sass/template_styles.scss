@@ -1,3 +1,6 @@
+/*color*/
+$blue: #02A0E3;
+
 @import "./blog/article";
 @import "./blog/article-banner";
 @import "./blog/article-content";
@@ -6,6 +9,7 @@
 @import "contacts";
 @import "services";
 @import "clients";
+@import "company";
 @import "social-likes";
 @import "thanks";
 @import "mainpage";

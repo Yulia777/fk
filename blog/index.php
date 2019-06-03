@@ -96,6 +96,60 @@ $APPLICATION->SetTitle("Блог");
 	false
 );?>
 
+
+<script type="text/javascript">
+   /* $(function() {
+        var $window = $(window);
+        var $sidebar = $(".sticky_blog");
+        var $sidebarTop = $sidebar.position().top;
+        var $sidebarHeight = $sidebar.height();
+        var $footer = $('.footer-light');
+        var $footerTop = $footer.position().top;
+
+        $window.scroll(function(event) {
+            $sidebar.addClass("fixed");
+            var $scrollTop = $window.scrollTop();
+            var $topPosition = Math.max(0, $sidebarTop - $scrollTop);
+
+            if ($scrollTop + $sidebarHeight > $footerTop) {
+                var $topPosition = Math.min($topPosition, $footerTop - $scrollTop - $sidebarHeight);
+            }
+
+            $sidebar.css("top", $topPosition);
+        });
+    });*/
+
+
+    $(document).ready(function(){
+        var br = $.browser;
+        $(window).scroll(function() {
+            var top = $(document).scrollTop();
+            if (top < 61) {
+                $(".sticky_blog").css({top: '0', position: 'relative', width: '290px'});
+            } else if ((!br.msie) || ((br.msie) && (br.version > 7))) {
+                $(".sticky_blog").css({top: '22px', position: 'fixed', width: '290px'});
+            } else if ((br.msie) && (br.version <= 7)) {
+                $(".sticky_blog").css({top: '22px', position: 'fixed', width: '290px'});
+            }
+        });
+    });
+</script>
+
+<style>
+	/*.sticky_blog {
+		position: -webkit-sticky;
+		position: sticky;
+	}*/
+	/*.fixed {
+		position: fixed;
+		right: 50%;
+		margin-right: -50%;
+	}*/
+</style>
+
+
+
+
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
 
 <?/*

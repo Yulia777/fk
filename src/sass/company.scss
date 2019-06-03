@@ -1,0 +1,27 @@
+.company-icon{
+  &__container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 70px auto;
+    flex-flow: wrap;
+  }
+  &__item{
+    margin: 10px auto;
+    a{
+      color:#02a0e3 ;
+      &:hover{
+        color:black;
+      }
+    }
+    p{
+      text-align: center;
+      margin: 10px auto;
+      font-weight: 600;
+    }
+    img{
+      display: block;
+      margin: 0 auto;
+    }
+  }
+}

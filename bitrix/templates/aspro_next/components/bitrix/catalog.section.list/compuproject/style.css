@@ -1,0 +1,18 @@
+.sections_wrapper.compuproject .list .item {
+    padding: 0 !important;
+    position: relative;
+}
+.sections_wrapper.compuproject .item .catalog-image img {
+    display: block;
+    margin: 0;
+    width: 100%;
+}
+.sections_wrapper.compuproject .item .name {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 1em;
+    text-align: center;
+    background: rgba(255,255,255,.8);
+}

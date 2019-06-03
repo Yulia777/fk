@@ -1,0 +1,46 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Каталог",
+		"/catalog/",
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Вентиляция",
+		"/catalog/vent/",
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Кондиционеры",
+		"/catalog//konditsionery/",
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Отопление",
+		"/catalog//otoplenie/",
+		Array(), 
+		Array(), 
+		"" 
+	),
+    Array(
+        "Микроклимат",
+        "/catalog//microclima/",
+        Array(),
+        Array(),
+        ""
+    ),
+    Array(
+        "Солнечная энергия",
+        "/catalog//solnechnaya_energiya/",
+        Array(),
+        Array(),
+        ""
+    )
+);
+?>

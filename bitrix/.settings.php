@@ -1,33 +1,34 @@
 <?php
-return array (
-  'utf_mode' => 
+
+return array (
+  'utf_mode' =>
   array (
     'value' => true,
     'readonly' => true,
   ),
-  'cache_flags' => 
+  'cache_flags' =>
   array (
-    'value' => 
+    'value' =>
     array (
       'config_options' => 3600.0,
       'site_domain' => 3600.0,
     ),
     'readonly' => false,
   ),
-  'cookies' => 
+  'cookies' =>
   array (
-    'value' => 
+    'value' =>
     array (
       'secure' => false,
       'http_only' => true,
     ),
     'readonly' => false,
   ),
-  'exception_handling' => 
+  'exception_handling' =>
   array (
-    'value' => 
+    'value' =>
     array (
-      'debug' => false,
+      'debug' => true,
       'handled_errors_types' => 4437,
       'exception_errors_types' => 4437,
       'ignore_silence' => false,
@@ -37,25 +38,25 @@
     ),
     'readonly' => false,
   ),
-  'connections' => 
+  'connections' =>
   array (
-    'value' => 
+    'value' =>
     array (
-      'default' => 
+      'default' =>
       array (
         'className' => '\\Bitrix\\Main\\DB\\MysqliConnection',
         'host' => 'localhost',
-        'database' => 'pbuka_fk62',
-        'login' => 'pbuka_fk62',
-        'password' => 'sg123456',
+        'database' => 'u0701521_default',
+        'login' => 'u0701521_default',
+        'password' => 'Xk!dCl6p',
         'options' => 2.0,
       ),
     ),
     'readonly' => true,
   ),
-  'crypto' => 
+  'crypto' =>
   array (
-    'value' => 
+    'value' =>
     array (
       'crypto_key' => 'acddf2b5393096a797fc2adc92e2668b',
     ),
