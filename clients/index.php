@@ -50,7 +50,7 @@ $APPLICATION->SetTitle("Для клиентов");
                 Далее по тарифам выбранной транспортной компании.
              </p>
             <p>Мы работаем со следующими транспортными компаниями:</p>
-                <img src="<?=SITE_TEMPLATE_PATH?>/images/transport-company.jpg" alt="Транспортные компании" >
+                <img class="transport-company" src="<?=SITE_TEMPLATE_PATH?>/images/transport-company.jpg" alt="Транспортные компании" >
             <p> Также по вашему желанию мы можем отвезти груз и в другую ТК.</p>
     </div>
 

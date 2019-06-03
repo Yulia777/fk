@@ -140,4 +140,38 @@
  .flexslider .slides > li {
     background-size: 100%!important;
   }
+
+ .transport-company{
+    width: 100%;
+  }
+
+ .director-about {
+   flex-wrap:wrap;
+   &__item{
+     &:first-child{
+       width: 100%;
+       img{
+         display: block;
+         margin: 10px auto;
+       }
+     }
+     &:last-child{
+       width: 100%;
+     }
+   }
+ }
+ .form-director{
+   width: 100%;
+   form {
+     width: 100%;
+   }
+ }
+ .slick-slider{
+   .slick-prev {
+     left: -5px;
+   }
+   .slick-next {
+     right: 5px;
+   }
+ }
 }
