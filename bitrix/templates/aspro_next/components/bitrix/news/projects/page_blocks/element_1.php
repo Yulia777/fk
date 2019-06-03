@@ -69,30 +69,30 @@
 <?endif;?>
 
 <?// order?>
-<?if(in_array('FORM_ORDER', $arParams['DETAIL_PROPERTY_CODE']) && $arElement['PROPERTY_FORM_ORDER_VALUE']):?>
-	<table class="order-block">
-		<tr>
-			<td class="col-md-9 col-sm-8 col-xs-7">
-				<div class="text">
-					<?$APPLICATION->IncludeComponent(
-						'bitrix:main.include',
-						'',
-						Array(
-							'AREA_FILE_SHOW' => 'page',
-							'AREA_FILE_SUFFIX' => 'project',
-							'EDIT_TEMPLATE' => ''
-						)
-					);?>
-				</div>
-			</td>
-			<td class="col-md-3 col-sm-4 col-xs-5">
-				<div class="btns">
-					<span class="btn btn-default btn-lg animate-load" data-event="jqm" data-param-form_id="<?=($arParams["FORM_ID_ORDER_SERVISE"] ? $arParams["FORM_ID_ORDER_SERVISE"] : 'PROJECTS');?>" data-name="order_services" data-autoload-service="<?=$arElement['NAME']?>" data-autoload-project="<?=$arElement['NAME']?>"><span><?=(strlen($arParams['S_ORDER_SERVISE']) ? $arParams['S_ORDER_SERVISE'] : \Bitrix\Main\Localization\Loc::getMessage('S_ORDER_SERVISE'))?></span></span>
-				</div>
-			</td>
-		</tr>
-	</table>
-<?endif;?>
+<?//if(in_array('FORM_ORDER', $arParams['DETAIL_PROPERTY_CODE']) && $arElement['PROPERTY_FORM_ORDER_VALUE']):?>
+<!--	<table class="order-block">-->
+<!--		<tr>-->
+<!--			<td class="col-md-9 col-sm-8 col-xs-7">-->
+<!--				<div class="text">-->
+<!--					--><?//$APPLICATION->IncludeComponent(
+//						'bitrix:main.include',
+//						'',
+//						Array(
+//							'AREA_FILE_SHOW' => 'page',
+//							'AREA_FILE_SUFFIX' => 'project',
+//							'EDIT_TEMPLATE' => ''
+//						)
+//					);?>
+<!--				</div>-->
+<!--			</td>-->
+<!--			<td class="col-md-3 col-sm-4 col-xs-5">-->
+<!--				<div class="btns">-->
+<!--					<span class="btn btn-default btn-lg animate-load" data-event="jqm" data-param-form_id="--><?//=($arParams["FORM_ID_ORDER_SERVISE"] ? $arParams["FORM_ID_ORDER_SERVISE"] : 'PROJECTS');?><!--" data-name="order_services" data-autoload-service="--><?//=$arElement['NAME']?><!--" data-autoload-project="--><?//=$arElement['NAME']?><!--"><span>--><?//=(strlen($arParams['S_ORDER_SERVISE']) ? $arParams['S_ORDER_SERVISE'] : \Bitrix\Main\Localization\Loc::getMessage('S_ORDER_SERVISE'))?><!--</span></span>-->
+<!--				</div>-->
+<!--			</td>-->
+<!--		</tr>-->
+<!--	</table>-->
+<?//endif;?>
 
 <?$list_view = ($arParams['LIST_VIEW'] ? $arParams['LIST_VIEW'] : 'slider');?>
 <?// goods links?>
