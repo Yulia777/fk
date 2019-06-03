@@ -343,14 +343,14 @@
 		<?$this->SetViewTarget('under_sidebar_content');?>
 	<?else:?>
 		</div>
-		<div class="col-md-3 hidden-xs hidden-sm">
+		<!--<div class="col-md-3 hidden-xs hidden-sm">
 			<div class="fixed_block_fix"></div>
 			<div class="ask_a_question_wrapper">
-	<?endif;?>
+	<?/*endif;*/?>
 			<div class="ask_a_question">
 				<div class="inner">
 					<div class="text-block">
-						<?$APPLICATION->IncludeComponent(
+						<?/*$APPLICATION->IncludeComponent(
 							 'bitrix:main.include',
 							 '',
 							 Array(
@@ -358,18 +358,18 @@
 								  'AREA_FILE_SUFFIX' => 'ask',
 								  'EDIT_TEMPLATE' => ''
 							 )
-						);?>
+						);*/?>
 					</div>
 				</div>
 				<div class="outer">
-					<span><span class="btn btn-default btn-lg white animate-load" data-event="jqm" data-param-form_id="ASK" data-autoload-need_product="<?=CNext::formatJsName($arResult['NAME']);?>" data-name="question"><span><?=(strlen($arParams['S_ASK_QUESTION']) ? $arParams['S_ASK_QUESTION'] : Loc::getMessage('S_ASK_QUESTION'))?></span></span></span>
+					<span><span class="btn btn-default btn-lg white animate-load" data-event="jqm" data-param-form_id="ASK" data-autoload-need_product="<?/*=CNext::formatJsName($arResult['NAME']);*/?>" data-name="question"><span><?/*=(strlen($arParams['S_ASK_QUESTION']) ? $arParams['S_ASK_QUESTION'] : Loc::getMessage('S_ASK_QUESTION'))*/?></span></span></span>
 				</div>
 			</div>
-	<?if($isMenu):?>
-		<?$this->EndViewTarget();?>
-	<?else:?>
+	<?/*if($isMenu):*/?>
+		<?/*$this->EndViewTarget();*/?>
+	<?/*else:*/?>
 				</div>
-			</div>
-		</div>
+			</div>-->
+        </div>
 	<?endif;?>
 <?endif;?>

@@ -7,9 +7,7 @@
 /bitrix/cache/
 /bitrix/managed_cache/
 /bitrix/stack_cache/
-/bitrix/templates/sales-generator/sg_styles.css
-/bitrix/templates/sales-generator/template_styles.css
-/bitrix/templates/sales-generator/assets/js/main.script.js
+/bitrix/templates/aspro_next/sg_styles.css
 /bitrix/modules/
 /bitrix/wizard/
 /bitrix/blocks/
