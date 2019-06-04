@@ -2,14 +2,14 @@
 $aMenuLinks = Array(
     Array(
         "Сертификаты",
-        "/company/licenses/",
+        "/company/#sertificati/",
         Array(),
         Array(),
         ""
     ),
     Array(
         "Отзывы",
-        "/reviews/",
+        "/company/#otzivi/",
         Array(),
         Array(),
         ""
