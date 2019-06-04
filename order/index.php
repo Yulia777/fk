@@ -69,7 +69,6 @@ $APPLICATION->SetTitle("Оформление заказа");
 			2 => "NOTES",
 			3 => "DISCOUNT_PRICE_PERCENT_FORMATED",
 			4 => "PRICE_FORMATED",
-			5 => "WEIGHT_FORMATED",
 		),
 		"ADDITIONAL_PICT_PROP_13" => "-",
 		"ADDITIONAL_PICT_PROP_14" => "-",
