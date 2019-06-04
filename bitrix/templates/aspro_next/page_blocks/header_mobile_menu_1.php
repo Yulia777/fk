@@ -25,15 +25,15 @@
 		CNext::ShowMobileRegions();
 
 		// show cabinet item
-		CNext::ShowMobileMenuCabinet();
+		/*CNext::ShowMobileMenuCabinet();*/
 
 		// show basket item
 		CNext::ShowMobileMenuBasket();
 
 		// use module options for change contacts
-		CNext::ShowMobileMenuContacts();
-		?>
-		<?$APPLICATION->IncludeComponent(
+		/*CNext::ShowMobileMenuContacts();
+		*/?><!--
+		--><?/*$APPLICATION->IncludeComponent(
 			"aspro:social.info.next",
 			"mobile",
 			array(
@@ -43,6 +43,6 @@
 				"COMPONENT_TEMPLATE" => ".default"
 			),
 			false
-		);?>
+		);*/?>
 	</div>
 </div>

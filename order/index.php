@@ -11,7 +11,7 @@ $APPLICATION->SetTitle("Оформление заказа");
 		"COUNT_DELIVERY_TAX" => "N",
 		"COUNT_DISCOUNT_4_ALL_QUANTITY" => "N",
 		"ALLOW_AUTO_REGISTER" => "Y",
-		"SEND_NEW_USER_NOTIFY" => "Y",
+		"SEND_NEW_USER_NOTIFY" => "N",
 		"DELIVERY_NO_AJAX" => "N",
 		"DELIVERY_NO_SESSION" => "N",
 		"TEMPLATE_LOCATION" => "popup",
