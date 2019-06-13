@@ -36,13 +36,6 @@ $aMenuLinks = Array(
 		"" 
 	),
 	Array(
-		"Как купить", 
-		"/help/", 
-		Array(), 
-		Array(), 
-		"" 
-	),
-	Array(
 		"О компании",
 		"/company/", 
 		Array(), 
