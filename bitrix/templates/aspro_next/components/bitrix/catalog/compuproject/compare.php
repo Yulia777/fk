@@ -4,6 +4,7 @@
 <? $APPLICATION->SetPageProperty("title", GetMessage("CATALOG_COMPARE_TITLE")); ?>
 <? $APPLICATION->SetTitle(GetMessage("CATALOG_COMPARE_TITLE")); ?>
 <? $APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH . '/js/sly.js'); ?>
+<?$APPLICATION->SetPageProperty("HIDE_LEFT_BLOCK", "Y")?>
 <?
 global $arTheme, $NextSectionID, $arRegion;
 if ($arRegion) {
