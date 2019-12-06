@@ -71,5 +71,17 @@
 		CNext::showFooterBasket();?>
                         <script src="/bitrix/templates/aspro_next/assets/js/main.script.js"></script>
                         <!-- Yandex.Metrika counter --><script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter21932680 = new Ya.Metrika({id:21932680, webvisor:true, clickmap:true, trackLinks:true, accurateTrackBounce:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="//mc.yandex.ru/watch/21932680" style="position:absolute; left:-9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter -->
-	</body>
+
+                        <script type="text/javascript">(function() {
+                                if (window.pluso)if (typeof window.pluso.start == "function") return;
+                                if (window.ifpluso==undefined) { window.ifpluso = 1;
+                                    var d = document, s = d.createElement('script'), g = 'getElementsByTagName';
+                                    s.type = 'text/javascript'; s.charset='UTF-8'; s.async = true;
+                                    s.src = ('https:' == window.location.protocol ? 'https' : 'http')  + '://share.pluso.ru/pluso-like.js';
+                                    var h=d[g]('body')[0];
+                                    h.appendChild(s);
+                                }})();</script>
+                        <
+
+                        </body>
 </html>
