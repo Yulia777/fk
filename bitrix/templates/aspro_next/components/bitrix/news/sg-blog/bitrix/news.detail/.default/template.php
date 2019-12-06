@@ -80,13 +80,7 @@ if(CModule::IncludeModule("iblock")){
 </article>
     <aside class="blog__sidebar blog__item">
             <!--Самое читаемое-->
-            <a href="/sale/"
-               target="_blank"
-               class="js-sliding-sidebar sticky_blog"
-               onclick="yaCounter44418460.reachGoal('BANER_SAIDBAR'); return true;">
-                <img src="/bitrix/templates/aspro_next/images/sidebar-sale.jpg" alt="Рост продаж" title="Рост продаж">
-                <!--<button type="button" class="button blog__sidebar--btn">Узнать как</button>-->
-            </a>
+
             <!--Категории статей-->
             <?$APPLICATION->IncludeFile(SITE_DIR."/include/components/article/sidebar_categories.php", Array(), Array("MODE"=>"php"));?>
     </aside>
