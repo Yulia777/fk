@@ -67,12 +67,7 @@ $this->setFrameMode(true);
         <?endif;?>
     </div>
     <aside class="blog__sidebar blog__item">
-        <a href="/sale/"
-           target="_blank"
-           class="js-sliding-sidebar">
-            <img src="/bitrix/templates/aspro_next/images/sidebar-sale.jpg" alt="">
-            <!--<button type="button" class="button blog__sidebar--btn">Узнать как</button>-->
-        </a>
+
         <!--Категории статей-->
         <?$APPLICATION->IncludeFile(SITE_DIR."/include/components/article/sidebar_categories.php", Array(), Array("MODE"=>"php"));?>
     </aside>

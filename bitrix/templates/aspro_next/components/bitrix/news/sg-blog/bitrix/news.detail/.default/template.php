@@ -51,13 +51,7 @@ if(CModule::IncludeModule("iblock")){
                     title="<?= $arResult["DETAIL_PICTURE"]["TITLE"] ?>"
             />
         <?endif?>
-        <div class="social-likes social-likes_visible social-likes_ready">
-            <div class="social-likes__widget social-likes__widget_facebook" title="Поделиться ссылкой на Фейсбуке"><a class="js-fb" href="https://www.facebook.com/sharer.php?src=sp&u=https%3A%2F%2Fsales-generator.ru<?=$arResult["DETAIL_PAGE_URL"]?>&title=<?=$arResult['NAME'];?>&description=<?=$arResult['META_DESCRIPTION']["ELEMENT_META_DESCRIPTION"];?>&picture=<?='https://sales-generator.ru'.$arResult["DETAIL_PICTURE"]["SRC"];?>&utm_source=share2" target="_blank" ><span class="social-likes__button social-likes__button_facebook"><span class="social-likes__icon social-likes__icon_facebook"></span>Facebook</span><span class="social-likes__counter social-likes__counter_facebook social-likes__counter_empty"></span></a></div>
-            <div class="social-likes__widget social-likes__widget_twitter" title="Поделиться ссылкой в Твиттере"><a class="js-twitter" href="http://twitter.com/share?text=<?=$arResult['NAME'];?>.<?=$arResult['META_DESCRIPTION']["ELEMENT_META_DESCRIPTION"];?>&url=https%3A%2F%2Fsales-generator.ru<?=$arResult["DETAIL_PAGE_URL"]?>" target="_blank"><span class="social-likes__button social-likes__button_twitter"><span class="social-likes__icon social-likes__icon_twitter"></span>Twitter</span></a></div>
-            <div class="social-likes__widget social-likes__widget_vkontakte" title="Поделиться ссылкой во Вконтакте"><a class="js-vk" href="https://vk.com/share.php?url=https%3A%2F%2Fsales-generator.ru<?=$arResult["DETAIL_PAGE_URL"]?>&title=<?=$arResult['NAME'];?>&description=<?=$arResult['META_DESCRIPTION']["ELEMENT_META_DESCRIPTION"];?>&image=<?='https://sales-generator.ru'.$arResult["DETAIL_PICTURE"]["SRC"];?>&utm_source=share2" target="_blank"><span class="social-likes__button social-likes__button_vkontakte"><span class="social-likes__icon social-likes__icon_vkontakte"></span>Вконтакте</span><span class="social-likes__counter social-likes__counter_vkontakte social-likes__counter_empty"></span></a></div>
-            <div class="social-likes__widget social-likes__widget_odnoklassniki" title="Поделиться ссылкой в Одноклассниках"><a class="js-ok" target="_blank" href="https://connect.ok.ru/offer?url=https%3A%2F%2Fsales-generator.ru<?=$arResult["DETAIL_PAGE_URL"]?>&title=<?=$arResult['NAME'];?>&description=<?=$arResult['META_DESCRIPTION']["ELEMENT_META_DESCRIPTION"];?>&imageUrl=<?='https://sales-generator.ru'.$arResult["DETAIL_PICTURE"]["SRC"];?>&utm_source=share2"><span class="social-likes__button social-likes__button_odnoklassniki"><span class="social-likes__icon social-likes__icon_odnoklassniki"></span>Одноклассники</span><span class="social-likes__counter social-likes__counter_odnoklassniki social-likes__counter_empty"></span></a></div>
-            <div class="social-likes__widget social-likes__widget_plusone" title="Поделиться ссылкой в Гугл-плюсе"><a href="https://plus.google.com/share?url=https%3A%2F%2Fsales-generator.ru<?=$arResult["DETAIL_PAGE_URL"]?>&utm_source=share2" class="js-gpl" target="_blank"><span class="social-likes__button social-likes__button_plusone"><span class="social-likes__icon social-likes__icon_plusone"></span>Google+</span><span class="social-likes__counter social-likes__counter_plusone social-likes__counter_empty"></span></a></div>
-        </div>
+
         <?if($arParams["DISPLAY_PREVIEW_TEXT"]!="N" && $arResult["FIELDS"]["PREVIEW_TEXT"]):?>
             <p><?=$arResult["FIELDS"]["PREVIEW_TEXT"];unset($arResult["FIELDS"]["PREVIEW_TEXT"]);?></p>
         <?endif;?>
@@ -70,23 +64,12 @@ if(CModule::IncludeModule("iblock")){
         <?else:?>
             <?echo $arResult["PREVIEW_TEXT"];?>
         <?endif?>
-        <div class="social-likes social-likes_visible social-likes_ready">
-            <div class="social-likes__widget social-likes__widget_facebook" title="Поделиться ссылкой на Фейсбуке"><a class="js-fb" href="https://www.facebook.com/sharer.php?src=sp&u=https%3A%2F%2Fsales-generator.ru<?=$arResult["DETAIL_PAGE_URL"]?>&title=<?=$arResult['NAME'];?>&description=<?=$arResult['META_DESCRIPTION']["ELEMENT_META_DESCRIPTION"];?>&picture=<?='https://sales-generator.ru'.$arResult["DETAIL_PICTURE"]["SRC"];?>&utm_source=share2" target="_blank" ><span class="social-likes__button social-likes__button_facebook"><span class="social-likes__icon social-likes__icon_facebook"></span>Facebook</span><span class="social-likes__counter social-likes__counter_facebook social-likes__counter_empty"></span></a></div>
-            <div class="social-likes__widget social-likes__widget_twitter" title="Поделиться ссылкой в Твиттере"><a class="js-twitter" href="http://twitter.com/share?text=<?=$arResult['NAME'];?>.<?=$arResult['META_DESCRIPTION']["ELEMENT_META_DESCRIPTION"];?>&url=https%3A%2F%2Fsales-generator.ru<?=$arResult["DETAIL_PAGE_URL"]?>" target="_blank"><span class="social-likes__button social-likes__button_twitter"><span class="social-likes__icon social-likes__icon_twitter"></span>Twitter</span></a></div>
-            <div class="social-likes__widget social-likes__widget_vkontakte" title="Поделиться ссылкой во Вконтакте"><a class="js-vk" href="https://vk.com/share.php?url=https%3A%2F%2Fsales-generator.ru<?=$arResult["DETAIL_PAGE_URL"]?>&title=<?=$arResult['NAME'];?>&description=<?=$arResult['META_DESCRIPTION']["ELEMENT_META_DESCRIPTION"];?>&image=<?='https://sales-generator.ru'.$arResult["DETAIL_PICTURE"]["SRC"];?>&utm_source=share2" target="_blank"><span class="social-likes__button social-likes__button_vkontakte"><span class="social-likes__icon social-likes__icon_vkontakte"></span>Вконтакте</span><span class="social-likes__counter social-likes__counter_vkontakte social-likes__counter_empty"></span></a></div>
-            <div class="social-likes__widget social-likes__widget_odnoklassniki" title="Поделиться ссылкой в Одноклассниках"><a class="js-ok" target="_blank" href="https://connect.ok.ru/offer?url=https%3A%2F%2Fsales-generator.ru<?=$arResult["DETAIL_PAGE_URL"]?>&title=<?=$arResult['NAME'];?>&description=<?=$arResult['META_DESCRIPTION']["ELEMENT_META_DESCRIPTION"];?>&imageUrl=<?='https://sales-generator.ru'.$arResult["DETAIL_PICTURE"]["SRC"];?>&utm_source=share2"><span class="social-likes__button social-likes__button_odnoklassniki"><span class="social-likes__icon social-likes__icon_odnoklassniki"></span>Одноклассники</span><span class="social-likes__counter social-likes__counter_odnoklassniki social-likes__counter_empty"></span></a></div>
-            <div class="social-likes__widget social-likes__widget_plusone" title="Поделиться ссылкой в Гугл-плюсе"><a href="https://plus.google.com/share?url=https%3A%2F%2Fsales-generator.ru<?=$arResult["DETAIL_PAGE_URL"]?>&utm_source=share2" class="js-gpl" target="_blank"><span class="social-likes__button social-likes__button_plusone"><span class="social-likes__icon social-likes__icon_plusone"></span>Google+</span><span class="social-likes__counter social-likes__counter_plusone social-likes__counter_empty"></span></a></div>
-        </div>
+        <div class="pluso" data-background="#ebebeb" data-options="big,square,line,horizontal,counter,theme=04"
+             data-services="vkontakte,odnoklassniki,facebook,twitter,google"></div>
 </article>
     <aside class="blog__sidebar blog__item">
             <!--Самое читаемое-->
-            <a href="/sale/"
-               target="_blank"
-               class="js-sliding-sidebar sticky_blog"
-               onclick="yaCounter44418460.reachGoal('BANER_SAIDBAR'); return true;">
-                <img src="/bitrix/templates/aspro_next/images/sidebar-sale.jpg" alt="Рост продаж" title="Рост продаж">
-                <!--<button type="button" class="button blog__sidebar--btn">Узнать как</button>-->
-            </a>
+
             <!--Категории статей-->
             <?$APPLICATION->IncludeFile(SITE_DIR."/include/components/article/sidebar_categories.php", Array(), Array("MODE"=>"php"));?>
     </aside>
