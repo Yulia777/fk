@@ -69,7 +69,8 @@
                 </div>
             <?endif;?>
             <?/*<button type="submit" class="button medium" value="submit" name="web_form_submit" ><span><?=$arResult["arForm"]["BUTTON"]?></span></button>*/?>
-            <input type="submit" class="btn btn-default" value="<?=$arResult["arForm"]["BUTTON"]?>" name="web_form_submit">
+            <input type="submit" onclick="yaCounter21932680.reachGoal('write-director'); return true;"
+                   class="btn btn-default" value="<?=$arResult["arForm"]["BUTTON"]?>" name="web_form_submit">
         </div>
         <?=$arResult["FORM_FOOTER"]?>
     <?}?>
