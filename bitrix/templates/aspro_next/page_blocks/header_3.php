@@ -77,8 +77,13 @@ $logoClass = ($arTheme['COLORED_LOGO']['VALUE'] !== 'Y' ? '' : ' colored');
 									<div class="phone-block">
 										<?CNext::ShowHeaderPhones();?>
 										<?if($arTheme['SHOW_CALLBACK']['VALUE'] == 'Y'):?>
-											<div class="callback-block">
-												<span class="animate-load twosmallfont colored" data-event="jqm" data-param-form_id="CALLBACK" data-name="callback"><?=GetMessage("CALLBACK")?></span>
+											<div class="callback-block"
+                                                 onclick="yaCounter21932680.reachGoal('order-call');
+                                                 return true;">
+												<span class="animate-load twosmallfont colored" data-event="jqm"
+                                                      data-param-form_id="CALLBACK"
+                                                      data-name="callback"><?=GetMessage("CALLBACK")?>
+                                                </span>
 											</div>
 										<?endif;?>
 									</div>
