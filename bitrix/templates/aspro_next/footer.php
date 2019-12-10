@@ -87,7 +87,7 @@
                          "@type": "Organization",
                          "name": "Формула климата",
                          "url": "https://<?=$_SERVER['SERVER_NAME']?>",
-                         "logo": "/upload/CNext/ef9/ef90a15558d51d472281839fb237f24b.png",
+                         "logo": "/bitrix/templates/aspro_next/images/logo.png",
                          "foundingDate": "2003",
                          "telephone" : "+7(4912)25-15-85",
                          "address": {

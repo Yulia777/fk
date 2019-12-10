@@ -53,8 +53,8 @@ $dataSchema = array(
                 'name' => 'Формула климата',
                 'logo' => array(
                             '@type' => 'ImageObject',
-                            'image' => '/upload/CNext/ef9/ef90a15558d51d472281839fb237f24b.png',
-                            'url' => '/upload/CNext/ef9/ef90a15558d51d472281839fb237f24b.png'
+                            'image' => '/bitrix/templates/aspro_next/images/logo.png',
+                            'url' => '/bitrix/templates/aspro_next/images/logo.png'
                             )
                 ),
         'headline' => $arResult['NAME'],
