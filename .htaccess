@@ -12,6 +12,51 @@ ErrorDocument 404 /404.php
   Options +FollowSymLinks
   RewriteEngine On
 
+  RewriteCond %{HTTP_HOST} ^www.formushka.site$ [NC]
+  RewriteRule ^(.*)$ https://formushka.site/$1 [R=301,L]
+
+  RewriteCond %{SERVER_PORT} !^443$
+  RewriteRule .* https://%{SERVER_NAME}%{REQUEST_URI} [R=301,L]
+
+  RewriteRule ^index\.html$ / [R=301,L]
+  RewriteRule ^(.*)/index\.html$ /$1/ [R=301,L]
+
+  RewriteRule ^index\.php$ / [R=301,L]
+  RewriteRule ^(.*)/index\.php$ /$1/ [R=301,L]
+
+
+  RewriteCond %{REQUEST_URI} ^(.*)/{2,}(.*)$
+  RewriteRule . http://formushka.site%1/%2 [R=301,L]
+  RewriteCond %{REQUEST_URI} !(.*)/$
+  # Если слеша в конце нет.
+  RewriteCond %{REQUEST_FILENAME} !-f
+  # Не является файлом.
+  RewriteCond %{REQUEST_URI} !\..+$
+  # В URL нет точки (файл).
+  RewriteRule ^(.*)$ http://formushka.site/$1/ [L,R=301]
+  # Добавляем слеш в конце.
+
+  Redirect 301 /equipment /catalog
+  Redirect 301 /catalog/type/nastennye-kondicionery /catalog/nastennye-kondicionery
+  Redirect 301 /catalog/type/multi-split-cistemy /catalog/multi-split-cistemy
+  Redirect 301 /catalog/type/kassetnye-kondicionery /catalog/kassetnye-kondicionery
+  Redirect 301 /catalog/type/kanalnye-kondicionery /catalog/kanalnye-kondicionery
+  Redirect 301 /catalog/type/napolno-potolochnye /catalog/napolno-potolochnye
+  Redirect 301 /vent /catalog/vent
+  Redirect 301 /microclima /catalog/microclima
+  Redirect 301 /teplovoeoborudovanie/tip-t/teplovye-pushki-teplovoeoborudovanie /catalog/teplovye_pushki
+  Redirect 301 /teplovoeoborudovanie /catalog/otoplenie
+  Redirect 301 /teplovoeoborudovanie/tip-t/teplovye-zavesi /catalog/teplovye_zavesy
+  Redirect 301 /teplovoeoborudovanie/tip-t/teploventilyatory /catalog/konvektory
+  Redirect 301 /company/o-kompanii /company
+  Redirect 301 /company/foto /projects
+  Redirect 301 /company/otzyvy-klientov /reviews
+  Redirect 301 /company/dostavka-i-oplata /clients/index.php/#delivery
+  Redirect 301 /company/nam-doveryayut /company/#nam-doveriaut
+  Redirect 301 /company/napisat-direktoru /company/#napisat-directory
+  Redirect 301 /action /sale
+
+
 	# ASPRO_ROBOTS Serve robots.txt with robots.php only if the latter exists
 	RewriteCond %{REQUEST_FILENAME} robots.txt
 	RewriteCond %{DOCUMENT_ROOT}/robots.php -f
