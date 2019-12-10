@@ -42,6 +42,38 @@ if(CModule::IncludeModule("iblock")){
     )
 );?>
 
+<?
+$currUrl = 'https://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
+$dataSchema = array(
+        '@context' => 'http://www.schema.org',
+        '@type' => 'NewsArticle',
+        'url' => $currUrl,
+        'publisher' => array(
+                '@type' => 'Organization',
+                'name' => 'Формула климата',
+                'logo' => array(
+                            '@type' => 'ImageObject',
+                            'image' => '/upload/CNext/ef9/ef90a15558d51d472281839fb237f24b.png',
+                            'url' => '/upload/CNext/ef9/ef90a15558d51d472281839fb237f24b.png'
+                            )
+                ),
+        'headline' => $arResult['NAME'],
+        'mainEntityOfPage' => $currUrl,
+        'articleBody' => strip_tags($arResult["DETAIL_TEXT"]),
+        'image' => $arResult["DETAIL_PICTURE"]["SRC"],
+        'author' => 'Формула климата',
+        'datePublished' => ConvertDateTime($arResult["ACTIVE_FROM"], "YYYY-MM-DD HH:MI:SS", "ru"),
+        'dateModified' => ConvertDateTime($arResult["TIMESTAMP_X"], "YYYY-MM-DD HH:MI:SS", "ru"),
+    );
+
+$jsonSchema = json_encode($dataSchema,JSON_UNESCAPED_UNICODE);
+?>
+
+
+<script type='application/ld+json'>
+  <?=$jsonSchema;?>
+</script>
+
 <section class="blog" itemscope itemtype="http://schema.org/BlogPosting">
     <article class="article blog__item" itemprop="articleBody">
         <?if($arParams["DISPLAY_NAME"]!="N" && $arResult["NAME"]):?>
