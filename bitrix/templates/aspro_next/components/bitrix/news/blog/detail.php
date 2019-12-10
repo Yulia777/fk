@@ -78,7 +78,7 @@ if($arParams["SHOW_NEXT_ELEMENT"] == "Y")
 	<?CNext::AddMeta(
 		array(
 			'og:description' => $arElement['PREVIEW_TEXT'],
-			'og:image' => (($arElement['PREVIEW_PICTURE'] || $arElement['DETAIL_PICTURE']) ? CFile::GetPath(($arElement['PREVIEW_PICTURE'] ? $arElement['PREVIEW_PICTURE'] : $arElement['DETAIL_PICTURE'])) : false),
+//			'og:image' => (($arElement['PREVIEW_PICTURE'] || $arElement['DETAIL_PICTURE']) ? CFile::GetPath(($arElement['PREVIEW_PICTURE'] ? $arElement['PREVIEW_PICTURE'] : $arElement['DETAIL_PICTURE'])) : false),
 		)
 	);?>
 
@@ -224,7 +224,7 @@ if($arParams["SHOW_NEXT_ELEMENT"] == "Y")
 					"PAGER_TEMPLATE" => ".default",
 					"DISPLAY_TOP_PAGER" => "N",
 					"DISPLAY_BOTTOM_PAGER" => "Y",
-					"PAGER_TITLE" => "Новости",
+					"PAGER_TITLE" => "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ",
 					"PAGER_SHOW_ALWAYS" => "N",
 					"PAGER_DESC_NUMBERING" => "N",
 					"PAGER_DESC_NUMBERING_CACHE_TIME" => "36000",
@@ -349,7 +349,7 @@ if($arParams["SHOW_NEXT_ELEMENT"] == "Y")
 			"PAGER_TEMPLATE" => ".default",
 			"DISPLAY_TOP_PAGER" => "N",
 			"DISPLAY_BOTTOM_PAGER" => "Y",
-			"PAGER_TITLE" => "Новости",
+			"PAGER_TITLE" => "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ",
 			"PAGER_SHOW_ALWAYS" => "N",
 			"PAGER_DESC_NUMBERING" => "N",
 			"PAGER_DESC_NUMBERING_CACHE_TIME" => "36000",

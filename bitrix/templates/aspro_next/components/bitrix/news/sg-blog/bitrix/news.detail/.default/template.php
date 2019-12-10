@@ -35,6 +35,13 @@ if(CModule::IncludeModule("iblock")){
 }
 
 ?>
+
+<?CNext::AddMeta(
+    array(
+		'og:image' => ( $arResult['DETAIL_PICTURE'] ? $arResult['DETAIL_PICTURE']["SRC"] : false),
+    )
+);?>
+
 <section class="blog" itemscope itemtype="http://schema.org/BlogPosting">
     <article class="article blog__item" itemprop="articleBody">
         <?if($arParams["DISPLAY_NAME"]!="N" && $arResult["NAME"]):?>
