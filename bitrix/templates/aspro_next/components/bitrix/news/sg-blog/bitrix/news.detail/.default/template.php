@@ -35,6 +35,45 @@ if(CModule::IncludeModule("iblock")){
 }
 
 ?>
+
+<?CNext::AddMeta(
+    array(
+		'og:image' => ( $arResult['DETAIL_PICTURE'] ? $arResult['DETAIL_PICTURE']["SRC"] : false),
+    )
+);?>
+
+<?
+$currUrl = 'https://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
+$dataSchema = array(
+        '@context' => 'http://www.schema.org',
+        '@type' => 'NewsArticle',
+        'url' => $currUrl,
+        'publisher' => array(
+                '@type' => 'Organization',
+                'name' => 'Формула климата',
+                'logo' => array(
+                            '@type' => 'ImageObject',
+                            'image' => '/bitrix/templates/aspro_next/images/logo.png',
+                            'url' => '/bitrix/templates/aspro_next/images/logo.png'
+                            )
+                ),
+        'headline' => $arResult['NAME'],
+        'mainEntityOfPage' => $currUrl,
+        'articleBody' => strip_tags($arResult["DETAIL_TEXT"]),
+        'image' => $arResult["DETAIL_PICTURE"]["SRC"],
+        'author' => 'Формула климата',
+        'datePublished' => ConvertDateTime($arResult["ACTIVE_FROM"], "YYYY-MM-DD HH:MI:SS", "ru"),
+        'dateModified' => ConvertDateTime($arResult["TIMESTAMP_X"], "YYYY-MM-DD HH:MI:SS", "ru"),
+    );
+
+$jsonSchema = json_encode($dataSchema,JSON_UNESCAPED_UNICODE);
+?>
+
+
+<script type='application/ld+json'>
+  <?=$jsonSchema;?>
+</script>
+
 <section class="blog" itemscope itemtype="http://schema.org/BlogPosting">
     <article class="article blog__item" itemprop="articleBody">
         <?if($arParams["DISPLAY_NAME"]!="N" && $arResult["NAME"]):?>

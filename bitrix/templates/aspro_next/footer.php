@@ -81,7 +81,24 @@
                                     var h=d[g]('body')[0];
                                     h.appendChild(s);
                                 }})();</script>
-                        <
+
+                        <script type="application/ld+json">
+                         {"@context": "https://schema.org",
+                         "@type": "Organization",
+                         "name": "Формула климата",
+                         "url": "https://<?=$_SERVER['SERVER_NAME']?>",
+                         "logo": "/bitrix/templates/aspro_next/images/logo.png",
+                         "foundingDate": "2003",
+                         "telephone" : "+7(4912)25-15-85",
+                         "address": {
+                             "@type": "PostalAddress",
+                             "streetAddress": "г.Рязань, ул. Куйбышевское шоссе д.25",
+                             "postalCode": "390047"
+                         },
+                         "sameAs": [
+                             "https://vk.com/fk62_ru"
+                         ]}
+                        </script>
 
                         </body>
 </html>
