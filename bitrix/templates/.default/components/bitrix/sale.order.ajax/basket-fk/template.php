@@ -452,7 +452,7 @@ else
 				<? endif ?>
 
 				<!--	ORDER SAVE BLOCK	-->
-				<div id="bx-soa-orderSave">
+				<div id="bx-soa-orderSave" onclick="yaCounter21932680.reachGoal('do-order-end'); return true;">
 					<div class="checkbox">
 						<?
 						if ($arParams['USER_CONSENT'] === 'Y')

@@ -66,7 +66,7 @@ use Bitrix\Main\Localization\Loc;
 					</div>
 				</div>
 
-				<div class="basket-checkout-block basket-checkout-block-btn">
+				<div class="basket-checkout-block basket-checkout-block-btn" onclick="yaCounter21932680.reachGoal('do-order'); return true;">
 					<button class="btn btn-lg btn-default basket-btn-checkout{{#DISABLE_CHECKOUT}} disabled{{/DISABLE_CHECKOUT}}"
 						data-entity="basket-checkout-button">
 						<?=Loc::getMessage('SBB_ORDER')?>

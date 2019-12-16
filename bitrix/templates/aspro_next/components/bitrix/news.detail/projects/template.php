@@ -87,7 +87,7 @@
 								<div class="col-md-<?=($arResult['DISPLAY_PROPERTIES_FORMATTED'] ? 6 : 12)?>">
 									<div class="buttons-block">
 										<?if($bShowOrderBlock):?>
-											<div class="block">
+											<div class="block" onclick="yaCounter21932680.reachGoal('ask-questions'); return true;">
 												<span class="btn btn-default btn-lg animate-load" data-event="jqm" data-param-form_id="<?=($arParams["FORM_ID_ORDER_SERVISE"] ? $arParams["FORM_ID_ORDER_SERVISE"] : 'PROJECTS');?>" data-name="order_services" data-autoload-service="<?=CNext::formatJsName($arResult['NAME']);?>" data-autoload-project="<?=CNext::formatJsName($arResult['NAME']);?>"><span><?=(strlen($arParams['S_ORDER_SERVISE']) ? $arParams['S_ORDER_SERVISE'] : Loc::getMessage('S_ORDER_SERVISE'))?></span></span>
 											</div>
 										<?endif;?>
