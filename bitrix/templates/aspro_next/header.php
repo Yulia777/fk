@@ -19,6 +19,7 @@ $bIncludedModule = (\Bitrix\Main\Loader::includeModule("aspro.next"));?>
 	<?$APPLICATION->AddHeadString('<script>BX.message('.CUtil::PhpToJSObject( $MESS, false ).')</script>', true);?>
 	<?if($bIncludedModule)
 		CNext::Start(SITE_ID);?>
+	<link href="<?=SITE_TEMPLATE_PATH?>/template_styles.css" rel="stylesheet">
     <link href="<?=SITE_TEMPLATE_PATH?>/sg_styles.css" rel="stylesheet">
     <link href="<?=SITE_TEMPLATE_PATH?>/slick-slider/slick.css" rel="stylesheet">
     <link href="<?=SITE_TEMPLATE_PATH?>/slick-slider/slick-theme.css" rel="stylesheet">

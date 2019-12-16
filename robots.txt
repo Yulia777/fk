@@ -1,2 +1,11 @@
-User-agent: *
-Disallow: /
+User-Agent: Googlebot
+Disallow: /reviews/
+
+User-Agent: Yandex
+Disallow: /reviews/
+
+User-Agent: *
+Disallow: /reviews/
+
+Host: formulaklimata.ru
+Sitemap: http://formulaklimata.ru/sitemap.xml
