@@ -44,7 +44,7 @@ $last_symbol = substr($site_url, -1);
 if ($last_symbol == '/') {
 	echo "true";
 } else {
-	LocalRedirect('http://fk62.ru'.$site_url.'/');
+	LocalRedirect('https://formulaklimata.ru'.$site_url.'/');
 }
 ?>
 
