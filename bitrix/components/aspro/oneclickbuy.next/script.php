@@ -224,7 +224,7 @@ else
 	   	$_POST['ONE_CLICK_BUY']['LOCATION'] = $arLocation["DEFAULT_VALUE"];
 	}
 
-	$deliveryId = intval($_POST['DELIVERY_ID']) > 0 ? intval($_POST['DELIVERY_ID']) : "";
+	$deliveryId = intval($_POST['DELIVERY_ID']) > 0 ? intval($_POST['DELIVERY_ID']) : "1";
 
 	if(class_exists('\Bitrix\Sale\Delivery\Services\Table')){
 		$deliveryId = intval($deliveryId) > 0 ? \Bitrix\Sale\Delivery\Services\Table::getCodeById($deliveryId) : "";

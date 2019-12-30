@@ -193,6 +193,12 @@
 		"USE_RSS" => "N",
 		"USE_SEARCH" => "N",
 		"USE_SHARE" => "N",
+		"SECTIONS_TYPE_VIEW" => "sections_1",
+		"SECTION_TYPE_VIEW" => "section_1",
+		"T_REVIEWS" => "",
+		"T_STAFF" => "",
+		"IMAGE_CATALOG_POSITION" => "left",
+		"SHOW_CHILD_SECTIONS" => "Y",
 		"VARIABLE_ALIASES" => array(
 			"SECTION_ID" => "SECTION_ID",
 			"ELEMENT_ID" => "ELEMENT_ID",
@@ -410,3 +416,4 @@
 	),
 	false
 );?>
+<h1 style="display: none">Формула климата</h1>
